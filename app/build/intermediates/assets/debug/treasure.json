@@ -1,0 +1,22 @@
+{
+    "id": "TREASURE",
+    "name": "Treasure",
+    "levels": [
+        {
+            "id": 1,
+            "questions": [
+                {
+                    "id": "t1q1",
+                    "text": "X marks the...?",
+                    "options": [
+                        "Spot",
+                        "Dot",
+                        "Lot",
+                        "Pot"
+                    ],
+                    "correctIndex": 0
+                }
+            ]
+        }
+    ]
+}
