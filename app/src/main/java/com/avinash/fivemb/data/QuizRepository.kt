@@ -14,7 +14,7 @@ class QuizRepository(private val context: Context) {
     suspend fun loadQuizData(): QuizData? = withContext(Dispatchers.IO) {
         try {
             val categories = mutableListOf<com.avinash.fivemb.data.Category>()
-            val files = listOf("math.json", "puzzle.json", "treasure.json")
+            val files = listOf("math.json", "puzzle.json", "treasure.json", "reasoning.json", "word_power.json")
             
             for (file in files) {
                 try {

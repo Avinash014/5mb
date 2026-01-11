@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">5MB</string>
+    <string name="app_tagline">5-Minute Brain Workout</string>
+    <string name="app_full_name">5MB - 5-Minute Brain Workout</string>
 </resources>

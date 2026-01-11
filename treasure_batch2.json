@@ -1,0 +1,2397 @@
+{
+  "batch_name": "Science & Chemistry",
+  "l1": [
+    {
+      "text": "What element has symbol 'H'?",
+      "options": [
+        "Carbon",
+        "Nitrogen",
+        "Oxygen",
+        "Hydrogen"
+      ],
+      "correctIndex": 3,
+      "explanation": "H is the symbol for Hydrogen (atomic number 1).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Hydrogen?",
+      "options": [
+        "H",
+        "N",
+        "C",
+        "O"
+      ],
+      "correctIndex": 0,
+      "explanation": "The symbol for Hydrogen is H.",
+      "difficulty": 1
+    },
+    {
+      "text": "What element has symbol 'He'?",
+      "options": [
+        "Nitrogen",
+        "Carbon",
+        "Helium",
+        "Oxygen"
+      ],
+      "correctIndex": 2,
+      "explanation": "He is the symbol for Helium (atomic number 2).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Helium?",
+      "options": [
+        "C",
+        "He",
+        "N",
+        "O"
+      ],
+      "correctIndex": 1,
+      "explanation": "The symbol for Helium is He.",
+      "difficulty": 1
+    },
+    {
+      "text": "What element has symbol 'C'?",
+      "options": [
+        "Helium",
+        "Carbon",
+        "Neon",
+        "Argon"
+      ],
+      "correctIndex": 1,
+      "explanation": "C is the symbol for Carbon (atomic number 6).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Carbon?",
+      "options": [
+        "He",
+        "Ne",
+        "C",
+        "Ar"
+      ],
+      "correctIndex": 2,
+      "explanation": "The symbol for Carbon is C.",
+      "difficulty": 1
+    },
+    {
+      "text": "What element has symbol 'N'?",
+      "options": [
+        "Nitrogen",
+        "Neon",
+        "Helium",
+        "Argon"
+      ],
+      "correctIndex": 0,
+      "explanation": "N is the symbol for Nitrogen (atomic number 7).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Nitrogen?",
+      "options": [
+        "He",
+        "Ne",
+        "N",
+        "Ar"
+      ],
+      "correctIndex": 2,
+      "explanation": "The symbol for Nitrogen is N.",
+      "difficulty": 1
+    },
+    {
+      "text": "What element has symbol 'O'?",
+      "options": [
+        "Argon",
+        "Neon",
+        "Oxygen",
+        "Helium"
+      ],
+      "correctIndex": 2,
+      "explanation": "O is the symbol for Oxygen (atomic number 8).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Oxygen?",
+      "options": [
+        "Ne",
+        "He",
+        "O",
+        "Ar"
+      ],
+      "correctIndex": 2,
+      "explanation": "The symbol for Oxygen is O.",
+      "difficulty": 1
+    },
+    {
+      "text": "What element has symbol 'Na'?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon",
+        "Sodium"
+      ],
+      "correctIndex": 3,
+      "explanation": "Na is the symbol for Sodium (atomic number 11).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Sodium?",
+      "options": [
+        "Na",
+        "N",
+        "C",
+        "O"
+      ],
+      "correctIndex": 0,
+      "explanation": "The symbol for Sodium is Na.",
+      "difficulty": 1
+    },
+    {
+      "text": "What element has symbol 'Mg'?",
+      "options": [
+        "Magnesium",
+        "Carbon",
+        "Nitrogen",
+        "Oxygen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mg is the symbol for Magnesium (atomic number 12).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Magnesium?",
+      "options": [
+        "Mg",
+        "O",
+        "N",
+        "C"
+      ],
+      "correctIndex": 0,
+      "explanation": "The symbol for Magnesium is Mg.",
+      "difficulty": 1
+    },
+    {
+      "text": "What element has symbol 'Al'?",
+      "options": [
+        "Aluminum",
+        "Nitrogen",
+        "Carbon",
+        "Oxygen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Al is the symbol for Aluminum (atomic number 13).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Aluminum?",
+      "options": [
+        "N",
+        "C",
+        "Al",
+        "O"
+      ],
+      "correctIndex": 2,
+      "explanation": "The symbol for Aluminum is Al.",
+      "difficulty": 1
+    },
+    {
+      "text": "What element has symbol 'Si'?",
+      "options": [
+        "Oxygen",
+        "Carbon",
+        "Silicon",
+        "Nitrogen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Si is the symbol for Silicon (atomic number 14).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Silicon?",
+      "options": [
+        "N",
+        "O",
+        "Si",
+        "C"
+      ],
+      "correctIndex": 2,
+      "explanation": "The symbol for Silicon is Si.",
+      "difficulty": 1
+    },
+    {
+      "text": "What element has symbol 'Cl'?",
+      "options": [
+        "Chlorine",
+        "Nitrogen",
+        "Carbon",
+        "Oxygen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cl is the symbol for Chlorine (atomic number 17).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Chlorine?",
+      "options": [
+        "C",
+        "O",
+        "Cl",
+        "N"
+      ],
+      "correctIndex": 2,
+      "explanation": "The symbol for Chlorine is Cl.",
+      "difficulty": 1
+    },
+    {
+      "text": "What element has symbol 'K'?",
+      "options": [
+        "Carbon",
+        "Nitrogen",
+        "Potassium",
+        "Oxygen"
+      ],
+      "correctIndex": 2,
+      "explanation": "K is the symbol for Potassium (atomic number 19).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Potassium?",
+      "options": [
+        "C",
+        "N",
+        "O",
+        "K"
+      ],
+      "correctIndex": 3,
+      "explanation": "The symbol for Potassium is K.",
+      "difficulty": 1
+    },
+    {
+      "text": "What element has symbol 'Ca'?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Calcium",
+        "Carbon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ca is the symbol for Calcium (atomic number 20).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Calcium?",
+      "options": [
+        "O",
+        "Ca",
+        "N",
+        "C"
+      ],
+      "correctIndex": 1,
+      "explanation": "The symbol for Calcium is Ca.",
+      "difficulty": 1
+    },
+    {
+      "text": "What element has symbol 'Fe'?",
+      "options": [
+        "Iron",
+        "Carbon",
+        "Oxygen",
+        "Nitrogen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fe is the symbol for Iron (atomic number 26).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Iron?",
+      "options": [
+        "Fe",
+        "C",
+        "O",
+        "N"
+      ],
+      "correctIndex": 0,
+      "explanation": "The symbol for Iron is Fe.",
+      "difficulty": 1
+    },
+    {
+      "text": "What element has symbol 'Cu'?",
+      "options": [
+        "Nitrogen",
+        "Carbon",
+        "Copper",
+        "Oxygen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cu is the symbol for Copper (atomic number 29).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Copper?",
+      "options": [
+        "O",
+        "Cu",
+        "N",
+        "C"
+      ],
+      "correctIndex": 1,
+      "explanation": "The symbol for Copper is Cu.",
+      "difficulty": 1
+    },
+    {
+      "text": "What element has symbol 'Zn'?",
+      "options": [
+        "Nitrogen",
+        "Oxygen",
+        "Zinc",
+        "Carbon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Zn is the symbol for Zinc (atomic number 30).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Zinc?",
+      "options": [
+        "N",
+        "C",
+        "O",
+        "Zn"
+      ],
+      "correctIndex": 3,
+      "explanation": "The symbol for Zinc is Zn.",
+      "difficulty": 1
+    },
+    {
+      "text": "What element has symbol 'Ag'?",
+      "options": [
+        "Oxygen",
+        "Carbon",
+        "Nitrogen",
+        "Silver"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ag is the symbol for Silver (atomic number 47).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Silver?",
+      "options": [
+        "O",
+        "N",
+        "Ag",
+        "C"
+      ],
+      "correctIndex": 2,
+      "explanation": "The symbol for Silver is Ag.",
+      "difficulty": 1
+    },
+    {
+      "text": "What element has symbol 'Au'?",
+      "options": [
+        "Gold",
+        "Carbon",
+        "Nitrogen",
+        "Oxygen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Au is the symbol for Gold (atomic number 79).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Gold?",
+      "options": [
+        "N",
+        "C",
+        "O",
+        "Au"
+      ],
+      "correctIndex": 3,
+      "explanation": "The symbol for Gold is Au.",
+      "difficulty": 1
+    },
+    {
+      "text": "What element has symbol 'Hg'?",
+      "options": [
+        "Oxygen",
+        "Carbon",
+        "Mercury",
+        "Nitrogen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hg is the symbol for Mercury (atomic number 80).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Mercury?",
+      "options": [
+        "O",
+        "C",
+        "N",
+        "Hg"
+      ],
+      "correctIndex": 3,
+      "explanation": "The symbol for Mercury is Hg.",
+      "difficulty": 1
+    },
+    {
+      "text": "What element has symbol 'Pb'?",
+      "options": [
+        "Carbon",
+        "Oxygen",
+        "Nitrogen",
+        "Lead"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pb is the symbol for Lead (atomic number 82).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Lead?",
+      "options": [
+        "C",
+        "Pb",
+        "N",
+        "O"
+      ],
+      "correctIndex": 1,
+      "explanation": "The symbol for Lead is Pb.",
+      "difficulty": 1
+    },
+    {
+      "text": "What element has symbol 'U'?",
+      "options": [
+        "Uranium",
+        "Oxygen",
+        "Carbon",
+        "Nitrogen"
+      ],
+      "correctIndex": 0,
+      "explanation": "U is the symbol for Uranium (atomic number 92).",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the symbol for Uranium?",
+      "options": [
+        "U",
+        "C",
+        "O",
+        "N"
+      ],
+      "correctIndex": 0,
+      "explanation": "The symbol for Uranium is U.",
+      "difficulty": 1
+    },
+    {
+      "text": "Chemical formula for water?",
+      "options": [
+        "CO2",
+        "O2",
+        "H2O",
+        "H2SO4"
+      ],
+      "correctIndex": 2,
+      "explanation": "Water is H2O - two hydrogen, one oxygen.",
+      "difficulty": 1
+    },
+    {
+      "text": "Chemical formula for salt?",
+      "options": [
+        "CO2",
+        "HCl",
+        "NaCl",
+        "H2O"
+      ],
+      "correctIndex": 2,
+      "explanation": "Table salt is sodium chloride (NaCl).",
+      "difficulty": 1
+    },
+    {
+      "text": "Freezing point of water?",
+      "options": [
+        "0\u00b0C",
+        "100\u00b0C",
+        "10\u00b0C",
+        "-10\u00b0C"
+      ],
+      "correctIndex": 0,
+      "explanation": "Water freezes at 0\u00b0C (32\u00b0F).",
+      "difficulty": 1
+    },
+    {
+      "text": "Boiling point of water?",
+      "options": [
+        "200\u00b0C",
+        "0\u00b0C",
+        "50\u00b0C",
+        "100\u00b0C"
+      ],
+      "correctIndex": 3,
+      "explanation": "Water boils at 100\u00b0C (212\u00b0F) at sea level.",
+      "difficulty": 1
+    },
+    {
+      "text": "Hardest natural substance?",
+      "options": [
+        "Diamond",
+        "Gold",
+        "Quartz",
+        "Iron"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diamond rates 10 on Mohs scale.",
+      "difficulty": 1
+    },
+    {
+      "text": "Lightest element?",
+      "options": [
+        "Carbon",
+        "Lithium",
+        "Hydrogen",
+        "Helium"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hydrogen has atomic number 1.",
+      "difficulty": 1
+    },
+    {
+      "text": "Most abundant element in universe?",
+      "options": [
+        "Carbon",
+        "Oxygen",
+        "Hydrogen",
+        "Helium"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hydrogen makes up 75% of universe's mass.",
+      "difficulty": 1
+    },
+    {
+      "text": "Most abundant gas in air?",
+      "options": [
+        "Oxygen",
+        "Argon",
+        "Nitrogen",
+        "Carbon Dioxide"
+      ],
+      "correctIndex": 2,
+      "explanation": "Air is 78% nitrogen, 21% oxygen.",
+      "difficulty": 1
+    },
+    {
+      "text": "Speed of light?",
+      "options": [
+        "500,000 km/s",
+        "299,792 km/s",
+        "100,000 km/s",
+        "150,000 km/s"
+      ],
+      "correctIndex": 1,
+      "explanation": "Light travels at 299,792,458 m/s in vacuum.",
+      "difficulty": 1
+    },
+    {
+      "text": "Speed of sound in air?",
+      "options": [
+        "500 m/s",
+        "343 m/s",
+        "300 m/s",
+        "400 m/s"
+      ],
+      "correctIndex": 1,
+      "explanation": "At 20\u00b0C, sound travels at 343 m/s.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is photosynthesis?",
+      "options": [
+        "Animal respiration",
+        "Plants making food from light",
+        "Rock formation",
+        "Water cycle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Photosynthesis converts CO2 and water to glucose.",
+      "difficulty": 1
+    },
+    {
+      "text": "What do plants produce?",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Nitrogen",
+        "CO2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plants produce oxygen during photosynthesis.",
+      "difficulty": 1
+    },
+    {
+      "text": "What do animals breathe in?",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "CO2",
+        "Nitrogen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Animals breathe oxygen and exhale CO2.",
+      "difficulty": 1
+    },
+    {
+      "text": "Human bones count?",
+      "options": [
+        "195",
+        "215",
+        "180",
+        "206"
+      ],
+      "correctIndex": 3,
+      "explanation": "Adult humans have 206 bones.",
+      "difficulty": 1
+    },
+    {
+      "text": "Chambers in human heart?",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "correctIndex": 1,
+      "explanation": "Heart has 4 chambers: 2 atria, 2 ventricles.",
+      "difficulty": 1
+    },
+    {
+      "text": "Normal body temperature?",
+      "options": [
+        "36\u00b0C",
+        "37\u00b0C",
+        "35\u00b0C",
+        "38\u00b0C"
+      ],
+      "correctIndex": 1,
+      "explanation": "Normal body temp is 37\u00b0C (98.6\u00b0F).",
+      "difficulty": 1
+    },
+    {
+      "text": "Largest organ in body?",
+      "options": [
+        "Skin",
+        "Brain",
+        "Liver",
+        "Heart"
+      ],
+      "correctIndex": 0,
+      "explanation": "Skin covers about 2 m\u00b2 in adults.",
+      "difficulty": 1
+    },
+    {
+      "text": "Smallest bone in body?",
+      "options": [
+        "Patella",
+        "Radius",
+        "Stapes",
+        "Femur"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stapes in ear is 2.8 mm long.",
+      "difficulty": 1
+    },
+    {
+      "text": "Longest bone in body?",
+      "options": [
+        "Femur",
+        "Humerus",
+        "Radius",
+        "Tibia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Femur (thighbone) is longest.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is H2O?",
+      "options": [
+        "Sugar",
+        "Salt",
+        "Water",
+        "Acid"
+      ],
+      "correctIndex": 2,
+      "explanation": "H2O is the chemical formula for water.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is CO2?",
+      "options": [
+        "Water",
+        "Carbon Monoxide",
+        "Oxygen",
+        "Carbon Dioxide"
+      ],
+      "correctIndex": 3,
+      "explanation": "CO2 is carbon dioxide.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is O2?",
+      "options": [
+        "Ozone",
+        "Oxygen",
+        "Carbon",
+        "Water"
+      ],
+      "correctIndex": 1,
+      "explanation": "O2 is molecular oxygen.",
+      "difficulty": 1
+    },
+    {
+      "text": "Primary colors of light?",
+      "options": [
+        "Cyan, Magenta, Yellow",
+        "Red, Green, Blue",
+        "Black, White, Gray",
+        "Red, Yellow, Blue"
+      ],
+      "correctIndex": 1,
+      "explanation": "RGB are primary colors of light.",
+      "difficulty": 1
+    },
+    {
+      "text": "Primary colors of paint?",
+      "options": [
+        "Orange, Purple, Green",
+        "Red, Yellow, Blue",
+        "Red, Green, Blue",
+        "Cyan, Magenta, Yellow"
+      ],
+      "correctIndex": 1,
+      "explanation": "RYB are traditional primary colors.",
+      "difficulty": 1
+    },
+    {
+      "text": "What causes day and night?",
+      "options": [
+        "Earth's orbit",
+        "Earth's rotation",
+        "Moon's orbit",
+        "Sun's movement"
+      ],
+      "correctIndex": 1,
+      "explanation": "Earth rotates every 24 hours.",
+      "difficulty": 1
+    },
+    {
+      "text": "What causes seasons?",
+      "options": [
+        "Moon's gravity",
+        "Earth's rotation",
+        "Distance from Sun",
+        "Earth's tilt"
+      ],
+      "correctIndex": 3,
+      "explanation": "Earth's 23.5\u00b0 tilt causes seasons.",
+      "difficulty": 1
+    },
+    {
+      "text": "How long is a year?",
+      "options": [
+        "400 days",
+        "366 days",
+        "365 days",
+        "360 days"
+      ],
+      "correctIndex": 2,
+      "explanation": "Earth orbits Sun in 365.25 days.",
+      "difficulty": 1
+    },
+    {
+      "text": "How long is a day?",
+      "options": [
+        "12 hours",
+        "20 hours",
+        "24 hours",
+        "48 hours"
+      ],
+      "correctIndex": 2,
+      "explanation": "Earth rotates once in 24 hours.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is gravity?",
+      "options": [
+        "Electric force",
+        "Force that pushes apart",
+        "Magnetic force",
+        "Force that pulls objects together"
+      ],
+      "correctIndex": 3,
+      "explanation": "Gravity attracts mass.",
+      "difficulty": 1
+    },
+    {
+      "text": "Who discovered gravity?",
+      "options": [
+        "Galileo",
+        "Albert Einstein",
+        "Stephen Hawking",
+        "Isaac Newton"
+      ],
+      "correctIndex": 3,
+      "explanation": "Newton formulated law of gravitation.",
+      "difficulty": 1
+    }
+  ],
+  "l2": [
+    {
+      "text": "What element has symbol 'Li'?",
+      "options": [
+        "Lithium",
+        "Oxygen",
+        "Carbon",
+        "Nitrogen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Li is Lithium (atomic number 3).",
+      "difficulty": 2
+    },
+    {
+      "text": "Symbol for Lithium?",
+      "options": [
+        "O",
+        "Li",
+        "C",
+        "N"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lithium's symbol is Li.",
+      "difficulty": 2
+    },
+    {
+      "text": "What element has symbol 'Be'?",
+      "options": [
+        "Carbon",
+        "Oxygen",
+        "Beryllium",
+        "Nitrogen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Be is Beryllium (atomic number 4).",
+      "difficulty": 2
+    },
+    {
+      "text": "Symbol for Beryllium?",
+      "options": [
+        "Be",
+        "N",
+        "O",
+        "C"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beryllium's symbol is Be.",
+      "difficulty": 2
+    },
+    {
+      "text": "What element has symbol 'B'?",
+      "options": [
+        "Boron",
+        "Oxygen",
+        "Nitrogen",
+        "Carbon"
+      ],
+      "correctIndex": 0,
+      "explanation": "B is Boron (atomic number 5).",
+      "difficulty": 2
+    },
+    {
+      "text": "Symbol for Boron?",
+      "options": [
+        "B",
+        "N",
+        "C",
+        "O"
+      ],
+      "correctIndex": 0,
+      "explanation": "Boron's symbol is B.",
+      "difficulty": 2
+    },
+    {
+      "text": "What element has symbol 'F'?",
+      "options": [
+        "Fluorine",
+        "Carbon",
+        "Nitrogen",
+        "Oxygen"
+      ],
+      "correctIndex": 0,
+      "explanation": "F is Fluorine (atomic number 9).",
+      "difficulty": 2
+    },
+    {
+      "text": "Symbol for Fluorine?",
+      "options": [
+        "C",
+        "N",
+        "O",
+        "F"
+      ],
+      "correctIndex": 3,
+      "explanation": "Fluorine's symbol is F.",
+      "difficulty": 2
+    },
+    {
+      "text": "What element has symbol 'Ne'?",
+      "options": [
+        "Nitrogen",
+        "Carbon",
+        "Neon",
+        "Oxygen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ne is Neon (atomic number 10).",
+      "difficulty": 2
+    },
+    {
+      "text": "Symbol for Neon?",
+      "options": [
+        "O",
+        "C",
+        "Ne",
+        "N"
+      ],
+      "correctIndex": 2,
+      "explanation": "Neon's symbol is Ne.",
+      "difficulty": 2
+    },
+    {
+      "text": "What element has symbol 'P'?",
+      "options": [
+        "Carbon",
+        "Phosphorus",
+        "Nitrogen",
+        "Oxygen"
+      ],
+      "correctIndex": 1,
+      "explanation": "P is Phosphorus (atomic number 15).",
+      "difficulty": 2
+    },
+    {
+      "text": "Symbol for Phosphorus?",
+      "options": [
+        "O",
+        "P",
+        "N",
+        "C"
+      ],
+      "correctIndex": 1,
+      "explanation": "Phosphorus's symbol is P.",
+      "difficulty": 2
+    },
+    {
+      "text": "What element has symbol 'S'?",
+      "options": [
+        "Sulfur",
+        "Carbon",
+        "Oxygen",
+        "Nitrogen"
+      ],
+      "correctIndex": 0,
+      "explanation": "S is Sulfur (atomic number 16).",
+      "difficulty": 2
+    },
+    {
+      "text": "Symbol for Sulfur?",
+      "options": [
+        "O",
+        "N",
+        "S",
+        "C"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sulfur's symbol is S.",
+      "difficulty": 2
+    },
+    {
+      "text": "What element has symbol 'Ar'?",
+      "options": [
+        "Carbon",
+        "Argon",
+        "Nitrogen",
+        "Oxygen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ar is Argon (atomic number 18).",
+      "difficulty": 2
+    },
+    {
+      "text": "Symbol for Argon?",
+      "options": [
+        "N",
+        "C",
+        "Ar",
+        "O"
+      ],
+      "correctIndex": 2,
+      "explanation": "Argon's symbol is Ar.",
+      "difficulty": 2
+    },
+    {
+      "text": "What element has symbol 'Mn'?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon",
+        "Manganese"
+      ],
+      "correctIndex": 3,
+      "explanation": "Mn is Manganese (atomic number 25).",
+      "difficulty": 2
+    },
+    {
+      "text": "Symbol for Manganese?",
+      "options": [
+        "O",
+        "N",
+        "Mn",
+        "C"
+      ],
+      "correctIndex": 2,
+      "explanation": "Manganese's symbol is Mn.",
+      "difficulty": 2
+    },
+    {
+      "text": "What element has symbol 'Ni'?",
+      "options": [
+        "Carbon",
+        "Nickel",
+        "Oxygen",
+        "Nitrogen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ni is Nickel (atomic number 28).",
+      "difficulty": 2
+    },
+    {
+      "text": "Symbol for Nickel?",
+      "options": [
+        "O",
+        "Ni",
+        "N",
+        "C"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nickel's symbol is Ni.",
+      "difficulty": 2
+    },
+    {
+      "text": "What element has symbol 'Br'?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon",
+        "Bromine"
+      ],
+      "correctIndex": 3,
+      "explanation": "Br is Bromine (atomic number 35).",
+      "difficulty": 2
+    },
+    {
+      "text": "Symbol for Bromine?",
+      "options": [
+        "C",
+        "Br",
+        "O",
+        "N"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bromine's symbol is Br.",
+      "difficulty": 2
+    },
+    {
+      "text": "What element has symbol 'Kr'?",
+      "options": [
+        "Nitrogen",
+        "Oxygen",
+        "Carbon",
+        "Krypton"
+      ],
+      "correctIndex": 3,
+      "explanation": "Kr is Krypton (atomic number 36).",
+      "difficulty": 2
+    },
+    {
+      "text": "Symbol for Krypton?",
+      "options": [
+        "Kr",
+        "N",
+        "O",
+        "C"
+      ],
+      "correctIndex": 0,
+      "explanation": "Krypton's symbol is Kr.",
+      "difficulty": 2
+    },
+    {
+      "text": "What element has symbol 'Sr'?",
+      "options": [
+        "Strontium",
+        "Nitrogen",
+        "Carbon",
+        "Oxygen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sr is Strontium (atomic number 38).",
+      "difficulty": 2
+    },
+    {
+      "text": "Symbol for Strontium?",
+      "options": [
+        "O",
+        "N",
+        "C",
+        "Sr"
+      ],
+      "correctIndex": 3,
+      "explanation": "Strontium's symbol is Sr.",
+      "difficulty": 2
+    },
+    {
+      "text": "What element has symbol 'Sn'?",
+      "options": [
+        "Oxygen",
+        "Carbon",
+        "Nitrogen",
+        "Tin"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sn is Tin (atomic number 50).",
+      "difficulty": 2
+    },
+    {
+      "text": "Symbol for Tin?",
+      "options": [
+        "N",
+        "O",
+        "C",
+        "Sn"
+      ],
+      "correctIndex": 3,
+      "explanation": "Tin's symbol is Sn.",
+      "difficulty": 2
+    },
+    {
+      "text": "What element has symbol 'I'?",
+      "options": [
+        "Iodine",
+        "Carbon",
+        "Nitrogen",
+        "Oxygen"
+      ],
+      "correctIndex": 0,
+      "explanation": "I is Iodine (atomic number 53).",
+      "difficulty": 2
+    },
+    {
+      "text": "Symbol for Iodine?",
+      "options": [
+        "N",
+        "I",
+        "C",
+        "O"
+      ],
+      "correctIndex": 1,
+      "explanation": "Iodine's symbol is I.",
+      "difficulty": 2
+    },
+    {
+      "text": "What element has symbol 'Xe'?",
+      "options": [
+        "Xenon",
+        "Oxygen",
+        "Carbon",
+        "Nitrogen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Xe is Xenon (atomic number 54).",
+      "difficulty": 2
+    },
+    {
+      "text": "Symbol for Xenon?",
+      "options": [
+        "C",
+        "Xe",
+        "N",
+        "O"
+      ],
+      "correctIndex": 1,
+      "explanation": "Xenon's symbol is Xe.",
+      "difficulty": 2
+    },
+    {
+      "text": "pH of pure water?",
+      "options": [
+        "5",
+        "0",
+        "9",
+        "7"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pure water has neutral pH of 7.",
+      "difficulty": 2
+    },
+    {
+      "text": "pH of acid?",
+      "options": [
+        "Less than 7",
+        "More than 7",
+        "14",
+        "7"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acids have pH below 7.",
+      "difficulty": 2
+    },
+    {
+      "text": "pH of base?",
+      "options": [
+        "0",
+        "7",
+        "Less than 7",
+        "More than 7"
+      ],
+      "correctIndex": 3,
+      "explanation": "Bases have pH above 7.",
+      "difficulty": 2
+    },
+    {
+      "text": "Inventor of periodic table?",
+      "options": [
+        "John Dalton",
+        "Niels Bohr",
+        "Dmitri Mendeleev",
+        "Marie Curie"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mendeleev created table in 1869.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is DNA?",
+      "options": [
+        "Nucleic Acid",
+        "RNA",
+        "Deoxyribose Acid",
+        "Deoxyribonucleic Acid"
+      ],
+      "correctIndex": 3,
+      "explanation": "DNA stores genetic information.",
+      "difficulty": 2
+    },
+    {
+      "text": "DNA shape?",
+      "options": [
+        "Single Strand",
+        "Triple Helix",
+        "Double Helix",
+        "Circle"
+      ],
+      "correctIndex": 2,
+      "explanation": "DNA is a double helix structure.",
+      "difficulty": 2
+    },
+    {
+      "text": "Who discovered DNA structure?",
+      "options": [
+        "Einstein and Bohr",
+        "Newton and Galileo",
+        "Curie and Pasteur",
+        "Watson and Crick"
+      ],
+      "correctIndex": 3,
+      "explanation": "Watson and Crick discovered double helix in 1953.",
+      "difficulty": 2
+    },
+    {
+      "text": "Unit of electric current?",
+      "options": [
+        "Ohm",
+        "Watt",
+        "Volt",
+        "Ampere"
+      ],
+      "correctIndex": 3,
+      "explanation": "Current measured in amperes (A).",
+      "difficulty": 2
+    },
+    {
+      "text": "Unit of voltage?",
+      "options": [
+        "Watt",
+        "Ohm",
+        "Volt",
+        "Ampere"
+      ],
+      "correctIndex": 2,
+      "explanation": "Voltage measured in volts (V).",
+      "difficulty": 2
+    },
+    {
+      "text": "Unit of resistance?",
+      "options": [
+        "Ohm",
+        "Ampere",
+        "Volt",
+        "Watt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resistance measured in ohms (\u03a9).",
+      "difficulty": 2
+    },
+    {
+      "text": "Unit of power?",
+      "options": [
+        "Watt",
+        "Volt",
+        "Joule",
+        "Ampere"
+      ],
+      "correctIndex": 0,
+      "explanation": "Power measured in watts (W).",
+      "difficulty": 2
+    },
+    {
+      "text": "Unit of energy?",
+      "options": [
+        "Joule",
+        "Watt",
+        "Calorie",
+        "Newton"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy measured in joules (J).",
+      "difficulty": 2
+    },
+    {
+      "text": "Unit of force?",
+      "options": [
+        "Pascal",
+        "Watt",
+        "Newton",
+        "Joule"
+      ],
+      "correctIndex": 2,
+      "explanation": "Force measured in newtons (N).",
+      "difficulty": 2
+    },
+    {
+      "text": "Avogadro's number?",
+      "options": [
+        "1.0 \u00d7 10\u00b2\u00b3",
+        "6.022 \u00d7 10\u00b2\u2074",
+        "6.022 \u00d7 10\u00b2\u00b2",
+        "6.022 \u00d7 10\u00b2\u00b3"
+      ],
+      "correctIndex": 3,
+      "explanation": "One mole = 6.022 \u00d7 10\u00b2\u00b3 particles.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is a mole?",
+      "options": [
+        "Unit of volume",
+        "Unit of amount of substance",
+        "Unit of mass",
+        "Unit of temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mole is SI unit for amount.",
+      "difficulty": 2
+    },
+    {
+      "text": "Newton's First Law?",
+      "options": [
+        "Law of Action-Reaction",
+        "Law of Gravity",
+        "Law of Acceleration",
+        "Law of Inertia"
+      ],
+      "correctIndex": 3,
+      "explanation": "Object at rest stays at rest.",
+      "difficulty": 2
+    },
+    {
+      "text": "Newton's Second Law?",
+      "options": [
+        "F = ma",
+        "F = mv",
+        "F = md",
+        "F = G"
+      ],
+      "correctIndex": 0,
+      "explanation": "Force equals mass times acceleration.",
+      "difficulty": 2
+    },
+    {
+      "text": "Newton's Third Law?",
+      "options": [
+        "Action-Reaction",
+        "Gravity",
+        "Inertia",
+        "Acceleration"
+      ],
+      "correctIndex": 0,
+      "explanation": "Every action has equal opposite reaction.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is momentum?",
+      "options": [
+        "Mass times velocity",
+        "Force times time",
+        "Mass times acceleration",
+        "Energy divided by time"
+      ],
+      "correctIndex": 0,
+      "explanation": "Momentum = mass \u00d7 velocity.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is kinetic energy?",
+      "options": [
+        "Heat energy",
+        "Light energy",
+        "Stored energy",
+        "Energy of motion"
+      ],
+      "correctIndex": 3,
+      "explanation": "KE = \u00bdmv\u00b2.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is potential energy?",
+      "options": [
+        "Stored energy",
+        "Heat energy",
+        "Light energy",
+        "Energy of motion"
+      ],
+      "correctIndex": 0,
+      "explanation": "PE depends on position.",
+      "difficulty": 2
+    },
+    {
+      "text": "Earth's atmosphere composition?",
+      "options": [
+        "78% Oxygen",
+        "78% Nitrogen",
+        "90% Oxygen",
+        "50% Nitrogen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Air is 78% N2, 21% O2.",
+      "difficulty": 2
+    },
+    {
+      "text": "Lightest noble gas?",
+      "options": [
+        "Argon",
+        "Neon",
+        "Xenon",
+        "Helium"
+      ],
+      "correctIndex": 3,
+      "explanation": "Helium is lighter than air.",
+      "difficulty": 2
+    },
+    {
+      "text": "Blood type universal donor?",
+      "options": [
+        "O Negative",
+        "AB Positive",
+        "B Negative",
+        "A Positive"
+      ],
+      "correctIndex": 0,
+      "explanation": "O- can donate to any type.",
+      "difficulty": 2
+    },
+    {
+      "text": "Blood type universal recipient?",
+      "options": [
+        "O Negative",
+        "A Positive",
+        "B Positive",
+        "AB Positive"
+      ],
+      "correctIndex": 3,
+      "explanation": "AB+ can receive any type.",
+      "difficulty": 2
+    },
+    {
+      "text": "Photosynthesis equation?",
+      "options": [
+        "H2 + O2 \u2192 H2O",
+        "O2 + Glucose \u2192 CO2 + H2O",
+        "N2 + O2 \u2192 NO2",
+        "CO2 + H2O \u2192 Glucose + O2"
+      ],
+      "correctIndex": 3,
+      "explanation": "Plants convert CO2 and water to food.",
+      "difficulty": 2
+    },
+    {
+      "text": "Respiration equation?",
+      "options": [
+        "H2 + O2 \u2192 H2O",
+        "CO2 + H2O \u2192 Glucose + O2",
+        "Glucose + O2 \u2192 CO2 + H2O",
+        "N2 + O2 \u2192 NO2"
+      ],
+      "correctIndex": 2,
+      "explanation": "Animals burn glucose for energy.",
+      "difficulty": 2
+    },
+    {
+      "text": "Mitochondria function?",
+      "options": [
+        "DNA storage",
+        "Protein synthesis",
+        "Waste removal",
+        "Energy production"
+      ],
+      "correctIndex": 3,
+      "explanation": "Mitochondria are cell's powerhouse.",
+      "difficulty": 2
+    },
+    {
+      "text": "Nucleus function?",
+      "options": [
+        "Waste removal",
+        "Energy production",
+        "Protein synthesis",
+        "DNA storage and control"
+      ],
+      "correctIndex": 3,
+      "explanation": "Nucleus contains genetic material.",
+      "difficulty": 2
+    },
+    {
+      "text": "Ribosome function?",
+      "options": [
+        "Protein synthesis",
+        "Energy production",
+        "Waste removal",
+        "DNA storage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ribosomes make proteins.",
+      "difficulty": 2
+    },
+    {
+      "text": "Cell membrane function?",
+      "options": [
+        "Controls what enters/exits",
+        "Protein synthesis",
+        "DNA storage",
+        "Energy production"
+      ],
+      "correctIndex": 0,
+      "explanation": "Membrane is selective barrier.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is osmosis?",
+      "options": [
+        " Salt movement",
+        "Water movement across membrane",
+        "Gas movement",
+        "Protein movement"
+      ],
+      "correctIndex": 1,
+      "explanation": "Osmosis is passive water transport.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is diffusion?",
+      "options": [
+        "Active transport",
+        "Movement from high to low concentration",
+        "Energy-requiring transport",
+        "Movement against gradient"
+      ],
+      "correctIndex": 1,
+      "explanation": "Diffusion is passive movement.",
+      "difficulty": 2
+    },
+    {
+      "text": "Distance Earth to Sun?",
+      "options": [
+        "200 million km",
+        "50 million km",
+        "100 million km",
+        "150 million km"
+      ],
+      "correctIndex": 3,
+      "explanation": "Average is 149.6 million km (1 AU).",
+      "difficulty": 2
+    },
+    {
+      "text": "Earth's diameter?",
+      "options": [
+        "12,742 km",
+        "15,000 km",
+        "20,000 km",
+        "10,000 km"
+      ],
+      "correctIndex": 0,
+      "explanation": "Equatorial diameter is 12,742 km.",
+      "difficulty": 2
+    }
+  ],
+  "l3": [
+    {
+      "text": "Element symbol 'Sc'?",
+      "options": [
+        "Nitrogen",
+        "Oxygen",
+        "Scandium",
+        "Carbon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sc = Scandium (Z=21).",
+      "difficulty": 3
+    },
+    {
+      "text": "Symbol for Scandium?",
+      "options": [
+        "N",
+        "Sc",
+        "O",
+        "C"
+      ],
+      "correctIndex": 1,
+      "explanation": "Scandium = Sc.",
+      "difficulty": 3
+    },
+    {
+      "text": "Element symbol 'Ti'?",
+      "options": [
+        "Carbon",
+        "Nitrogen",
+        "Oxygen",
+        "Titanium"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ti = Titanium (Z=22).",
+      "difficulty": 3
+    },
+    {
+      "text": "Symbol for Titanium?",
+      "options": [
+        "O",
+        "C",
+        "Ti",
+        "N"
+      ],
+      "correctIndex": 2,
+      "explanation": "Titanium = Ti.",
+      "difficulty": 3
+    },
+    {
+      "text": "Element symbol 'V'?",
+      "options": [
+        "Carbon",
+        "Oxygen",
+        "Vanadium",
+        "Nitrogen"
+      ],
+      "correctIndex": 2,
+      "explanation": "V = Vanadium (Z=23).",
+      "difficulty": 3
+    },
+    {
+      "text": "Symbol for Vanadium?",
+      "options": [
+        "V",
+        "N",
+        "C",
+        "O"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vanadium = V.",
+      "difficulty": 3
+    },
+    {
+      "text": "Element symbol 'Cr'?",
+      "options": [
+        "Chromium",
+        "Nitrogen",
+        "Carbon",
+        "Oxygen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cr = Chromium (Z=24).",
+      "difficulty": 3
+    },
+    {
+      "text": "Symbol for Chromium?",
+      "options": [
+        "Cr",
+        "N",
+        "O",
+        "C"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chromium = Cr.",
+      "difficulty": 3
+    },
+    {
+      "text": "Element symbol 'Co'?",
+      "options": [
+        "Nitrogen",
+        "Cobalt",
+        "Carbon",
+        "Oxygen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Co = Cobalt (Z=27).",
+      "difficulty": 3
+    },
+    {
+      "text": "Symbol for Cobalt?",
+      "options": [
+        "C",
+        "O",
+        "N",
+        "Co"
+      ],
+      "correctIndex": 3,
+      "explanation": "Cobalt = Co.",
+      "difficulty": 3
+    },
+    {
+      "text": "Element symbol 'Ga'?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Gallium",
+        "Carbon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ga = Gallium (Z=31).",
+      "difficulty": 3
+    },
+    {
+      "text": "Symbol for Gallium?",
+      "options": [
+        "C",
+        "N",
+        "Ga",
+        "O"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gallium = Ga.",
+      "difficulty": 3
+    },
+    {
+      "text": "Element symbol 'Ge'?",
+      "options": [
+        "Germanium",
+        "Nitrogen",
+        "Oxygen",
+        "Carbon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ge = Germanium (Z=32).",
+      "difficulty": 3
+    },
+    {
+      "text": "Symbol for Germanium?",
+      "options": [
+        "N",
+        "C",
+        "O",
+        "Ge"
+      ],
+      "correctIndex": 3,
+      "explanation": "Germanium = Ge.",
+      "difficulty": 3
+    },
+    {
+      "text": "Element symbol 'As'?",
+      "options": [
+        "Carbon",
+        "Arsenic",
+        "Nitrogen",
+        "Oxygen"
+      ],
+      "correctIndex": 1,
+      "explanation": "As = Arsenic (Z=33).",
+      "difficulty": 3
+    },
+    {
+      "text": "Symbol for Arsenic?",
+      "options": [
+        "C",
+        "N",
+        "O",
+        "As"
+      ],
+      "correctIndex": 3,
+      "explanation": "Arsenic = As.",
+      "difficulty": 3
+    },
+    {
+      "text": "Element symbol 'Se'?",
+      "options": [
+        "Oxygen",
+        "Selenium",
+        "Nitrogen",
+        "Carbon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Se = Selenium (Z=34).",
+      "difficulty": 3
+    },
+    {
+      "text": "Symbol for Selenium?",
+      "options": [
+        "N",
+        "O",
+        "Se",
+        "C"
+      ],
+      "correctIndex": 2,
+      "explanation": "Selenium = Se.",
+      "difficulty": 3
+    },
+    {
+      "text": "Element symbol 'Rb'?",
+      "options": [
+        "Nitrogen",
+        "Rubidium",
+        "Oxygen",
+        "Carbon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rb = Rubidium (Z=37).",
+      "difficulty": 3
+    },
+    {
+      "text": "Symbol for Rubidium?",
+      "options": [
+        "Rb",
+        "O",
+        "C",
+        "N"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rubidium = Rb.",
+      "difficulty": 3
+    },
+    {
+      "text": "Element symbol 'Y'?",
+      "options": [
+        "Oxygen",
+        "Yttrium",
+        "Carbon",
+        "Nitrogen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Y = Yttrium (Z=39).",
+      "difficulty": 3
+    },
+    {
+      "text": "Symbol for Yttrium?",
+      "options": [
+        "O",
+        "Y",
+        "C",
+        "N"
+      ],
+      "correctIndex": 1,
+      "explanation": "Yttrium = Y.",
+      "difficulty": 3
+    },
+    {
+      "text": "Element symbol 'Zr'?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon",
+        "Zirconium"
+      ],
+      "correctIndex": 3,
+      "explanation": "Zr = Zirconium (Z=40).",
+      "difficulty": 3
+    },
+    {
+      "text": "Symbol for Zirconium?",
+      "options": [
+        "C",
+        "O",
+        "Zr",
+        "N"
+      ],
+      "correctIndex": 2,
+      "explanation": "Zirconium = Zr.",
+      "difficulty": 3
+    },
+    {
+      "text": "Planck's constant?",
+      "options": [
+        "6.626 \u00d7 10\u207b\u00b3\u2075",
+        "6.626 \u00d7 10\u207b\u00b3\u2074 J\u00b7s",
+        "6.626 \u00d7 10\u207b\u00b3\u00b3",
+        "1.0 \u00d7 10\u207b\u00b3\u2074"
+      ],
+      "correctIndex": 1,
+      "explanation": "Relates energy to frequency.",
+      "difficulty": 3
+    },
+    {
+      "text": "Absolute zero?",
+      "options": [
+        "-273.15\u00b0C",
+        "-200\u00b0C",
+        "-250\u00b0C",
+        "-300\u00b0C"
+      ],
+      "correctIndex": 0,
+      "explanation": "0 Kelvin = -273.15\u00b0C.",
+      "difficulty": 3
+    },
+    {
+      "text": "Electron charge?",
+      "options": [
+        "-1.602 \u00d7 10\u207b\u00b9\u2078",
+        "-2.0 \u00d7 10\u207b\u00b9\u2079",
+        "-1.0 \u00d7 10\u207b\u00b9\u2079",
+        "-1.602 \u00d7 10\u207b\u00b9\u2079 C"
+      ],
+      "correctIndex": 3,
+      "explanation": "Elementary charge constant.",
+      "difficulty": 3
+    },
+    {
+      "text": "Proton mass?",
+      "options": [
+        "1.0 \u00d7 10\u207b\u00b2\u2077",
+        "1.673 \u00d7 10\u207b\u00b2\u2077 kg",
+        "2.0 \u00d7 10\u207b\u00b2\u2077",
+        "1.673 \u00d7 10\u207b\u00b2\u2076"
+      ],
+      "correctIndex": 1,
+      "explanation": "~1836\u00d7 electron mass.",
+      "difficulty": 3
+    },
+    {
+      "text": "Electron mass?",
+      "options": [
+        "1.0 \u00d7 10\u207b\u00b3\u00b9",
+        "9.109 \u00d7 10\u207b\u00b3\u2070",
+        "9.109 \u00d7 10\u207b\u00b3\u00b9 kg",
+        "9.109 \u00d7 10\u207b\u00b3\u00b2"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lightest stable particle.",
+      "difficulty": 3
+    },
+    {
+      "text": "Half-life of C-14?",
+      "options": [
+        "5,730 years",
+        "50,000",
+        "1,000",
+        "10,000"
+      ],
+      "correctIndex": 0,
+      "explanation": "Used for radiocarbon dating.",
+      "difficulty": 3
+    },
+    {
+      "text": "Strongest force?",
+      "options": [
+        "Strong Nuclear",
+        "Gravity",
+        "Electromagnetic",
+        "Weak Nuclear"
+      ],
+      "correctIndex": 0,
+      "explanation": "Holds nuclei together.",
+      "difficulty": 3
+    },
+    {
+      "text": "Weakest force?",
+      "options": [
+        "Strong Nuclear",
+        "Gravity",
+        "Electromagnetic",
+        "Weak Nuclear"
+      ],
+      "correctIndex": 1,
+      "explanation": "Weakest of 4 fundamental forces.",
+      "difficulty": 3
+    },
+    {
+      "text": "Hubble constant?",
+      "options": [
+        "150",
+        "50",
+        "100",
+        "~70 km/s/Mpc"
+      ],
+      "correctIndex": 3,
+      "explanation": "Universe expansion rate.",
+      "difficulty": 3
+    },
+    {
+      "text": "Age of universe?",
+      "options": [
+        "10 billion",
+        "20 billion",
+        "5 billion",
+        "13.8 billion years"
+      ],
+      "correctIndex": 3,
+      "explanation": "Since Big Bang.",
+      "difficulty": 3
+    },
+    {
+      "text": "Age of Earth?",
+      "options": [
+        "5 billion",
+        "4.54 billion years",
+        "3 billion",
+        "10 billion"
+      ],
+      "correctIndex": 1,
+      "explanation": "From isotope dating.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is entropy?",
+      "options": [
+        "Measure of pressure",
+        "Measure of energy",
+        "Measure of temperature",
+        "Measure of disorder"
+      ],
+      "correctIndex": 3,
+      "explanation": "Second law of thermodynamics.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is enthalpy?",
+      "options": [
+        "Heat content",
+        "Pressure change",
+        "Temperature change",
+        "Work done"
+      ],
+      "correctIndex": 0,
+      "explanation": "\u0394H in thermodynamics.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is Gibbs free energy?",
+      "options": [
+        "Heat energy",
+        "Total energy",
+        "Kinetic energy",
+        "Energy available for work"
+      ],
+      "correctIndex": 3,
+      "explanation": "\u0394G = \u0394H - T\u0394S.",
+      "difficulty": 3
+    },
+    {
+      "text": "Ideal gas law?",
+      "options": [
+        "PV = T",
+        "P = nRT",
+        "V = nRT",
+        "PV = nRT"
+      ],
+      "correctIndex": 3,
+      "explanation": "Relates pressure, volume, temp.",
+      "difficulty": 3
+    },
+    {
+      "text": "Boyle's Law?",
+      "options": [
+        "PV = T",
+        "P\u2081/T\u2081 = P\u2082/T\u2082",
+        "P\u2081V\u2081 = P\u2082V\u2082",
+        "V\u2081/T\u2081 = V\u2082/T\u2082"
+      ],
+      "correctIndex": 2,
+      "explanation": "At constant temperature.",
+      "difficulty": 3
+    },
+    {
+      "text": "Charles's Law?",
+      "options": [
+        "PV = T",
+        "V\u2081/T\u2081 = V\u2082/T\u2082",
+        "P\u2081/T\u2081 = P\u2082/T\u2082",
+        "P\u2081V\u2081 = P\u2082V\u2082"
+      ],
+      "correctIndex": 1,
+      "explanation": "At constant pressure.",
+      "difficulty": 3
+    },
+    {
+      "text": "Gay-Lussac's Law?",
+      "options": [
+        "P\u2081/T\u2081 = P\u2082/T\u2082",
+        "P\u2081V\u2081 = P\u2082V\u2082",
+        "V\u2081/T\u2081 = V\u2082/T\u2082",
+        "PV = T"
+      ],
+      "correctIndex": 0,
+      "explanation": "At constant volume.",
+      "difficulty": 3
+    },
+    {
+      "text": "Heisenberg Uncertainty?",
+      "options": [
+        "\u0394x\u0394p \u2265 \u0127/2",
+        "\u0394p = 0",
+        "\u0394x = 0",
+        "\u0394E\u0394t = h"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cannot precisely know position and momentum.",
+      "difficulty": 3
+    },
+    {
+      "text": "Schr\u00f6dinger equation?",
+      "options": [
+        "E = mc\u00b2",
+        "F = ma",
+        "PV = nRT",
+        "i\u0127\u2202\u03c8/\u2202t = H\u03c8"
+      ],
+      "correctIndex": 3,
+      "explanation": "Fundamental quantum mechanics.",
+      "difficulty": 3
+    },
+    {
+      "text": "Einstein's E=mc\u00b2?",
+      "options": [
+        "Work equation",
+        "Energy-mass equivalence",
+        "Momentum equation",
+        "Force equation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Energy equals mass times c\u00b2",
+      "difficulty": 3
+    },
+    {
+      "text": "Doppler effect?",
+      "options": [
+        "Frequency shift due to motion",
+        "Amplitude change",
+        "Energy loss",
+        "Wavelength constancy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound/light frequency changes.",
+      "difficulty": 3
+    },
+    {
+      "text": "Redshift indicates?",
+      "options": [
+        "Object approaching",
+        "Object stationary",
+        "Object moving away",
+        "Object rotating"
+      ],
+      "correctIndex": 2,
+      "explanation": "Light wavelength increases.",
+      "difficulty": 3
+    },
+    {
+      "text": "Blueshift indicates?",
+      "options": [
+        "Object rotating",
+        "Object approaching",
+        "Object moving away",
+        "Object stationary"
+      ],
+      "correctIndex": 1,
+      "explanation": "Light wavelength decreases.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is a catalyst?",
+      "options": [
+        "Increases yield",
+        "Slows reaction",
+        "Gets consumed",
+        "Speeds reaction without being consumed"
+      ],
+      "correctIndex": 3,
+      "explanation": "Lowers activation energy.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is an enzyme?",
+      "options": [
+        "Mineral",
+        "Hormone",
+        "Biological catalyst",
+        "Vitamin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Protein that speeds reactions.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is ATP?",
+      "options": [
+        "Adenosine Diphosphate",
+        "Amino Acid",
+        "Adenosine Triphosphate",
+        "Adenosine Monophosphate"
+      ],
+      "correctIndex": 2,
+      "explanation": "Energy currency of cell.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is RNA?",
+      "options": [
+        "Ribosome",
+        "Ribonucleic Acid",
+        "Deoxyribonucleic Acid",
+        "Ribose Sugar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Single-stranded genetic material.",
+      "difficulty": 3
+    },
+    {
+      "text": "Difference DNA vs RNA?",
+      "options": [
+        "No difference",
+        "DNA has deoxyribose, RNA has ribose",
+        "DNA is small, RNA is large",
+        "DNA is single, RNA is double"
+      ],
+      "correctIndex": 1,
+      "explanation": "Also thymine vs uracil.",
+      "difficulty": 3
+    },
+    {
+      "text": "Central Dogma?",
+      "options": [
+        "DNA \u2192 Protein \u2192 RNA",
+        "Protein \u2192 RNA \u2192 DNA",
+        "RNA \u2192 DNA \u2192 Protein",
+        "DNA \u2192 RNA \u2192 Protein"
+      ],
+      "correctIndex": 3,
+      "explanation": "Information flow in biology.",
+      "difficulty": 3
+    },
+    {
+      "text": "Transcription?",
+      "options": [
+        "DNA to RNA",
+        "RNA to DNA",
+        "RNA to Protein",
+        "DNA to Protein"
+      ],
+      "correctIndex": 0,
+      "explanation": "First step of gene expression.",
+      "difficulty": 3
+    },
+    {
+      "text": "Translation?",
+      "options": [
+        "DNA to Protein",
+        "Protein to RNA",
+        "RNA to Protein",
+        "DNA to RNA"
+      ],
+      "correctIndex": 2,
+      "explanation": "Second step of gene expression.",
+      "difficulty": 3
+    },
+    {
+      "text": "Genetic code units?",
+      "options": [
+        "Chromosomes",
+        "Proteins",
+        "Codons (3 nucleotides)",
+        "Genes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Each codon codes for amino acid.",
+      "difficulty": 3
+    },
+    {
+      "text": "How many amino acids?",
+      "options": [
+        "50",
+        "30",
+        "20 standard",
+        "10"
+      ],
+      "correctIndex": 2,
+      "explanation": "20 proteinogenic amino acids.",
+      "difficulty": 3
+    },
+    {
+      "text": "How many DNA bases?",
+      "options": [
+        "10",
+        "2",
+        "8",
+        "4"
+      ],
+      "correctIndex": 3,
+      "explanation": "A, T, G, C.",
+      "difficulty": 3
+    },
+    {
+      "text": "How many RNA bases?",
+      "options": [
+        "4",
+        "10",
+        "2",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "A, U, G, C.",
+      "difficulty": 3
+    },
+    {
+      "text": "DNA base pairing?",
+      "options": [
+        "A-T, G-C",
+        "A-G, T-C",
+        "A-U, G-C",
+        "A-C, T-G"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hydrogen bonding rules.",
+      "difficulty": 3
+    },
+    {
+      "text": "RNA base pairing?",
+      "options": [
+        "A-T, G-C",
+        "A-C, U-G",
+        "A-G, U-C",
+        "A-U, G-C"
+      ],
+      "correctIndex": 3,
+      "explanation": "Uracil instead of thymine.",
+      "difficulty": 3
+    }
+  ]
+}

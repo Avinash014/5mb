@@ -1,0 +1,1845 @@
+{
+  "batch_name": "Additional Questions (Batch 4)",
+  "l1": [
+    {
+      "text": "Euro used in?",
+      "options": [
+        "Asia",
+        "USA",
+        "European Union",
+        "UK"
+      ],
+      "correctIndex": 2,
+      "explanation": "Euro (\u20ac) is used by 19 EU countries.",
+      "difficulty": 1
+    },
+    {
+      "text": "Dollar used in?",
+      "options": [
+        "Japan",
+        "Europe",
+        "India",
+        "USA"
+      ],
+      "correctIndex": 3,
+      "explanation": "US Dollar ($) is most traded currency.",
+      "difficulty": 1
+    },
+    {
+      "text": "Yen is currency of?",
+      "options": [
+        "Thailand",
+        "Japan",
+        "Korea",
+        "China"
+      ],
+      "correctIndex": 1,
+      "explanation": "Japanese Yen (\u00a5) since 1871.",
+      "difficulty": 1
+    },
+    {
+      "text": "Pound Sterling used in?",
+      "options": [
+        "Australia",
+        "USA",
+        "Europe",
+        "United Kingdom"
+      ],
+      "correctIndex": 3,
+      "explanation": "British Pound (\u00a3) is oldest currency still used.",
+      "difficulty": 1
+    },
+    {
+      "text": "Rupee is currency of?",
+      "options": [
+        "China",
+        "Pakistan only",
+        "India",
+        "Bangladesh only"
+      ],
+      "correctIndex": 2,
+      "explanation": "Indian Rupee (\u20b9) symbol adopted 2010.",
+      "difficulty": 1
+    },
+    {
+      "text": "Yuan is currency of?",
+      "options": [
+        "China",
+        "Japan",
+        "Vietnam",
+        "Korea"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chinese Yuan (\u00a5) or Renminbi.",
+      "difficulty": 1
+    },
+    {
+      "text": "Ruble is currency of?",
+      "options": [
+        "Russia",
+        "Germany",
+        "Poland",
+        "Ukraine"
+      ],
+      "correctIndex": 0,
+      "explanation": "Russian Ruble (\u20bd) since 13th century.",
+      "difficulty": 1
+    },
+    {
+      "text": "Won is currency of?",
+      "options": [
+        "Thailand",
+        "Japan",
+        "South Korea",
+        "China"
+      ],
+      "correctIndex": 2,
+      "explanation": "South Korean Won (\u20a9).",
+      "difficulty": 1
+    },
+    {
+      "text": "Franc used in?",
+      "options": [
+        "France",
+        "Germany",
+        "Italy",
+        "Switzerland"
+      ],
+      "correctIndex": 3,
+      "explanation": "Swiss Franc (CHF) - France uses Euro now.",
+      "difficulty": 1
+    },
+    {
+      "text": "Peso used in?",
+      "options": [
+        "USA",
+        "Mexico",
+        "Brazil",
+        "Canada"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mexican Peso ($) and others.",
+      "difficulty": 1
+    },
+    {
+      "text": "Lira used in?",
+      "options": [
+        "Italy",
+        "Spain",
+        "Turkey",
+        "Greece"
+      ],
+      "correctIndex": 2,
+      "explanation": "Turkish Lira (\u20ba) - Italy uses Euro now.",
+      "difficulty": 1
+    },
+    {
+      "text": "Baht is currency of?",
+      "options": [
+        "Indonesia",
+        "Malaysia",
+        "Vietnam",
+        "Thailand"
+      ],
+      "correctIndex": 3,
+      "explanation": "Thai Baht (\u0e3f).",
+      "difficulty": 1
+    },
+    {
+      "text": "Ringgit is currency of?",
+      "options": [
+        "Indonesia",
+        "Thailand",
+        "Singapore",
+        "Malaysia"
+      ],
+      "correctIndex": 3,
+      "explanation": "Malaysian Ringgit (RM).",
+      "difficulty": 1
+    },
+    {
+      "text": "Dirham used in?",
+      "options": [
+        "Saudi Arabia",
+        "UAE",
+        "Qatar",
+        "Kuwait"
+      ],
+      "correctIndex": 1,
+      "explanation": "UAE Dirham (\u062f.\u0625).",
+      "difficulty": 1
+    },
+    {
+      "text": "Riyal used in?",
+      "options": [
+        "Iraq",
+        "Kuwait",
+        "Saudi Arabia",
+        "UAE"
+      ],
+      "correctIndex": 2,
+      "explanation": "Saudi Riyal (\ufdfc).",
+      "difficulty": 1
+    },
+    {
+      "text": "How many teeth in adult human?",
+      "options": [
+        "36",
+        "24",
+        "28",
+        "32"
+      ],
+      "correctIndex": 3,
+      "explanation": "32 permanent teeth including wisdom teeth.",
+      "difficulty": 1
+    },
+    {
+      "text": "How many muscles in human body?",
+      "options": [
+        "~640",
+        "200",
+        "1000",
+        "400"
+      ],
+      "correctIndex": 0,
+      "explanation": "Over 640 skeletal muscles.",
+      "difficulty": 1
+    },
+    {
+      "text": "Largest muscle?",
+      "options": [
+        "Quadriceps",
+        "Gluteus Maximus",
+        "Heart",
+        "Biceps"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buttock muscle is largest.",
+      "difficulty": 1
+    },
+    {
+      "text": "Smallest muscle?",
+      "options": [
+        "Finger muscle",
+        "Eye muscle",
+        "Stapedius",
+        "Biceps"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stapedius in ear is smallest.",
+      "difficulty": 1
+    },
+    {
+      "text": "Longest organ?",
+      "options": [
+        "Large Intestine",
+        "Small Intestine",
+        "Skin",
+        "Liver"
+      ],
+      "correctIndex": 1,
+      "explanation": "Small intestine is ~7 meters long.",
+      "difficulty": 1
+    },
+    {
+      "text": "Heaviest organ?",
+      "options": [
+        "Skin",
+        "Brain",
+        "Heart",
+        "Liver"
+      ],
+      "correctIndex": 3,
+      "explanation": "Liver weighs ~1.5 kg.",
+      "difficulty": 1
+    },
+    {
+      "text": "What percentage of body is water?",
+      "options": [
+        "40%",
+        "~60%",
+        "80%",
+        "90%"
+      ],
+      "correctIndex": 1,
+      "explanation": "Adults are about 60% water.",
+      "difficulty": 1
+    },
+    {
+      "text": "How many blood groups (ABO)?",
+      "options": [
+        "2",
+        "6",
+        "8",
+        "4"
+      ],
+      "correctIndex": 3,
+      "explanation": "A, B, AB, O blood types.",
+      "difficulty": 1
+    },
+    {
+      "text": "Normal heart rate?",
+      "options": [
+        "60-100 bpm",
+        "100-120 bpm",
+        "40-60 bpm",
+        "120-140 bpm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resting heart rate for adults.",
+      "difficulty": 1
+    },
+    {
+      "text": "Average blood volume?",
+      "options": [
+        "15 liters",
+        "~5 liters",
+        "3 liters",
+        "10 liters"
+      ],
+      "correctIndex": 1,
+      "explanation": "Adults have about 5 liters of blood.",
+      "difficulty": 1
+    },
+    {
+      "text": "How many lungs?",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Left and right lungs.",
+      "difficulty": 1
+    },
+    {
+      "text": "How many kidneys?",
+      "options": [
+        "1",
+        "4",
+        "3",
+        "2"
+      ],
+      "correctIndex": 3,
+      "explanation": "Two kidneys filter blood.",
+      "difficulty": 1
+    },
+    {
+      "text": "Smallest bone location?",
+      "options": [
+        "Hand",
+        "Foot",
+        "Nose",
+        "Ear"
+      ],
+      "correctIndex": 3,
+      "explanation": "Stapes bone is in the ear.",
+      "difficulty": 1
+    },
+    {
+      "text": "Largest bone location?",
+      "options": [
+        "Thigh",
+        "Leg",
+        "Spine",
+        "Arm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Femur is in the thigh.",
+      "difficulty": 1
+    },
+    {
+      "text": "Brain weight?",
+      "options": [
+        "3 kg",
+        "2 kg",
+        "~1.4 kg",
+        "0.5 kg"
+      ],
+      "correctIndex": 2,
+      "explanation": "Adult brain weighs about 1.4 kg.",
+      "difficulty": 1
+    },
+    {
+      "text": "1000 meters equals?",
+      "options": [
+        "100 meters",
+        "1 mile",
+        "10 kilometers",
+        "1 kilometer"
+      ],
+      "correctIndex": 3,
+      "explanation": "1 km = 1000 m.",
+      "difficulty": 1
+    },
+    {
+      "text": "1000 grams equals?",
+      "options": [
+        "100 grams",
+        "1 pound",
+        "1 kilogram",
+        "10 kilograms"
+      ],
+      "correctIndex": 2,
+      "explanation": "1 kg = 1000 g.",
+      "difficulty": 1
+    },
+    {
+      "text": "1000 milliliters equals?",
+      "options": [
+        "10 liters",
+        "1 liter",
+        "100 ml",
+        "1 gallon"
+      ],
+      "correctIndex": 1,
+      "explanation": "1 L = 1000 mL.",
+      "difficulty": 1
+    },
+    {
+      "text": "100 centimeters equals?",
+      "options": [
+        "1 meter",
+        "10 meters",
+        "1000 meters",
+        "1 kilometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "1 m = 100 cm.",
+      "difficulty": 1
+    },
+    {
+      "text": "60 seconds equals?",
+      "options": [
+        "1 minute",
+        "10 seconds",
+        "1 hour",
+        "100 seconds"
+      ],
+      "correctIndex": 0,
+      "explanation": "1 min = 60 sec.",
+      "difficulty": 1
+    },
+    {
+      "text": "60 minutes equals?",
+      "options": [
+        "30 minutes",
+        "1 day",
+        "100 minutes",
+        "1 hour"
+      ],
+      "correctIndex": 3,
+      "explanation": "1 hr = 60 min.",
+      "difficulty": 1
+    },
+    {
+      "text": "24 hours equals?",
+      "options": [
+        "12 hours",
+        "48 hours",
+        "1 day",
+        "1 week"
+      ],
+      "correctIndex": 2,
+      "explanation": "1 day = 24 hours.",
+      "difficulty": 1
+    },
+    {
+      "text": "7 days equals?",
+      "options": [
+        "1 month",
+        "10 days",
+        "14 days",
+        "1 week"
+      ],
+      "correctIndex": 3,
+      "explanation": "1 week = 7 days.",
+      "difficulty": 1
+    },
+    {
+      "text": "12 months equals?",
+      "options": [
+        "6 months",
+        "1 year",
+        "24 months",
+        "1 decade"
+      ],
+      "correctIndex": 1,
+      "explanation": "1 year = 12 months.",
+      "difficulty": 1
+    },
+    {
+      "text": "100 years equals?",
+      "options": [
+        "1 decade",
+        "1 century",
+        "1000 years",
+        "50 years"
+      ],
+      "correctIndex": 1,
+      "explanation": "1 century = 100 years.",
+      "difficulty": 1
+    }
+  ],
+  "l2": [
+    {
+      "text": "Largest US state by area?",
+      "options": [
+        "Montana",
+        "California",
+        "Alaska",
+        "Texas"
+      ],
+      "correctIndex": 2,
+      "explanation": "Alaska is 1.7 million km\u00b2.",
+      "difficulty": 2
+    },
+    {
+      "text": "Most populous US state?",
+      "options": [
+        "New York",
+        "Texas",
+        "Florida",
+        "California"
+      ],
+      "correctIndex": 3,
+      "explanation": "California has 39 million people.",
+      "difficulty": 2
+    },
+    {
+      "text": "US capital?",
+      "options": [
+        "Los Angeles",
+        "New York",
+        "Chicago",
+        "Washington D.C."
+      ],
+      "correctIndex": 3,
+      "explanation": "D.C. is not a state.",
+      "difficulty": 2
+    },
+    {
+      "text": "India has how many states?",
+      "options": [
+        "30",
+        "25",
+        "28",
+        "35"
+      ],
+      "correctIndex": 2,
+      "explanation": "28 states and 8 union territories.",
+      "difficulty": 2
+    },
+    {
+      "text": "China's most populous city?",
+      "options": [
+        "Beijing",
+        "Shenzhen",
+        "Shanghai",
+        "Guangzhou"
+      ],
+      "correctIndex": 2,
+      "explanation": "Shanghai: 24+ million people.",
+      "difficulty": 2
+    },
+    {
+      "text": "Japan consists of how many main islands?",
+      "options": [
+        "4",
+        "6",
+        "10",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Honshu, Hokkaido, Kyushu, Shikoku.",
+      "difficulty": 2
+    },
+    {
+      "text": "What language in Brazil?",
+      "options": [
+        "Portuguese",
+        "French",
+        "English",
+        "Spanish"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brazil is only Portuguese-speaking country in Americas.",
+      "difficulty": 2
+    },
+    {
+      "text": "What language in Mexico?",
+      "options": [
+        "Portuguese",
+        "English",
+        "French",
+        "Spanish"
+      ],
+      "correctIndex": 3,
+      "explanation": "Spanish is official language.",
+      "difficulty": 2
+    },
+    {
+      "text": "What language in Canada?",
+      "options": [
+        "English and French",
+        "Only French",
+        "Spanish",
+        "Only English"
+      ],
+      "correctIndex": 0,
+      "explanation": "Canada is bilingual.",
+      "difficulty": 2
+    },
+    {
+      "text": "Switzerland has how many official languages?",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "German, French, Italian, Romansh.",
+      "difficulty": 2
+    },
+    {
+      "text": "Landlocked country?",
+      "options": [
+        "Italy",
+        "Spain",
+        "Switzerland",
+        "France"
+      ],
+      "correctIndex": 2,
+      "explanation": "Landlocked = no ocean coast.",
+      "difficulty": 2
+    },
+    {
+      "text": "Which is NOT landlocked?",
+      "options": [
+        "Switzerland",
+        "France",
+        "Austria",
+        "Czech Republic"
+      ],
+      "correctIndex": 1,
+      "explanation": "France has Mediterranean and Atlantic  coasts.",
+      "difficulty": 2
+    },
+    {
+      "text": "Lowest country?",
+      "options": [
+        "Denmark",
+        "Belgium",
+        "Netherlands",
+        "Poland"
+      ],
+      "correctIndex": 2,
+      "explanation": "26% of Netherlands is below sea level.",
+      "difficulty": 2
+    },
+    {
+      "text": "Highest average elevation?",
+      "options": [
+        "Switzerland",
+        "Nepal",
+        "Bhutan",
+        "Tibet"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bhutan's average elevation is 3,280 m.",
+      "difficulty": 2
+    },
+    {
+      "text": "Driest continent?",
+      "options": [
+        "Asia",
+        "Antarctica",
+        "Africa",
+        "Australia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Antarctica is technically a desert.",
+      "difficulty": 2
+    },
+    {
+      "text": "Theory of Relativity?",
+      "options": [
+        "Hawking",
+        "Albert Einstein",
+        "Galileo",
+        "Isaac Newton"
+      ],
+      "correctIndex": 1,
+      "explanation": "Einstein published relativity 1905-1915.",
+      "difficulty": 2
+    },
+    {
+      "text": "Laws of Motion?",
+      "options": [
+        "Isaac Newton",
+        "Kepler",
+        "Galileo",
+        "Einstein"
+      ],
+      "correctIndex": 0,
+      "explanation": "Newton's three laws of motion.",
+      "difficulty": 2
+    },
+    {
+      "text": "Telescope invention?",
+      "options": [
+        "Galileo Galilei",
+        "Einstein",
+        "Newton",
+        "Copernicus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Galileo improved telescope in 1609.",
+      "difficulty": 2
+    },
+    {
+      "text": "Heliocentric model?",
+      "options": [
+        "Kepler",
+        "Galileo",
+        "Nicolaus Copernicus",
+        "Ptolemy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Copernicus proposed Sun at center.",
+      "difficulty": 2
+    },
+    {
+      "text": "Discovered radioactivity?",
+      "options": [
+        "Bohr",
+        "Marie Curie",
+        "Newton",
+        "Einstein"
+      ],
+      "correctIndex": 1,
+      "explanation": "Curie discovered radium and polonium.",
+      "difficulty": 2
+    },
+    {
+      "text": "Black hole research?",
+      "options": [
+        "Bohr",
+        "Stephen Hawking",
+        "Newton",
+        "Einstein"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hawking radiation and singularities.",
+      "difficulty": 2
+    },
+    {
+      "text": "Atom model?",
+      "options": [
+        "Thomson",
+        "Einstein",
+        "Niels Bohr",
+        "Rutherford"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bohr model of atomic structure.",
+      "difficulty": 2
+    },
+    {
+      "text": "Discovered electron?",
+      "options": [
+        "Planck",
+        "J.J. Thomson",
+        "Rutherford",
+        "Bohr"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thomson discovered electron 1897.",
+      "difficulty": 2
+    },
+    {
+      "text": "Discovered neutron?",
+      "options": [
+        "Thomson",
+        "Rutherford",
+        "James Chadwick",
+        "Bohr"
+      ],
+      "correctIndex": 2,
+      "explanation": "Chadwick discovered neutron 1932.",
+      "difficulty": 2
+    },
+    {
+      "text": "Quantum theory founder?",
+      "options": [
+        "Einstein",
+        "Bohr",
+        "Max Planck",
+        "Heisenberg"
+      ],
+      "correctIndex": 2,
+      "explanation": "Planck introduced quantum concept 1900.",
+      "difficulty": 2
+    },
+    {
+      "text": "Uncertainty principle?",
+      "options": [
+        "Schr\u00f6dinger",
+        "Bohr",
+        "Planck",
+        "Werner Heisenberg"
+      ],
+      "correctIndex": 3,
+      "explanation": "Cannot know position and momentum precisely.",
+      "difficulty": 2
+    },
+    {
+      "text": "Wave-particle duality?",
+      "options": [
+        "Planck",
+        "Bohr",
+        "Louis de Broglie",
+        "Einstein"
+      ],
+      "correctIndex": 2,
+      "explanation": "Particles exhibit wave properties.",
+      "difficulty": 2
+    },
+    {
+      "text": "Discovered penicillin?",
+      "options": [
+        "Koch",
+        "Pasteur",
+        "Curie",
+        "Alexander Fleming"
+      ],
+      "correctIndex": 3,
+      "explanation": "Fleming discovered penicillin 1928.",
+      "difficulty": 2
+    },
+    {
+      "text": "Germ theory?",
+      "options": [
+        "Lister",
+        "Louis Pasteur",
+        "Fleming",
+        "Koch"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pasteur proved microorganisms cause disease.",
+      "difficulty": 2
+    },
+    {
+      "text": "Evolution theory?",
+      "options": [
+        "Mendel",
+        "Wallace",
+        "Charles Darwin",
+        "Lamarck"
+      ],
+      "correctIndex": 2,
+      "explanation": "Darwin's natural selection theory.",
+      "difficulty": 2
+    },
+    {
+      "text": "Table salt formula?",
+      "options": [
+        "MgCl2",
+        "NaCl",
+        "CaCl2",
+        "KCl"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sodium chloride.",
+      "difficulty": 2
+    },
+    {
+      "text": "Baking soda formula?",
+      "options": [
+        "NaHCO3",
+        "Na2CO3",
+        "NaOH",
+        "NaCl"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sodium bicarbonate.",
+      "difficulty": 2
+    },
+    {
+      "text": "Vinegar main component?",
+      "options": [
+        "Acetic acid",
+        "Sulfuric acid",
+        "Citric acid",
+        "Hydrochloric acid"
+      ],
+      "correctIndex": 0,
+      "explanation": "CH3COOH in vinegar.",
+      "difficulty": 2
+    },
+    {
+      "text": "Ammonia formula?",
+      "options": [
+        "N2H4",
+        "NH4",
+        "NH3",
+        "NO2"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nitrogen and hydrogen compound.",
+      "difficulty": 2
+    },
+    {
+      "text": "Methane formula?",
+      "options": [
+        "C2H6",
+        "CH4",
+        "C3H8",
+        "CO2"
+      ],
+      "correctIndex": 1,
+      "explanation": "Simplest hydrocarbon.",
+      "difficulty": 2
+    },
+    {
+      "text": "Ozone formula?",
+      "options": [
+        "O3",
+        "O2",
+        "O4",
+        "H2O2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Three oxygen atoms.",
+      "difficulty": 2
+    },
+    {
+      "text": "Hydrogen peroxide?",
+      "options": [
+        "H3O",
+        "H2O",
+        "HO2",
+        "H2O2"
+      ],
+      "correctIndex": 3,
+      "explanation": "Used as disinfectant.",
+      "difficulty": 2
+    },
+    {
+      "text": "Sulfuric acid formula?",
+      "options": [
+        "H2SO4",
+        "HNO3",
+        "HCl",
+        "H3PO4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Strong acid, battery acid.",
+      "difficulty": 2
+    },
+    {
+      "text": "Hydrochloric acid?",
+      "options": [
+        "HCl",
+        "H3PO4",
+        "HNO3",
+        "H2SO4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stomach acid.",
+      "difficulty": 2
+    },
+    {
+      "text": "Nitric acid formula?",
+      "options": [
+        "H3PO4",
+        "HCl",
+        "H2SO4",
+        "HNO3"
+      ],
+      "correctIndex": 3,
+      "explanation": "Strong oxidizing acid.",
+      "difficulty": 2
+    },
+    {
+      "text": "Glucose formula?",
+      "options": [
+        "C2H6O",
+        "CH4",
+        "C6H12O6",
+        "C12H22O11"
+      ],
+      "correctIndex": 2,
+      "explanation": "Blood sugar molecule.",
+      "difficulty": 2
+    },
+    {
+      "text": "Sucrose formula?",
+      "options": [
+        "CH4",
+        "C2H6O",
+        "C6H12O6",
+        "C12H22O11"
+      ],
+      "correctIndex": 3,
+      "explanation": "Table sugar.",
+      "difficulty": 2
+    },
+    {
+      "text": "Ethanol formula?",
+      "options": [
+        "C3H8",
+        "CH4",
+        "C6H12O6",
+        "C2H6O"
+      ],
+      "correctIndex": 3,
+      "explanation": "Alcohol in beverages.",
+      "difficulty": 2
+    },
+    {
+      "text": "Carbon dioxide uses?",
+      "options": [
+        "Cleaning",
+        "Breathing",
+        "Photosynthesis, fire extinguisher",
+        "Burning"
+      ],
+      "correctIndex": 2,
+      "explanation": "CO2 is plant food.",
+      "difficulty": 2
+    }
+  ],
+  "l3": [
+    {
+      "text": "Gravitational constant G?",
+      "options": [
+        "6.674 \u00d7 10\u207b\u00b9\u00b2",
+        "6.674 \u00d7 10\u207b\u00b9\u00b9 N\u00b7m\u00b2/kg\u00b2",
+        "6.674 \u00d7 10\u207b\u00b9\u2070",
+        "1.0 \u00d7 10\u207b\u00b9\u00b9"
+      ],
+      "correctIndex": 1,
+      "explanation": "Universal gravitation constant.",
+      "difficulty": 3
+    },
+    {
+      "text": "Fine structure constant \u03b1?",
+      "options": [
+        "~1/200",
+        "~1/100",
+        "~1/137",
+        "~1/50"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electromagnetic coupling constant.",
+      "difficulty": 3
+    },
+    {
+      "text": "Boltzmann constant?",
+      "options": [
+        "1.381 \u00d7 10\u207b\u00b2\u2074",
+        "1.381 \u00d7 10\u207b\u00b2\u00b3 J/K",
+        "1.0 \u00d7 10\u207b\u00b2\u00b3",
+        "1.381 \u00d7 10\u207b\u00b2\u00b2"
+      ],
+      "correctIndex": 1,
+      "explanation": "Links temperature to energy.",
+      "difficulty": 3
+    },
+    {
+      "text": "Gas constant R?",
+      "options": [
+        "10.0 J/(mol\u00b7K)",
+        "8.314 J/mol",
+        "8.314 J/K",
+        "8.314 J/(mol\u00b7K)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Universal gas constant.",
+      "difficulty": 3
+    },
+    {
+      "text": "Stefan-Boltzmann constant?",
+      "options": [
+        "5.670 \u00d7 10\u207b\u2077",
+        "5.670 \u00d7 10\u207b\u2078 W/(m\u00b2\u00b7K\u2074)",
+        "5.670 \u00d7 10\u207b\u2079",
+        "1.0 \u00d7 10\u207b\u2078"
+      ],
+      "correctIndex": 1,
+      "explanation": "Blackbody radiation.",
+      "difficulty": 3
+    },
+    {
+      "text": "Rydberg constant?",
+      "options": [
+        "1.097 \u00d7 10\u2077 m\u207b\u00b9",
+        "1.097 \u00d7 10\u2078",
+        "1.0 \u00d7 10\u2077",
+        "1.097 \u00d7 10\u2076"
+      ],
+      "correctIndex": 0,
+      "explanation": "Atomic spectra.",
+      "difficulty": 3
+    },
+    {
+      "text": "Vacuum permittivity \u03b5\u2080?",
+      "options": [
+        "8.854 \u00d7 10\u207b\u00b9\u00b2 F/m",
+        "1.0 \u00d7 10\u207b\u00b9\u00b2",
+        "8.854 \u00d7 10\u207b\u00b9\u00b9",
+        "8.854 \u00d7 10\u207b\u00b9\u00b3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electric constant.",
+      "difficulty": 3
+    },
+    {
+      "text": "Vacuum permeability \u03bc\u2080?",
+      "options": [
+        "1.0 \u00d7 10\u207b\u2077",
+        "4\u03c0 \u00d7 10\u207b\u2076",
+        "4\u03c0 \u00d7 10\u207b\u2077 H/m",
+        "4\u03c0 \u00d7 10\u207b\u2078"
+      ],
+      "correctIndex": 2,
+      "explanation": "Magnetic constant.",
+      "difficulty": 3
+    },
+    {
+      "text": "Impedance of free space?",
+      "options": [
+        "300 \u03a9",
+        "377 \u03a9",
+        "400 \u03a9",
+        "500 \u03a9"
+      ],
+      "correctIndex": 1,
+      "explanation": "Z\u2080 = \u221a(\u03bc\u2080/\u03b5\u2080).",
+      "difficulty": 3
+    },
+    {
+      "text": "Faraday constant F?",
+      "options": [
+        "96,485 N/mol",
+        "96,485 C/mol",
+        "100,000 C/mol",
+        "96,485 J/mol"
+      ],
+      "correctIndex": 1,
+      "explanation": "Charge per mole of electrons.",
+      "difficulty": 3
+    },
+    {
+      "text": "Value of \u03c0 (pi)?",
+      "options": [
+        "2.30258...",
+        "2.71828...",
+        "3.14159...",
+        "1.61803..."
+      ],
+      "correctIndex": 2,
+      "explanation": "Circumference/diameter ratio.",
+      "difficulty": 3
+    },
+    {
+      "text": "Value of e (Euler's number)?",
+      "options": [
+        "3.14159...",
+        "1.61803...",
+        "2.71828...",
+        "1.41421..."
+      ],
+      "correctIndex": 2,
+      "explanation": "Base of natural logarithm.",
+      "difficulty": 3
+    },
+    {
+      "text": "Golden ratio \u03c6?",
+      "options": [
+        "2.71828...",
+        "1.61803...",
+        "1.41421...",
+        "3.14159..."
+      ],
+      "correctIndex": 1,
+      "explanation": "\u03c6 = (1+\u221a5)/2.",
+      "difficulty": 3
+    },
+    {
+      "text": "\u221a2 (square root of 2)?",
+      "options": [
+        "2.0",
+        "1.41421...",
+        "1.61803...",
+        "1.73205..."
+      ],
+      "correctIndex": 1,
+      "explanation": "Diagonal of unit square.",
+      "difficulty": 3
+    },
+    {
+      "text": "\u221a3 (square root of 3)?",
+      "options": [
+        "1.41421...",
+        "2.0",
+        "1.61803...",
+        "1.73205..."
+      ],
+      "correctIndex": 3,
+      "explanation": "Height of equilateral triangle.",
+      "difficulty": 3
+    },
+    {
+      "text": "Natural log of 10?",
+      "options": [
+        "3.14159...",
+        "2.30258...",
+        "1.0",
+        "2.71828..."
+      ],
+      "correctIndex": 1,
+      "explanation": "ln(10) \u2248 2.303.",
+      "difficulty": 3
+    },
+    {
+      "text": "Euler-Mascheroni constant \u03b3?",
+      "options": [
+        "0.57721...",
+        "1.61803...",
+        "1.0",
+        "0.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Limit involving harmonic series.",
+      "difficulty": 3
+    },
+    {
+      "text": "Ap\u00e9ry's constant \u03b6(3)?",
+      "options": [
+        "1.20205...",
+        "3.0",
+        "1.0",
+        "2.0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sum of cubes of reciprocals.",
+      "difficulty": 3
+    },
+    {
+      "text": "Catalan's constant?",
+      "options": [
+        "1.5",
+        "1.0",
+        "0.91596...",
+        "0.5"
+      ],
+      "correctIndex": 2,
+      "explanation": "Combinatorics constant.",
+      "difficulty": 3
+    },
+    {
+      "text": "Feigenbaum constant \u03b4?",
+      "options": [
+        "3.14159...",
+        "4.66920...",
+        "1.61803...",
+        "2.71828..."
+      ],
+      "correctIndex": 1,
+      "explanation": "Chaos theory.",
+      "difficulty": 3
+    },
+    {
+      "text": "Electronegativity scale?",
+      "options": [
+        "pH scale",
+        "Kelvin scale",
+        "Pauling scale",
+        "Mohs scale"
+      ],
+      "correctIndex": 2,
+      "explanation": "Measures atom's electron attraction.",
+      "difficulty": 3
+    },
+    {
+      "text": "Most electronegative element?",
+      "options": [
+        "Chlorine",
+        "Oxygen",
+        "Nitrogen",
+        "Fluorine"
+      ],
+      "correctIndex": 3,
+      "explanation": "F has highest electronegativity.",
+      "difficulty": 3
+    },
+    {
+      "text": "Noble gas configuration?",
+      "options": [
+        "Full outer shell",
+        "Seven electrons",
+        "Empty outer shell",
+        "One electron"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stable electron arrangement.",
+      "difficulty": 3
+    },
+    {
+      "text": "Hund's rule?",
+      "options": [
+        "Pair all electrons",
+        "Fill lowest first",
+        "Maximize unpaired electrons",
+        "Minimize energy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Orbital filling rule.",
+      "difficulty": 3
+    },
+    {
+      "text": "Pauli exclusion principle?",
+      "options": [
+        "No two electrons same quantum state",
+        "Energy minimized",
+        "Orbitals fill sequentially",
+        "Electrons pair up"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quantum mechanics rule.",
+      "difficulty": 3
+    },
+    {
+      "text": "Aufbau principle?",
+      "options": [
+        "Fill lowest energy orbitals first",
+        "Pair electrons",
+        "Random filling",
+        "Fill highest first"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electron configuration rule.",
+      "difficulty": 3
+    },
+    {
+      "text": "Oxidation state of O in H2O?",
+      "options": [
+        "+2",
+        "0",
+        "-2",
+        "-1"
+      ],
+      "correctIndex": 2,
+      "explanation": "Oxygen usually -2.",
+      "difficulty": 3
+    },
+    {
+      "text": "Oxidation state of H in H2O?",
+      "options": [
+        "0",
+        "+1",
+        "-1",
+        "+2"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hydrogen usually +1.",
+      "difficulty": 3
+    },
+    {
+      "text": "Valence electrons in Carbon?",
+      "options": [
+        "6",
+        "8",
+        "2",
+        "4"
+      ],
+      "correctIndex": 3,
+      "explanation": "Carbon has 4 valence electrons.",
+      "difficulty": 3
+    },
+    {
+      "text": "Valence electrons in Nitrogen?",
+      "options": [
+        "3",
+        "8",
+        "5",
+        "7"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nitrogen has 5 valence electrons.",
+      "difficulty": 3
+    },
+    {
+      "text": "Valence electrons in Oxygen?",
+      "options": [
+        "4",
+        "2",
+        "8",
+        "6"
+      ],
+      "correctIndex": 3,
+      "explanation": "Oxygen has 6 valence electrons.",
+      "difficulty": 3
+    },
+    {
+      "text": "Octet rule?",
+      "options": [
+        "Atoms want 10 electrons",
+        "Atoms want 2 electrons",
+        "Atoms want 16 electrons",
+        "Atoms want 8 valence electrons"
+      ],
+      "correctIndex": 3,
+      "explanation": "Stability through full shell.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is hybridization?",
+      "options": [
+        "Forming ions",
+        "Electron transfer",
+        "Breaking bonds",
+        "Mixing atomic orbitals"
+      ],
+      "correctIndex": 3,
+      "explanation": "sp, sp\u00b2, sp\u00b3 hybrids.",
+      "difficulty": 3
+    },
+    {
+      "text": "sp\u00b3 hybridization geometry?",
+      "options": [
+        "Trigonal",
+        "Linear",
+        "Octahedral",
+        "Tetrahedral"
+      ],
+      "correctIndex": 3,
+      "explanation": "4 bonds, 109.5\u00b0 angles.",
+      "difficulty": 3
+    },
+    {
+      "text": "sp\u00b2 hybridization geometry?",
+      "options": [
+        "Tetrahedral",
+        "Trigonal planar",
+        "Octahedral",
+        "Linear"
+      ],
+      "correctIndex": 1,
+      "explanation": "3 bonds, 120\u00b0 angles.",
+      "difficulty": 3
+    },
+    {
+      "text": "sp hybridization geometry?",
+      "options": [
+        "Trigonal",
+        "Tetrahedral",
+        "Linear",
+        "Bent"
+      ],
+      "correctIndex": 2,
+      "explanation": "2 bonds, 180\u00b0 angle.",
+      "difficulty": 3
+    },
+    {
+      "text": "VSEPR theory predicts?",
+      "options": [
+        "Melting point",
+        "Electron configuration",
+        "Molecular geometry",
+        "Bond strength"
+      ],
+      "correctIndex": 2,
+      "explanation": "Valence shell electron pair repulsion.",
+      "difficulty": 3
+    },
+    {
+      "text": "London dispersion forces?",
+      "options": [
+        "Strongest force",
+        "Ionic bond",
+        "Weakest intermolecular force",
+        "Covalent bond"
+      ],
+      "correctIndex": 2,
+      "explanation": "Van der Waals forces.",
+      "difficulty": 3
+    },
+    {
+      "text": "Hydrogen bonding occurs with?",
+      "options": [
+        "All elements",
+        "Metals only",
+        "C, H, S",
+        "F, O, N"
+      ],
+      "correctIndex": 3,
+      "explanation": "Highly electronegative atoms.",
+      "difficulty": 3
+    },
+    {
+      "text": "Dipole-dipole forces?",
+      "options": [
+        "In metals",
+        "Between nonpolar molecules",
+        "Within molecules",
+        "Between polar molecules"
+      ],
+      "correctIndex": 3,
+      "explanation": "Permanent dipole interaction.",
+      "difficulty": 3
+    },
+    {
+      "text": "Ionic bond forms between?",
+      "options": [
+        "Two nonmetals",
+        "Noble gases",
+        "Two metals",
+        "Metal and nonmetal"
+      ],
+      "correctIndex": 3,
+      "explanation": "Electron transfer.",
+      "difficulty": 3
+    },
+    {
+      "text": "Covalent bond forms between?",
+      "options": [
+        "Noble gases",
+        "Metal and nonmetal",
+        "Metals",
+        "Nonmetals"
+      ],
+      "correctIndex": 3,
+      "explanation": "Electron sharing.",
+      "difficulty": 3
+    },
+    {
+      "text": "Metallic bond features?",
+      "options": [
+        "Electron transfer",
+        "Sea of delocalized electrons",
+        "No electrons",
+        "Electron sharing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Explains conductivity.",
+      "difficulty": 3
+    },
+    {
+      "text": "Lewis structure shows?",
+      "options": [
+        "All electrons",
+        "Energy levels",
+        "Nucleus",
+        "Valence electrons and bonds"
+      ],
+      "correctIndex": 3,
+      "explanation": "Dot diagram.",
+      "difficulty": 3
+    },
+    {
+      "text": "Formal charge formula?",
+      "options": [
+        "V + N - B",
+        "V - N + B",
+        "V - N - B/2",
+        "V + N + B"
+      ],
+      "correctIndex": 2,
+      "explanation": "V=valence, N=nonbonding, B=bonding.",
+      "difficulty": 3
+    },
+    {
+      "text": "Mohs hardness of diamond?",
+      "options": [
+        "8",
+        "10",
+        "5",
+        "12"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hardest natural material.",
+      "difficulty": 3
+    },
+    {
+      "text": "Mohs hardness of talc?",
+      "options": [
+        "2",
+        "5",
+        "10",
+        "1"
+      ],
+      "correctIndex": 3,
+      "explanation": "Softest mineral on Mohs scale.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is igneous rock?",
+      "options": [
+        "Formed from cooled magma",
+        "Organic material",
+        "Sedimentary layers",
+        "Metamorphic transformation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volcanic origin.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is sedimentary rock?",
+      "options": [
+        "Metamorphic transformation",
+        "Cooled magma",
+        "Formed from compressed sediments",
+        "Crystallized minerals"
+      ],
+      "correctIndex": 2,
+      "explanation": "Layered structure.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is metamorphic rock?",
+      "options": [
+        "Cooled magma",
+        "Transformed by heat/pressure",
+        "Compressed sediments",
+        "Organic deposits"
+      ],
+      "correctIndex": 1,
+      "explanation": "Changed form.",
+      "difficulty": 3
+    },
+    {
+      "text": "Example of igneous rock?",
+      "options": [
+        "Granite",
+        "Limestone",
+        "Marble",
+        "Sandstone"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cooled magma rock.",
+      "difficulty": 3
+    },
+    {
+      "text": "Example of sedimentary rock?",
+      "options": [
+        "Basalt",
+        "Limestone",
+        "Granite",
+        "Marble"
+      ],
+      "correctIndex": 1,
+      "explanation": "Compressed shells/sediments.",
+      "difficulty": 3
+    },
+    {
+      "text": "Example of metamorphic rock?",
+      "options": [
+        "Granite",
+        "Limestone",
+        "Marble",
+        "Sandstone"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metamorphosed limestone.",
+      "difficulty": 3
+    },
+    {
+      "text": "Earth's core composition?",
+      "options": [
+        "Aluminum",
+        "Silicon",
+        "Iron and nickel",
+        "Carbon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Metallic core.",
+      "difficulty": 3
+    },
+    {
+      "text": "Earth's mantle composition?",
+      "options": [
+        "Water",
+        "Carbon",
+        "Iron",
+        "Silicate rocks"
+      ],
+      "correctIndex": 3,
+      "explanation": "Rocky mantle.",
+      "difficulty": 3
+    },
+    {
+      "text": "Earth's crust composition?",
+      "options": [
+        "Oxygen and silicon",
+        "Iron",
+        "Nitrogen",
+        "Carbon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Silicate minerals.",
+      "difficulty": 3
+    },
+    {
+      "text": "Continental crust vs oceanic?",
+      "options": [
+        "No difference",
+        "Continental is thicker",
+        "Oceanic is thicker",
+        "Same thickness"
+      ],
+      "correctIndex": 1,
+      "explanation": "Continental 30-70km, oceanic 5-10km.",
+      "difficulty": 3
+    },
+    {
+      "text": "What causes earthquakes?",
+      "options": [
+        "Meteor impacts",
+        "Plate movement",
+        "Ocean currents",
+        "Volcanic eruptions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tectonic stress release.",
+      "difficulty": 3
+    },
+    {
+      "text": "What causes volcanoes?",
+      "options": [
+        "Sedimentation",
+        "Magma reaching surface",
+        "Erosion",
+        "Earthquake"
+      ],
+      "correctIndex": 1,
+      "explanation": "Molten rock eruption.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is magma vs lava?",
+      "options": [
+        "Lava underground",
+        "Magma hotter",
+        "Magma underground, lava surface",
+        "Same thing"
+      ],
+      "correctIndex": 2,
+      "explanation": "Location difference.",
+      "difficulty": 3
+    },
+    {
+      "text": "Ring of Fire location?",
+      "options": [
+        "Pacific Ocean rim",
+        "Atlantic",
+        "Indian Ocean",
+        "Arctic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volcanic belt.",
+      "difficulty": 3
+    },
+    {
+      "text": "Most active volcano?",
+      "options": [
+        "Kilauea",
+        "Vesuvius",
+        "Fuji",
+        "Etna"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hawaii volcano.",
+      "difficulty": 3
+    },
+    {
+      "text": "Pompeii destroyed by?",
+      "options": [
+        "Krakatoa",
+        "Etna",
+        "St Helens",
+        "Mount Vesuvius"
+      ],
+      "correctIndex": 3,
+      "explanation": "AD 79 eruption.",
+      "difficulty": 3
+    },
+    {
+      "text": "Krakatoa eruption year?",
+      "options": [
+        "1683",
+        "1983",
+        "1783",
+        "1883"
+      ],
+      "correctIndex": 3,
+      "explanation": "Massive Indonesian eruption.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is tsunami?",
+      "options": [
+        "Ocean wave from underwater disturbance",
+        "Tidal wave",
+        "Storm surge",
+        "Rip current"
+      ],
+      "correctIndex": 0,
+      "explanation": "Often earthquake-caused.",
+      "difficulty": 3
+    },
+    {
+      "text": "Largest recorded earthquake?",
+      "options": [
+        "9.5 magnitude",
+        "10.0",
+        "8.0",
+        "12.0"
+      ],
+      "correctIndex": 0,
+      "explanation": "1960 Chile earthquake.",
+      "difficulty": 3
+    },
+    {
+      "text": "Richter vs moment magnitude?",
+      "options": [
+        "Moment magnitude more accurate for large quakes",
+        "Same thing",
+        "Richter better",
+        "Richter for small quakes only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modern measurement.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is epicenter?",
+      "options": [
+        "Surface point above earthquake focus",
+        "Deepest point",
+        "Underground earthquake origin",
+        "Volcano crater"
+      ],
+      "correctIndex": 0,
+      "explanation": "Directly above focus.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is focus/hypocenter?",
+      "options": [
+        "Surface point",
+        "Underground earthquake origin",
+        "Volcano",
+        "Fault line"
+      ],
+      "correctIndex": 1,
+      "explanation": "Where rupture starts.",
+      "difficulty": 3
+    }
+  ]
+}

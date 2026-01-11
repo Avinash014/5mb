@@ -1,0 +1,3489 @@
+{
+  "batch_name": "Geography",
+  "l1": [
+    {
+      "text": "What is the capital of France?",
+      "options": [
+        "Tokyo",
+        "Rome",
+        "Paris",
+        "Madrid"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of France is Paris.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Germany?",
+      "options": [
+        "Rome",
+        "Berlin",
+        "Tokyo",
+        "Madrid"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Germany is Berlin.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Italy?",
+      "options": [
+        "Paris",
+        "Rome",
+        "Berlin",
+        "London"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Italy is Rome.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Spain?",
+      "options": [
+        "Madrid",
+        "Berlin",
+        "London",
+        "Paris"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Spain is Madrid.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of UK?",
+      "options": [
+        "London",
+        "Madrid",
+        "Rome",
+        "Tokyo"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of UK is London.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Japan?",
+      "options": [
+        "Tokyo",
+        "Paris",
+        "London",
+        "Berlin"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Japan is Tokyo.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of China?",
+      "options": [
+        "London",
+        "Berlin",
+        "Paris",
+        "Beijing"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of China is Beijing.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of India?",
+      "options": [
+        "Berlin",
+        "Paris",
+        "London",
+        "New Delhi"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of India is New Delhi.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of USA?",
+      "options": [
+        "Paris",
+        "Berlin",
+        "Washington D.C.",
+        "London"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of USA is Washington D.C..",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Canada?",
+      "options": [
+        "London",
+        "Paris",
+        "Ottawa",
+        "Berlin"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Canada is Ottawa.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Russia?",
+      "options": [
+        "Paris",
+        "Berlin",
+        "London",
+        "Moscow"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Russia is Moscow.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Brazil?",
+      "options": [
+        "London",
+        "Paris",
+        "Brasilia",
+        "Berlin"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Brazil is Brasilia.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Australia?",
+      "options": [
+        "Paris",
+        "London",
+        "Berlin",
+        "Canberra"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Australia is Canberra.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Egypt?",
+      "options": [
+        "London",
+        "Paris",
+        "Cairo",
+        "Berlin"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Egypt is Cairo.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Mexico?",
+      "options": [
+        "Paris",
+        "London",
+        "Berlin",
+        "Mexico City"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Mexico is Mexico City.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Thailand?",
+      "options": [
+        "London",
+        "Bangkok",
+        "Berlin",
+        "Paris"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Thailand is Bangkok.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Greece?",
+      "options": [
+        "London",
+        "Berlin",
+        "Athens",
+        "Paris"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Greece is Athens.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Turkey?",
+      "options": [
+        "Paris",
+        "Berlin",
+        "London",
+        "Ankara"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Turkey is Ankara.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of South Korea?",
+      "options": [
+        "Berlin",
+        "Paris",
+        "London",
+        "Seoul"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of South Korea is Seoul.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Argentina?",
+      "options": [
+        "Berlin",
+        "Paris",
+        "London",
+        "Buenos Aires"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Argentina is Buenos Aires.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Sweden?",
+      "options": [
+        "Paris",
+        "Stockholm",
+        "Berlin",
+        "London"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Sweden is Stockholm.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Norway?",
+      "options": [
+        "Oslo",
+        "Paris",
+        "London",
+        "Berlin"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Norway is Oslo.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Netherlands?",
+      "options": [
+        "Amsterdam",
+        "Berlin",
+        "London",
+        "Paris"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Netherlands is Amsterdam.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Switzerland?",
+      "options": [
+        "Paris",
+        "London",
+        "Bern",
+        "Berlin"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Switzerland is Bern.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Portugal?",
+      "options": [
+        "Paris",
+        "London",
+        "Lisbon",
+        "Berlin"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Portugal is Lisbon.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Ireland?",
+      "options": [
+        "London",
+        "Dublin",
+        "Berlin",
+        "Paris"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Ireland is Dublin.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of New Zealand?",
+      "options": [
+        "London",
+        "Wellington",
+        "Paris",
+        "Berlin"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of New Zealand is Wellington.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of South Africa?",
+      "options": [
+        "Paris",
+        "Berlin",
+        "Pretoria",
+        "London"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of South Africa is Pretoria.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Austria?",
+      "options": [
+        "London",
+        "Paris",
+        "Vienna",
+        "Berlin"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Austria is Vienna.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Belgium?",
+      "options": [
+        "London",
+        "Brussels",
+        "Berlin",
+        "Paris"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Belgium is Brussels.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Denmark?",
+      "options": [
+        "Paris",
+        "Copenhagen",
+        "Berlin",
+        "London"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Denmark is Copenhagen.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Finland?",
+      "options": [
+        "Helsinki",
+        "Paris",
+        "London",
+        "Berlin"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Finland is Helsinki.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Poland?",
+      "options": [
+        "Paris",
+        "Berlin",
+        "London",
+        "Warsaw"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Poland is Warsaw.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Hungary?",
+      "options": [
+        "Budapest",
+        "Paris",
+        "London",
+        "Berlin"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Hungary is Budapest.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Czech Republic?",
+      "options": [
+        "Berlin",
+        "Paris",
+        "London",
+        "Prague"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Czech Republic is Prague.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Vietnam?",
+      "options": [
+        "London",
+        "Berlin",
+        "Hanoi",
+        "Paris"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Vietnam is Hanoi.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Indonesia?",
+      "options": [
+        "Paris",
+        "Jakarta",
+        "Berlin",
+        "London"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Indonesia is Jakarta.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Malaysia?",
+      "options": [
+        "Berlin",
+        "London",
+        "Paris",
+        "Kuala Lumpur"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Malaysia is Kuala Lumpur.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Philippines?",
+      "options": [
+        "London",
+        "Berlin",
+        "Paris",
+        "Manila"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Philippines is Manila.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Singapore?",
+      "options": [
+        "London",
+        "Berlin",
+        "Paris",
+        "Singapore"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Singapore is Singapore.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Saudi Arabia?",
+      "options": [
+        "London",
+        "Berlin",
+        "Paris",
+        "Riyadh"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Saudi Arabia is Riyadh.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of UAE?",
+      "options": [
+        "Berlin",
+        "Paris",
+        "Abu Dhabi",
+        "London"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of UAE is Abu Dhabi.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Israel?",
+      "options": [
+        "Paris",
+        "Jerusalem",
+        "London",
+        "Berlin"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Israel is Jerusalem.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Iran?",
+      "options": [
+        "Tehran",
+        "London",
+        "Berlin",
+        "Paris"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Iran is Tehran.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Iraq?",
+      "options": [
+        "London",
+        "Paris",
+        "Berlin",
+        "Baghdad"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Iraq is Baghdad.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Pakistan?",
+      "options": [
+        "Paris",
+        "London",
+        "Berlin",
+        "Islamabad"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Pakistan is Islamabad.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Kenya?",
+      "options": [
+        "London",
+        "Berlin",
+        "Paris",
+        "Nairobi"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Kenya is Nairobi.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Nigeria?",
+      "options": [
+        "Paris",
+        "Abuja",
+        "London",
+        "Berlin"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Nigeria is Abuja.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Chile?",
+      "options": [
+        "London",
+        "Santiago",
+        "Berlin",
+        "Paris"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Chile is Santiago.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the capital of Colombia?",
+      "options": [
+        "Bogota",
+        "London",
+        "Berlin",
+        "Paris"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Colombia is Bogota.",
+      "difficulty": 1
+    },
+    {
+      "text": "Longest river in the world?",
+      "options": [
+        "Mississippi",
+        "Amazon",
+        "Nile",
+        "Yangtze"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Nile is 6,650 km long.",
+      "difficulty": 1
+    },
+    {
+      "text": "Second longest river?",
+      "options": [
+        "Yangtze",
+        "Mississippi",
+        "Nile",
+        "Amazon"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Amazon is 6,400 km long.",
+      "difficulty": 1
+    },
+    {
+      "text": "Tallest mountain?",
+      "options": [
+        "Mount Everest",
+        "K2",
+        "Kilimanjaro",
+        "Denali"
+      ],
+      "correctIndex": 0,
+      "explanation": "Everest is 8,849 meters tall.",
+      "difficulty": 1
+    },
+    {
+      "text": "Largest ocean?",
+      "options": [
+        "Arctic",
+        "Pacific",
+        "Indian",
+        "Atlantic"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pacific covers 165 million km\u00b2.",
+      "difficulty": 1
+    },
+    {
+      "text": "Smallest ocean?",
+      "options": [
+        "Arctic",
+        "Indian",
+        "Southern",
+        "Atlantic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Arctic is 14 million km\u00b2.",
+      "difficulty": 1
+    },
+    {
+      "text": "Largest desert?",
+      "options": [
+        "Gobi",
+        "Arabian",
+        "Kalahari",
+        "Sahara"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sahara covers 9 million km\u00b2.",
+      "difficulty": 1
+    },
+    {
+      "text": "Largest country by area?",
+      "options": [
+        "Canada",
+        "China",
+        "USA",
+        "Russia"
+      ],
+      "correctIndex": 3,
+      "explanation": "Russia is 17.1 million km\u00b2.",
+      "difficulty": 1
+    },
+    {
+      "text": "Smallest country?",
+      "options": [
+        "Monaco",
+        "San Marino",
+        "Nauru",
+        "Vatican City"
+      ],
+      "correctIndex": 3,
+      "explanation": "Vatican is 0.44 km\u00b2.",
+      "difficulty": 1
+    },
+    {
+      "text": "Most populated country?",
+      "options": [
+        "USA",
+        "Indonesia",
+        "China",
+        "India"
+      ],
+      "correctIndex": 3,
+      "explanation": "India has 1.4+ billion.",
+      "difficulty": 1
+    },
+    {
+      "text": "Deepest ocean point?",
+      "options": [
+        "Puerto Rico Trench",
+        "Java Trench",
+        "Mariana Trench",
+        "Tonga Trench"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mariana is 11,034 m deep.",
+      "difficulty": 1
+    },
+    {
+      "text": "Largest continent?",
+      "options": [
+        "Americas",
+        "Asia",
+        "Europe",
+        "Africa"
+      ],
+      "correctIndex": 1,
+      "explanation": "Asia is 44.58 million km\u00b2.",
+      "difficulty": 1
+    },
+    {
+      "text": "Smallest continent?",
+      "options": [
+        "Europe",
+        "South America",
+        "Antarctica",
+        "Australia"
+      ],
+      "correctIndex": 3,
+      "explanation": "Australia is smallest.",
+      "difficulty": 1
+    },
+    {
+      "text": "How many continents?",
+      "options": [
+        "8",
+        "5",
+        "7",
+        "6"
+      ],
+      "correctIndex": 2,
+      "explanation": "7: Asia, Africa, NA, SA, Antarctica, Europe, Australia.",
+      "difficulty": 1
+    },
+    {
+      "text": "Largest island?",
+      "options": [
+        "Greenland",
+        "Madagascar",
+        "Borneo",
+        "New Guinea"
+      ],
+      "correctIndex": 0,
+      "explanation": "Greenland is 2.17 million km\u00b2.",
+      "difficulty": 1
+    },
+    {
+      "text": "Highest waterfall?",
+      "options": [
+        "Victoria",
+        "Angel Falls",
+        "Niagara",
+        "Iguazu"
+      ],
+      "correctIndex": 1,
+      "explanation": "Angel Falls is 979 m in Venezuela.",
+      "difficulty": 1
+    },
+    {
+      "text": "Largest lake?",
+      "options": [
+        "Superior",
+        "Baikal",
+        "Victoria",
+        "Caspian Sea"
+      ],
+      "correctIndex": 3,
+      "explanation": "Caspian is 371,000 km\u00b2.",
+      "difficulty": 1
+    },
+    {
+      "text": "Deepest lake?",
+      "options": [
+        "Caspian",
+        "Superior",
+        "Lake Baikal",
+        "Tanganyika"
+      ],
+      "correctIndex": 2,
+      "explanation": "Baikal is 1,642 m deep.",
+      "difficulty": 1
+    },
+    {
+      "text": "Longest mountain range?",
+      "options": [
+        "Andes",
+        "Alps",
+        "Himalayas",
+        "Rockies"
+      ],
+      "correctIndex": 0,
+      "explanation": "Andes is 7,000 km long.",
+      "difficulty": 1
+    },
+    {
+      "text": "Where is Sahara Desert?",
+      "options": [
+        "Asia",
+        "Australia",
+        "South America",
+        "Africa"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sahara is in North Africa.",
+      "difficulty": 1
+    },
+    {
+      "text": "Where is Amazon Rainforest?",
+      "options": [
+        "Australia",
+        "Africa",
+        "South America",
+        "Asia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Amazon is in Brazil.",
+      "difficulty": 1
+    },
+    {
+      "text": "Which continent is Egypt in?",
+      "options": [
+        "Asia",
+        "Europe",
+        "Africa",
+        "South America"
+      ],
+      "correctIndex": 2,
+      "explanation": "Egypt is in northeastern Africa.",
+      "difficulty": 1
+    },
+    {
+      "text": "Which continent is Brazil in?",
+      "options": [
+        "Asia",
+        "Africa",
+        "North America",
+        "South America"
+      ],
+      "correctIndex": 3,
+      "explanation": "Brazil is in South America.",
+      "difficulty": 1
+    },
+    {
+      "text": "Which continent is Japan in?",
+      "options": [
+        "Asia",
+        "Africa",
+        "Europe",
+        "Oceania"
+      ],
+      "correctIndex": 0,
+      "explanation": "Japan is an island nation in East Asia.",
+      "difficulty": 1
+    },
+    {
+      "text": "Which continent is France in?",
+      "options": [
+        "North America",
+        "Europe",
+        "Asia",
+        "Africa"
+      ],
+      "correctIndex": 1,
+      "explanation": "France is in Western Europe.",
+      "difficulty": 1
+    },
+    {
+      "text": "Where is the Great Wall?",
+      "options": [
+        "China",
+        "Korea",
+        "Japan",
+        "Mongolia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Great Wall is in China.",
+      "difficulty": 1
+    },
+    {
+      "text": "Where is the Eiffel Tower?",
+      "options": [
+        "London",
+        "Rome",
+        "Paris",
+        "Berlin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eiffel Tower is in Paris, France.",
+      "difficulty": 1
+    },
+    {
+      "text": "Where is the Taj Mahal?",
+      "options": [
+        "Nepal",
+        "Pakistan",
+        "India",
+        "Bangladesh"
+      ],
+      "correctIndex": 2,
+      "explanation": "Taj Mahal is in Agra, India.",
+      "difficulty": 1
+    },
+    {
+      "text": "Where is the Colosseum?",
+      "options": [
+        "Paris",
+        "Athens",
+        "Madrid",
+        "Rome"
+      ],
+      "correctIndex": 3,
+      "explanation": "Colosseum is in Rome, Italy.",
+      "difficulty": 1
+    },
+    {
+      "text": "Where are the Pyramids?",
+      "options": [
+        "Egypt",
+        "Libya",
+        "Morocco",
+        "Sudan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pyramids are near Cairo, Egypt.",
+      "difficulty": 1
+    },
+    {
+      "text": "Where is Big Ben?",
+      "options": [
+        "Paris",
+        "London",
+        "Dublin",
+        "Berlin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Big Ben is in London, UK.",
+      "difficulty": 1
+    },
+    {
+      "text": "Where is Statue of Liberty?",
+      "options": [
+        "Washington",
+        "Boston",
+        "New York",
+        "Chicago"
+      ],
+      "correctIndex": 2,
+      "explanation": "Statue of Liberty is in New York Harbor.",
+      "difficulty": 1
+    },
+    {
+      "text": "Where is Sydney Opera House?",
+      "options": [
+        "Malaysia",
+        "Australia",
+        "Singapore",
+        "New Zealand"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sydney Opera House is in Australia.",
+      "difficulty": 1
+    },
+    {
+      "text": "Mount Kilimanjaro is in?",
+      "options": [
+        "Tanzania",
+        "Ethiopia",
+        "Uganda",
+        "Kenya"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kilimanjaro is in Tanzania.",
+      "difficulty": 1
+    },
+    {
+      "text": "Niagara Falls is between?",
+      "options": [
+        "USA and Cuba",
+        "USA and Canada",
+        "Canada and Mexico",
+        "USA and Mexico"
+      ],
+      "correctIndex": 1,
+      "explanation": "Niagara Falls borders USA and Canada.",
+      "difficulty": 1
+    },
+    {
+      "text": "Sahara Desert spans how many countries?",
+      "options": [
+        "15",
+        "5",
+        "11",
+        "8"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sahara spans 11 African countries.",
+      "difficulty": 1
+    },
+    {
+      "text": "Which ocean is Hawaii in?",
+      "options": [
+        "Indian",
+        "Arctic",
+        "Pacific",
+        "Atlantic"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hawaii is in the Pacific Ocean.",
+      "difficulty": 1
+    },
+    {
+      "text": "Amazon River flows through?",
+      "options": [
+        "Venezuel a",
+        "Brazil",
+        "Argentina",
+        "Peru"
+      ],
+      "correctIndex": 1,
+      "explanation": "Amazon mainly flows through Brazil.",
+      "difficulty": 1
+    },
+    {
+      "text": "Ganges River is sacred in?",
+      "options": [
+        "China",
+        "Thailand",
+        "Japan",
+        "India"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ganges is sacred in Hinduism.",
+      "difficulty": 1
+    },
+    {
+      "text": "Nile River flows through?",
+      "options": [
+        "Sudan only",
+        "Morocco",
+        "Libya",
+        "Egypt"
+      ],
+      "correctIndex": 3,
+      "explanation": "Nile flows through Egypt.",
+      "difficulty": 1
+    },
+    {
+      "text": "Great Barrier Reef is in?",
+      "options": [
+        "Philippines",
+        "Australia",
+        "Indonesia",
+        "New Zealand"
+      ],
+      "correctIndex": 1,
+      "explanation": "Great Barrier Reef is off Australia's coast.",
+      "difficulty": 1
+    }
+  ],
+  "l2": [
+    {
+      "text": "What is the capital of Ukraine?",
+      "options": [
+        "Tokyo",
+        "London",
+        "Paris",
+        "Kyiv"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Ukraine is Kyiv.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Romania?",
+      "options": [
+        "London",
+        "Paris",
+        "Bucharest",
+        "Tokyo"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Romania is Bucharest.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Bulgaria?",
+      "options": [
+        "Tokyo",
+        "London",
+        "Sofia",
+        "Paris"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Bulgaria is Sofia.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Serbia?",
+      "options": [
+        "Tokyo",
+        "Belgrade",
+        "London",
+        "Paris"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Serbia is Belgrade.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Croatia?",
+      "options": [
+        "Tokyo",
+        "Zagreb",
+        "Paris",
+        "London"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Croatia is Zagreb.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Slovakia?",
+      "options": [
+        "Paris",
+        "Tokyo",
+        "Bratislava",
+        "London"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Slovakia is Bratislava.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Slovenia?",
+      "options": [
+        "London",
+        "Ljubljana",
+        "Paris",
+        "Tokyo"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Slovenia is Ljubljana.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Estonia?",
+      "options": [
+        "Paris",
+        "Tokyo",
+        "London",
+        "Tallinn"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Estonia is Tallinn.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Latvia?",
+      "options": [
+        "London",
+        "Paris",
+        "Tokyo",
+        "Riga"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Latvia is Riga.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Lithuania?",
+      "options": [
+        "Paris",
+        "Vilnius",
+        "Tokyo",
+        "London"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Lithuania is Vilnius.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Belarus?",
+      "options": [
+        "Paris",
+        "Minsk",
+        "Tokyo",
+        "London"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Belarus is Minsk.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Iceland?",
+      "options": [
+        "Reykjavik",
+        "Paris",
+        "London",
+        "Tokyo"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Iceland is Reykjavik.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Morocco?",
+      "options": [
+        "Tokyo",
+        "London",
+        "Rabat",
+        "Paris"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Morocco is Rabat.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Algeria?",
+      "options": [
+        "Paris",
+        "Tokyo",
+        "London",
+        "Algiers"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Algeria is Algiers.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Tunisia?",
+      "options": [
+        "London",
+        "Tunis",
+        "Paris",
+        "Tokyo"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Tunisia is Tunis.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Libya?",
+      "options": [
+        "London",
+        "Tokyo",
+        "Tripoli",
+        "Paris"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Libya is Tripoli.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Ethiopia?",
+      "options": [
+        "London",
+        "Paris",
+        "Tokyo",
+        "Addis Ababa"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Ethiopia is Addis Ababa.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Ghana?",
+      "options": [
+        "London",
+        "Paris",
+        "Accra",
+        "Tokyo"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Ghana is Accra.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Senegal?",
+      "options": [
+        "Paris",
+        "Tokyo",
+        "Dakar",
+        "London"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Senegal is Dakar.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Kenya?",
+      "options": [
+        "Paris",
+        "Nairobi",
+        "London",
+        "Tokyo"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Kenya is Nairobi.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Venezuela?",
+      "options": [
+        "Tokyo",
+        "London",
+        "Paris",
+        "Caracas"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Venezuela is Caracas.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Ecuador?",
+      "options": [
+        "Quito",
+        "Paris",
+        "London",
+        "Tokyo"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Ecuador is Quito.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Bolivia?",
+      "options": [
+        "Paris",
+        "Tokyo",
+        "London",
+        "La Paz"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Bolivia is La Paz.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Paraguay?",
+      "options": [
+        "Asuncion",
+        "Tokyo",
+        "London",
+        "Paris"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Paraguay is Asuncion.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Uruguay?",
+      "options": [
+        "Montevideo",
+        "London",
+        "Paris",
+        "Tokyo"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Uruguay is Montevideo.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Panama?",
+      "options": [
+        "London",
+        "Tokyo",
+        "Panama City",
+        "Paris"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Panama is Panama City.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Costa Rica?",
+      "options": [
+        "London",
+        "San Jose",
+        "Tokyo",
+        "Paris"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Costa Rica is San Jose.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Jamaica?",
+      "options": [
+        "Tokyo",
+        "London",
+        "Kingston",
+        "Paris"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Jamaica is Kingston.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Bangladesh?",
+      "options": [
+        "Dhaka",
+        "Tokyo",
+        "Paris",
+        "London"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Bangladesh is Dhaka.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Sri Lanka?",
+      "options": [
+        "Paris",
+        "Tokyo",
+        "Colombo",
+        "London"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Sri Lanka is Colombo.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Nepal?",
+      "options": [
+        "Tokyo",
+        "Paris",
+        "Kathmandu",
+        "London"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Nepal is Kathmandu.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Cambodia?",
+      "options": [
+        "Phnom Penh",
+        "London",
+        "Paris",
+        "Tokyo"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Cambodia is Phnom Penh.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Laos?",
+      "options": [
+        "Tokyo",
+        "Paris",
+        "Vientiane",
+        "London"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Laos is Vientiane.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Myanmar?",
+      "options": [
+        "Naypyidaw",
+        "London",
+        "Paris",
+        "Tokyo"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Myanmar is Naypyidaw.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Afghanistan?",
+      "options": [
+        "Paris",
+        "London",
+        "Kabul",
+        "Tokyo"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Afghanistan is Kabul.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Uzbekistan?",
+      "options": [
+        "London",
+        "Tokyo",
+        "Tashkent",
+        "Paris"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Uzbekistan is Tashkent.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Kazakhstan?",
+      "options": [
+        "Astana",
+        "London",
+        "Tokyo",
+        "Paris"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Kazakhstan is Astana.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Mongolia?",
+      "options": [
+        "Ulaanbaatar",
+        "Paris",
+        "London",
+        "Tokyo"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Mongolia is Ulaanbaatar.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Taiwan?",
+      "options": [
+        "Paris",
+        "Taipei",
+        "Tokyo",
+        "London"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Taiwan is Taipei.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of North Korea?",
+      "options": [
+        "Tokyo",
+        "Pyongyang",
+        "London",
+        "Paris"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of North Korea is Pyongyang.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Syria?",
+      "options": [
+        "Paris",
+        "London",
+        "Damascus",
+        "Tokyo"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Syria is Damascus.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Jordan?",
+      "options": [
+        "Paris",
+        "Tokyo",
+        "London",
+        "Amman"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Jordan is Amman.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Lebanon?",
+      "options": [
+        "Paris",
+        "Beirut",
+        "London",
+        "Tokyo"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Lebanon is Beirut.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Oman?",
+      "options": [
+        "Tokyo",
+        "Muscat",
+        "London",
+        "Paris"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Oman is Muscat.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Yemen?",
+      "options": [
+        "Tokyo",
+        "London",
+        "Sanaa",
+        "Paris"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Yemen is Sanaa.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Qatar?",
+      "options": [
+        "Tokyo",
+        "Doha",
+        "London",
+        "Paris"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Qatar is Doha.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Kuwait?",
+      "options": [
+        "London",
+        "Paris",
+        "Kuwait City",
+        "Tokyo"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Kuwait is Kuwait City.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Bahrain?",
+      "options": [
+        "Manama",
+        "Tokyo",
+        "Paris",
+        "London"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Bahrain is Manama.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Peru?",
+      "options": [
+        "Lima",
+        "Paris",
+        "London",
+        "Tokyo"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Peru is Lima.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Cuba?",
+      "options": [
+        "Paris",
+        "Havana",
+        "Tokyo",
+        "London"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Cuba is Havana.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Fiji?",
+      "options": [
+        "London",
+        "Tokyo",
+        "Paris",
+        "Suva"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Fiji is Suva.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Papua New Guinea?",
+      "options": [
+        "London",
+        "Paris",
+        "Tokyo",
+        "Port Moresby"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Papua New Guinea is Port Moresby.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Zimbabwe?",
+      "options": [
+        "Harare",
+        "Tokyo",
+        "Paris",
+        "London"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Zimbabwe is Harare.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Zambia?",
+      "options": [
+        "Paris",
+        "Tokyo",
+        "Lusaka",
+        "London"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Zambia is Lusaka.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Uganda?",
+      "options": [
+        "Paris",
+        "Kampala",
+        "Tokyo",
+        "London"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Uganda is Kampala.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Tanzania?",
+      "options": [
+        "Paris",
+        "Tokyo",
+        "Dodoma",
+        "London"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Tanzania is Dodoma.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Cameroon?",
+      "options": [
+        "Yaounde",
+        "Paris",
+        "Tokyo",
+        "London"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Cameroon is Yaounde.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Angola?",
+      "options": [
+        "Paris",
+        "London",
+        "Tokyo",
+        "Luanda"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Angola is Luanda.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Somalia?",
+      "options": [
+        "Tokyo",
+        "Paris",
+        "London",
+        "Mogadishu"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Somalia is Mogadishu.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the capital of Sudan?",
+      "options": [
+        "Khartoum",
+        "Tokyo",
+        "London",
+        "Paris"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Sudan is Khartoum.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is Earth's diameter?",
+      "options": [
+        "20,000 km",
+        "12,742 km",
+        "10,000 km",
+        "15,000 km"
+      ],
+      "correctIndex": 1,
+      "explanation": "Earth's equatorial diameter is 12,742 km.",
+      "difficulty": 2
+    },
+    {
+      "text": "Distance from Earth to Sun?",
+      "options": [
+        "200 million km",
+        "50 million km",
+        "100 million km",
+        "150 million km"
+      ],
+      "correctIndex": 3,
+      "explanation": "Average distance is 149.6 million km (1 AU).",
+      "difficulty": 2
+    },
+    {
+      "text": "What percentage of Earth is water?",
+      "options": [
+        "71%",
+        "50%",
+        "60%",
+        "80%"
+      ],
+      "correctIndex": 0,
+      "explanation": "About 71% of Earth's surface is water.",
+      "difficulty": 2
+    },
+    {
+      "text": "Largest island in Mediterranean?",
+      "options": [
+        "Sicily",
+        "Crete",
+        "Sardinia",
+        "Cyprus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sicily is the largest Mediterranean island.",
+      "difficulty": 2
+    },
+    {
+      "text": "Longest river in Europe?",
+      "options": [
+        "Thames",
+        "Volga",
+        "Rhine",
+        "Danube"
+      ],
+      "correctIndex": 1,
+      "explanation": "Volga is 3,692 km long.",
+      "difficulty": 2
+    },
+    {
+      "text": "Highest mountain in Africa?",
+      "options": [
+        "Atlas",
+        "Drakensberg",
+        "Mount Kenya",
+        "Kilimanjaro"
+      ],
+      "correctIndex": 3,
+      "explanation": "Kilimanjaro is 5,895 m.",
+      "difficulty": 2
+    },
+    {
+      "text": "Largest country in Africa?",
+      "options": [
+        "Sudan",
+        "Algeria",
+        "Libya",
+        "Congo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Algeria is 2.38 million km\u00b2.",
+      "difficulty": 2
+    },
+    {
+      "text": "Smallest country in Asia?",
+      "options": [
+        "Singapore",
+        "Maldives",
+        "Brunei",
+        "Bahrain"
+      ],
+      "correctIndex": 1,
+      "explanation": "Maldives is 298 km\u00b2.",
+      "difficulty": 2
+    },
+    {
+      "text": "Largest country in South America?",
+      "options": [
+        "Colombia",
+        "Peru",
+        "Argentina",
+        "Brazil"
+      ],
+      "correctIndex": 3,
+      "explanation": "Brazil is 8.5 million km\u00b2.",
+      "difficulty": 2
+    },
+    {
+      "text": "Capital of Australia?",
+      "options": [
+        "Brisbane",
+        "Canberra",
+        "Sydney",
+        "Melbourne"
+      ],
+      "correctIndex": 1,
+      "explanation": "Canberra is the capital, not Sydney.",
+      "difficulty": 2
+    },
+    {
+      "text": "Capital of Canada?",
+      "options": [
+        "Vancouver",
+        "Ottawa",
+        "Montreal",
+        "Toronto"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ottawa is the capital, not Toronto.",
+      "difficulty": 2
+    },
+    {
+      "text": "Capital of Switzerland?",
+      "options": [
+        "Geneva",
+        "Bern",
+        "Basel",
+        "Zurich"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bern is the capital, not Zurich.",
+      "difficulty": 2
+    },
+    {
+      "text": "What sea is between Europe and Africa?",
+      "options": [
+        "Black Sea",
+        "Red Sea",
+        "Adriatic",
+        "Mediterranean"
+      ],
+      "correctIndex": 3,
+      "explanation": "Mediterranean separates Europe and Africa.",
+      "difficulty": 2
+    },
+    {
+      "text": "Panama Canal connects?",
+      "options": [
+        "Atlantic and Pacific",
+        "Atlantic and Indian",
+        "Indian and Pacific",
+        "Arctic and Atlantic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Panama Canal links Atlantic and Pacific oceans.",
+      "difficulty": 2
+    },
+    {
+      "text": "Suez Canal is in?",
+      "options": [
+        "Egypt",
+        "Saudi Arabia",
+        "Iran",
+        "UAE"
+      ],
+      "correctIndex": 0,
+      "explanation": "Suez Canal is in Egypt.",
+      "difficulty": 2
+    },
+    {
+      "text": "Where is the Dead Sea?",
+      "options": [
+        "Syria",
+        "Jordan/Israel",
+        "Egypt",
+        "Lebanon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dead Sea borders Jordan and Israel.",
+      "difficulty": 2
+    },
+    {
+      "text": "Largest gulf in the world?",
+      "options": [
+        "Gulf of Thailand",
+        "Hudson Bay",
+        "Persian Gulf",
+        "Gulf of Mexico"
+      ],
+      "correctIndex": 3,
+      "explanation": "Gulf of Mexico is the largest.",
+      "difficulty": 2
+    },
+    {
+      "text": "Ring of Fire is in?",
+      "options": [
+        "Indian",
+        "Pacific Ocean",
+        "Atlantic",
+        "Arctic"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ring of Fire is a Pacific volcanic belt.",
+      "difficulty": 2
+    },
+    {
+      "text": "Where is Patagonia?",
+      "options": [
+        "Bolivia",
+        "Argentina/Chile",
+        "Peru",
+        "Brazil"
+      ],
+      "correctIndex": 1,
+      "explanation": "Patagonia is in southern Argentina and Chile.",
+      "difficulty": 2
+    },
+    {
+      "text": "Where is Siberia?",
+      "options": [
+        "Kazakhstan",
+        "Mongolia",
+        "Russia",
+        "China"
+      ],
+      "correctIndex": 2,
+      "explanation": "Siberia is in northern Russia.",
+      "difficulty": 2
+    },
+    {
+      "text": "Strait of Gibraltar connects?",
+      "options": [
+        "Red Sea and Mediterranean",
+        "Atlantic and Pacific",
+        "Indian and Pacific",
+        "Atlantic and Mediterranean"
+      ],
+      "correctIndex": 3,
+      "explanation": "Gibraltar links Atlantic and Mediterranean.",
+      "difficulty": 2
+    },
+    {
+      "text": "Where is the Gobi Desert?",
+      "options": [
+        "Kazakhstan",
+        "India",
+        "Mongolia/China",
+        "Australia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gobi is in Mongolia and China.",
+      "difficulty": 2
+    },
+    {
+      "text": "Where is Atacama Desert?",
+      "options": [
+        "Peru",
+        "Chile",
+        "Bolivia",
+        "Argentina"
+      ],
+      "correctIndex": 1,
+      "explanation": "Atacama is in northern Chile.",
+      "difficulty": 2
+    },
+    {
+      "text": "Where is Kalahari Desert?",
+      "options": [
+        "Asia",
+        "Australia",
+        "North Africa",
+        "Southern Africa"
+      ],
+      "correctIndex": 3,
+      "explanation": "Kalahari is in Botswana, Namibia, South Africa.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is a fjord?",
+      "options": [
+        "Desert",
+        "Mountain",
+        "Narrow inlet",
+        "Forest"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fjords are narrow sea inlets formed by glaciers.",
+      "difficulty": 2
+    },
+    {
+      "text": "Where are most fjords?",
+      "options": [
+        "Alaska",
+        "Norway",
+        "Iceland",
+        "Canada"
+      ],
+      "correctIndex": 1,
+      "explanation": "Norway is famous for its fjords.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the Equator latitude?",
+      "options": [
+        "23.5 degrees",
+        "45 degrees",
+        "90 degrees",
+        "0 degrees"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Equator is at 0\u00b0 latitude.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is the Prime Meridian longitude?",
+      "options": [
+        "0 degrees",
+        "45 degrees",
+        "180 degrees",
+        "90 degrees"
+      ],
+      "correctIndex": 0,
+      "explanation": "Prime Meridian is at 0\u00b0 longitude through Greenwich.",
+      "difficulty": 2
+    },
+    {
+      "text": "How many time zones on Earth?",
+      "options": [
+        "12",
+        "36",
+        "48",
+        "24"
+      ],
+      "correctIndex": 3,
+      "explanation": "There are 24 standard time zones.",
+      "difficulty": 2
+    },
+    {
+      "text": "Tropic of Cancer latitude?",
+      "options": [
+        "0\u00b0",
+        "66.5\u00b0N",
+        "45\u00b0N",
+        "23.5\u00b0N"
+      ],
+      "correctIndex": 3,
+      "explanation": "Tropic of Cancer is at 23.5\u00b0N.",
+      "difficulty": 2
+    },
+    {
+      "text": "Tropic of Capricorn latitude?",
+      "options": [
+        "0\u00b0",
+        "45\u00b0S",
+        "66.5\u00b0S",
+        "23.5\u00b0S"
+      ],
+      "correctIndex": 3,
+      "explanation": "Tropic of Capricorn is at 23.5\u00b0S.",
+      "difficulty": 2
+    },
+    {
+      "text": "Arctic Circle latitude?",
+      "options": [
+        "90\u00b0N",
+        "23.5\u00b0N",
+        "66.5\u00b0N",
+        "45\u00b0N"
+      ],
+      "correctIndex": 2,
+      "explanation": "Arctic Circle is at 66.5\u00b0N.",
+      "difficulty": 2
+    },
+    {
+      "text": "Antarctic Circle latitude?",
+      "options": [
+        "90\u00b0S",
+        "45\u00b0S",
+        "23.5\u00b0S",
+        "66.5\u00b0S"
+      ],
+      "correctIndex": 3,
+      "explanation": "Antarctic Circle is at 66.5\u00b0S.",
+      "difficulty": 2
+    },
+    {
+      "text": "International Date Line follows?",
+      "options": [
+        "0\u00b0 meridian",
+        "90\u00b0 meridian",
+        "180\u00b0 meridian",
+        "45\u00b0 meridian"
+      ],
+      "correctIndex": 2,
+      "explanation": "Date Line roughly follows 180\u00b0 longitude.",
+      "difficulty": 2
+    },
+    {
+      "text": "Highest capital city?",
+      "options": [
+        "La Paz",
+        "Bogota",
+        "Quito",
+        "Addis Ababa"
+      ],
+      "correctIndex": 0,
+      "explanation": "La Paz, Bolivia is at 3,640 m elevation.",
+      "difficulty": 2
+    },
+    {
+      "text": "Lowest point on land?",
+      "options": [
+        "Dead Sea",
+        "Caspian Sea",
+        "Salton Sea",
+        "Death Valley"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dead Sea shore is 430 m below sea level.",
+      "difficulty": 2
+    },
+    {
+      "text": "Largest bay in the world?",
+      "options": [
+        "Baffin Bay",
+        "Hudson Bay",
+        "Bay of Bengal",
+        "Gulf of Mexico"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bay of Bengal is the largest bay.",
+      "difficulty": 2
+    },
+    {
+      "text": "Where is the Grand Canyon?",
+      "options": [
+        "Nevada",
+        "Arizona, USA",
+        "Utah",
+        "California"
+      ],
+      "correctIndex": 1,
+      "explanation": "Grand Canyon is in Arizona.",
+      "difficulty": 2
+    },
+    {
+      "text": "Where is Victoria Falls?",
+      "options": [
+        "Zambia/Zimbabwe",
+        "Kenya",
+        "South Africa",
+        "Tanzania"
+      ],
+      "correctIndex": 0,
+      "explanation": "Victoria Falls is on Zambezi River.",
+      "difficulty": 2
+    },
+    {
+      "text": "Where is Iguazu Falls?",
+      "options": [
+        "Venezuela",
+        "Uruguay",
+        "Argentina/Brazil",
+        "Paraguay"
+      ],
+      "correctIndex": 2,
+      "explanation": "Iguazu Falls borders Argentina and Brazil.",
+      "difficulty": 2
+    }
+  ],
+  "l3": [
+    {
+      "text": "What is the capital of Liechtenstein?",
+      "options": [
+        "Vaduz",
+        "London",
+        "Rome",
+        "Paris"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Liechtenstein is Vaduz.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Bhutan?",
+      "options": [
+        "Thimphu",
+        "Paris",
+        "London",
+        "Rome"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Bhutan is Thimphu.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Maldives?",
+      "options": [
+        "Rome",
+        "London",
+        "Paris",
+        "Male"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Maldives is Male.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Brunei?",
+      "options": [
+        "Rome",
+        "Bandar Seri Begawan",
+        "Paris",
+        "London"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Brunei is Bandar Seri Begawan.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Kyrgyzstan?",
+      "options": [
+        "Rome",
+        "Bishkek",
+        "London",
+        "Paris"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Kyrgyzstan is Bishkek.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Tajikistan?",
+      "options": [
+        "Paris",
+        "London",
+        "Dushanbe",
+        "Rome"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Tajikistan is Dushanbe.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Turkmenistan?",
+      "options": [
+        "Rome",
+        "Ashgabat",
+        "London",
+        "Paris"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Turkmenistan is Ashgabat.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Azerbaijan?",
+      "options": [
+        "London",
+        "Paris",
+        "Rome",
+        "Baku"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Azerbaijan is Baku.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Armenia?",
+      "options": [
+        "Rome",
+        "Paris",
+        "London",
+        "Yerevan"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Armenia is Yerevan.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Georgia?",
+      "options": [
+        "Rome",
+        "London",
+        "Tbilisi",
+        "Paris"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Georgia is Tbilisi.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Moldova?",
+      "options": [
+        "London",
+        "Chisinau",
+        "Rome",
+        "Paris"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Moldova is Chisinau.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Malta?",
+      "options": [
+        "Rome",
+        "Paris",
+        "Valletta",
+        "London"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Malta is Valletta.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Cyprus?",
+      "options": [
+        "London",
+        "Rome",
+        "Paris",
+        "Nicosia"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Cyprus is Nicosia.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Andorra?",
+      "options": [
+        "Rome",
+        "Paris",
+        "London",
+        "Andorra la Vella"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Andorra is Andorra la Vella.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of San Marino?",
+      "options": [
+        "Rome",
+        "Paris",
+        "San Marino",
+        "London"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of San Marino is San Marino.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Monaco?",
+      "options": [
+        "Rome",
+        "Paris",
+        "Monaco",
+        "London"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Monaco is Monaco.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Luxembourg?",
+      "options": [
+        "Rome",
+        "Luxembourg",
+        "London",
+        "Paris"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Luxembourg is Luxembourg.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Montenegro?",
+      "options": [
+        "London",
+        "Podgorica",
+        "Paris",
+        "Rome"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Montenegro is Podgorica.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Kosovo?",
+      "options": [
+        "London",
+        "Paris",
+        "Rome",
+        "Pristina"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Kosovo is Pristina.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Macedonia?",
+      "options": [
+        "Paris",
+        "Rome",
+        "London",
+        "Skopje"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Macedonia is Skopje.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Albania?",
+      "options": [
+        "London",
+        "Tirana",
+        "Paris",
+        "Rome"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Albania is Tirana.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Bosnia?",
+      "options": [
+        "Paris",
+        "Rome",
+        "Sarajevo",
+        "London"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Bosnia is Sarajevo.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Eritrea?",
+      "options": [
+        "Asmara",
+        "London",
+        "Rome",
+        "Paris"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Eritrea is Asmara.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Djibouti?",
+      "options": [
+        "London",
+        "Rome",
+        "Paris",
+        "Djibouti"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Djibouti is Djibouti.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Rwanda?",
+      "options": [
+        "Paris",
+        "Kigali",
+        "London",
+        "Rome"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Rwanda is Kigali.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Burundi?",
+      "options": [
+        "Gitega",
+        "London",
+        "Rome",
+        "Paris"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Burundi is Gitega.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Madagascar?",
+      "options": [
+        "London",
+        "Paris",
+        "Rome",
+        "Antananarivo"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Madagascar is Antananarivo.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Mauritius?",
+      "options": [
+        "Rome",
+        "Paris",
+        "London",
+        "Port Louis"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Mauritius is Port Louis.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Seychelles?",
+      "options": [
+        "Rome",
+        "Victoria",
+        "Paris",
+        "London"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Seychelles is Victoria.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Mozambique?",
+      "options": [
+        "Maputo",
+        "Paris",
+        "London",
+        "Rome"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Mozambique is Maputo.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Malawi?",
+      "options": [
+        "London",
+        "Rome",
+        "Paris",
+        "Lilongwe"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Malawi is Lilongwe.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Namibia?",
+      "options": [
+        "Rome",
+        "London",
+        "Paris",
+        "Windhoek"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Namibia is Windhoek.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Botswana?",
+      "options": [
+        "Rome",
+        "Gaborone",
+        "London",
+        "Paris"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Botswana is Gaborone.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Gabon?",
+      "options": [
+        "Paris",
+        "London",
+        "Rome",
+        "Libreville"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Gabon is Libreville.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Congo?",
+      "options": [
+        "Paris",
+        "Brazzaville",
+        "Rome",
+        "London"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Congo is Brazzaville.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Central African Rep?",
+      "options": [
+        "Paris",
+        "Rome",
+        "Bangui",
+        "London"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Central African Rep is Bangui.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Chad?",
+      "options": [
+        "Paris",
+        "Rome",
+        "N'Djamena",
+        "London"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Chad is N'Djamena.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Niger?",
+      "options": [
+        "Rome",
+        "Niamey",
+        "London",
+        "Paris"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Niger is Niamey.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Burkina Faso?",
+      "options": [
+        "London",
+        "Rome",
+        "Paris",
+        "Ouagadougou"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Burkina Faso is Ouagadougou.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Mali?",
+      "options": [
+        "Bamako",
+        "Rome",
+        "Paris",
+        "London"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Mali is Bamako.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Mauritania?",
+      "options": [
+        "Nouakchott",
+        "Rome",
+        "London",
+        "Paris"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Mauritania is Nouakchott.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Benin?",
+      "options": [
+        "London",
+        "Paris",
+        "Rome",
+        "Porto-Novo"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Benin is Porto-Novo.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Togo?",
+      "options": [
+        "London",
+        "Lome",
+        "Rome",
+        "Paris"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Togo is Lome.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Sierra Leone?",
+      "options": [
+        "Paris",
+        "Rome",
+        "London",
+        "Freetown"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Sierra Leone is Freetown.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Liberia?",
+      "options": [
+        "Rome",
+        "Paris",
+        "Monrovia",
+        "London"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Liberia is Monrovia.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Guinea?",
+      "options": [
+        "Paris",
+        "London",
+        "Rome",
+        "Conakry"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Guinea is Conakry.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Equatorial Guinea?",
+      "options": [
+        "London",
+        "Rome",
+        "Malabo",
+        "Paris"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capital of Equatorial Guinea is Malabo.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Sao Tome?",
+      "options": [
+        "Paris",
+        "Rome",
+        "London",
+        "Sao Tome"
+      ],
+      "correctIndex": 3,
+      "explanation": "The capital of Sao Tome is Sao Tome.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Cape Verde?",
+      "options": [
+        "Praia",
+        "Paris",
+        "Rome",
+        "London"
+      ],
+      "correctIndex": 0,
+      "explanation": "The capital of Cape Verde is Praia.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the capital of Comoros?",
+      "options": [
+        "Paris",
+        "Moroni",
+        "London",
+        "Rome"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital of Comoros is Moroni.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the circumference of Earth?",
+      "options": [
+        "30,000 km",
+        "40,075 km",
+        "50,000 km",
+        "20,000 km"
+      ],
+      "correctIndex": 1,
+      "explanation": "Earth's equatorial circumference is 40,075 km.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is Earth's tilt angle?",
+      "options": [
+        "15 degrees",
+        "45 degrees",
+        "30 degrees",
+        "23.5 degrees"
+      ],
+      "correctIndex": 3,
+      "explanation": "Earth's axial tilt is 23.5\u00b0.",
+      "difficulty": 3
+    },
+    {
+      "text": "Speed of Earth's rotation?",
+      "options": [
+        "1,670 km/h",
+        "1,000 km/h",
+        "2,000 km/h",
+        "500 km/h"
+      ],
+      "correctIndex": 0,
+      "explanation": "At equator, Earth rotates at 1,670 km/h.",
+      "difficulty": 3
+    },
+    {
+      "text": "Earth's orbital speed?",
+      "options": [
+        "150,000 km/h",
+        "50,000 km/h",
+        "200,000 km/h",
+        "107,000 km/h"
+      ],
+      "correctIndex": 3,
+      "explanation": "Earth orbits Sun at ~107,000 km/h.",
+      "difficulty": 3
+    },
+    {
+      "text": "Age of Earth?",
+      "options": [
+        "3 billion years",
+        "5 billion years",
+        "4.54 billion years",
+        "10 billion years"
+      ],
+      "correctIndex": 2,
+      "explanation": "Earth formed 4.54 billion years ago.",
+      "difficulty": 3
+    },
+    {
+      "text": "Deepest cave on Earth?",
+      "options": [
+        "Lamprechtsofen",
+        "Veryovkina Cave",
+        "Illyuzia-Mezhonnogo",
+        "Krubera Cave"
+      ],
+      "correctIndex": 1,
+      "explanation": "Veryovkina in Georgia is 2,212 m deep.",
+      "difficulty": 3
+    },
+    {
+      "text": "Largest volcano by volume?",
+      "options": [
+        "Kilimanjaro",
+        "Mount Fuji",
+        "Vesuvius",
+        "Mauna Loa"
+      ],
+      "correctIndex": 3,
+      "explanation": "Mauna Loa in Hawaii is the largest.",
+      "difficulty": 3
+    },
+    {
+      "text": "Driest place on Earth?",
+      "options": [
+        "Arabian Desert",
+        "Death Valley",
+        "Atacama Desert",
+        "Sahara"
+      ],
+      "correctIndex": 2,
+      "explanation": "Atacama gets < 1 mm rain/year.",
+      "difficulty": 3
+    },
+    {
+      "text": "Wettest place on Earth?",
+      "options": [
+        "Cherrapunji",
+        "Hawaii",
+        "Mawsynram",
+        "Amazon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mawsynram, India gets 11,871 mm rain/year.",
+      "difficulty": 3
+    },
+    {
+      "text": "Hottest temperature recorded?",
+      "options": [
+        "56.7\u00b0C",
+        "60\u00b0C",
+        "70\u00b0C",
+        "50\u00b0C"
+      ],
+      "correctIndex": 0,
+      "explanation": "Recorded in Death Valley, 1913.",
+      "difficulty": 3
+    },
+    {
+      "text": "Coldest temperature recorded?",
+      "options": [
+        "-70\u00b0C",
+        "-89.2\u00b0C",
+        "-100\u00b0C",
+        "-50\u00b0C"
+      ],
+      "correctIndex": 1,
+      "explanation": "Recorded at Vostok Station, Antarctica, 1983.",
+      "difficulty": 3
+    },
+    {
+      "text": "Highest inhabited place?",
+      "options": [
+        "Cusco",
+        "Lhasa",
+        "La Rinconada",
+        "La Paz"
+      ],
+      "correctIndex": 2,
+      "explanation": "La Rinconada, Peru at 5,100 m.",
+      "difficulty": 3
+    },
+    {
+      "text": "Largest crater on Earth?",
+      "options": [
+        "Vredefort Crater",
+        "Popigai",
+        "Sudbury",
+        "Chicxulub"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vredefort in South Africa, 300 km diameter.",
+      "difficulty": 3
+    },
+    {
+      "text": "What percentage of Earth is land?",
+      "options": [
+        "20%",
+        "50%",
+        "40%",
+        "29%"
+      ],
+      "correctIndex": 3,
+      "explanation": "About 29% is land, 71% is water.",
+      "difficulty": 3
+    },
+    {
+      "text": "Which ocean is deepest?",
+      "options": [
+        "Arctic",
+        "Indian",
+        "Atlantic",
+        "Pacific"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pacific has the Mariana Trench.",
+      "difficulty": 3
+    },
+    {
+      "text": "How old are the Himalayas?",
+      "options": [
+        "10 million",
+        "50 million years",
+        "200 million",
+        "100 million"
+      ],
+      "correctIndex": 1,
+      "explanation": "Himalayas formed ~50 million years ago.",
+      "difficulty": 3
+    },
+    {
+      "text": "What causes tides?",
+      "options": [
+        "Moon's gravity",
+        "Wind",
+        "Sun's gravity",
+        "Earth's rotation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moon's gravitational pull causes tides.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is a moraine?",
+      "options": [
+        "Desert",
+        "Mountain",
+        "Glacial deposit",
+        "River"
+      ],
+      "correctIndex": 2,
+      "explanation": "Moraine is debris deposited by glaciers.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is a peninsula?",
+      "options": [
+        "Cape",
+        "Island",
+        "Land surrounded by water on 3 sides",
+        "Isthmus"
+      ],
+      "correctIndex": 2,
+      "explanation": "Peninsula is land jutting into water.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is an isthmus?",
+      "options": [
+        "Peninsula",
+        "Narrow land connecting two larger areas",
+        "Island",
+        "Cape"
+      ],
+      "correctIndex": 1,
+      "explanation": "Isthmus connects two land masses.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is an archipelago?",
+      "options": [
+        "Bay",
+        "Single island",
+        "Group of islands",
+        "Peninsula"
+      ],
+      "correctIndex": 2,
+      "explanation": "Archipelago is a cluster of islands.",
+      "difficulty": 3
+    },
+    {
+      "text": "Largest archipelago?",
+      "options": [
+        "Philippines",
+        "Greece",
+        "Indonesia",
+        "Japan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Indonesia has over 17,000 islands.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the Continental Shelf?",
+      "options": [
+        "Island",
+        "Ocean trench",
+        "Underwater extension of continent",
+        "Mountain range"
+      ],
+      "correctIndex": 2,
+      "explanation": "Continental shelf extends underwater from land.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is bathymetry?",
+      "options": [
+        "Study of mountains",
+        "Study of deserts",
+        "Study of underwater depths",
+        "Study of rivers"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bathymetry maps ocean floor depths.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is topography?",
+      "options": [
+        "Ocean features",
+        "Underground features",
+        "Atmospheric features",
+        "Surface features of land"
+      ],
+      "correctIndex": 3,
+      "explanation": "Topography describes land surface characteristics.",
+      "difficulty": 3
+    },
+    {
+      "text": "What causes earthquakes?",
+      "options": [
+        "Volcanic eruptions",
+        "Tectonic plate movement",
+        "Ocean currents",
+        "Meteor impacts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Earthquakes occur when tectonic plates shift.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the Richter Scale?",
+      "options": [
+        "Altitude",
+        "Pressure",
+        "Earthquake magnitude",
+        "Temperature"
+      ],
+      "correctIndex": 2,
+      "explanation": "Richter scale measures earthquake intensity.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is Pangaea?",
+      "options": [
+        "Mountain range",
+        "Ocean",
+        "Ancient supercontinent",
+        "Desert"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pangaea existed 335-175 million years ago.",
+      "difficulty": 3
+    },
+    {
+      "text": "When did Pangaea break up?",
+      "options": [
+        "50 million",
+        "100 million",
+        "175 million years ago",
+        "500 million"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pangaea began splitting 175 million years ago.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the Moho discontinuity?",
+      "options": [
+        "Crust-mantle boundary",
+        "Atmospheric layer",
+        "Ocean layer",
+        "Core boundary"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moho separates Earth's crust from mantle.",
+      "difficulty": 3
+    },
+    {
+      "text": "How thick is Earth's crust?",
+      "options": [
+        "1-5 km",
+        "100-200 km",
+        "200-500 km",
+        "5-70 km"
+      ],
+      "correctIndex": 3,
+      "explanation": "Oceanic crust: 5-10 km; Continental: 30-70 km.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the asthenosphere?",
+      "options": [
+        "Upper mantle layer",
+        "Core layer",
+        "Crust layer",
+        "Atmospheric layer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Asthenosphere is semi-fluid upper mantle.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is subduction?",
+      "options": [
+        "Plates pulling apart",
+        "Plates sliding past",
+        "Volcanic eruption",
+        "One plate sliding under another"
+      ],
+      "correctIndex": 3,
+      "explanation": "Subduction creates deep ocean trenches.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is a transform boundary?",
+      "options": [
+        "Plates separating",
+        "Plates subducting",
+        "Plates colliding",
+        "Plates sliding horizontally"
+      ],
+      "correctIndex": 3,
+      "explanation": "Transform boundaries cause earthquakes.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is a divergent boundary?",
+      "options": [
+        "Plates subducting",
+        "Plates colliding",
+        "Plates moving apart",
+        "Plates sliding"
+      ],
+      "correctIndex": 2,
+      "explanation": "Divergent boundaries create new crust.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is a convergent boundary?",
+      "options": [
+        "Plates colliding",
+        "Plates sinking",
+        "Plates separating",
+        "Plates sliding"
+      ],
+      "correctIndex": 0,
+      "explanation": "Convergent boundaries form mountains.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the lithosphere?",
+      "options": [
+        "Liquid layer",
+        "Rigid outer layer",
+        "Core",
+        "Gaseous layer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lithosphere includes crust and upper mantle.",
+      "difficulty": 3
+    },
+    {
+      "text": "How many major tectonic plates?",
+      "options": [
+        "7",
+        "10",
+        "15",
+        "5"
+      ],
+      "correctIndex": 0,
+      "explanation": "There are 7 major plates and many minor ones.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is a hot spot?",
+      "options": [
+        "Desert",
+        "Earthquake zone",
+        "Ocean trench",
+        "Volcanic region fed by mantle plume"
+      ],
+      "correctIndex": 3,
+      "explanation": "Hawaii was formed by a hot spot.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is permafrost?",
+      "options": [
+        "Permanently frozen ground",
+        "Snow",
+        "Glacier",
+        "Temporary ice"
+      ],
+      "correctIndex": 0,
+      "explanation": "Permafrost stays frozen year-round.",
+      "difficulty": 3
+    },
+    {
+      "text": "Where is most freshwater?",
+      "options": [
+        "Antarctica ice",
+        "Rivers",
+        "Lakes",
+        "Groundwater"
+      ],
+      "correctIndex": 0,
+      "explanation": "70% of freshwater is in Antarctic ice.",
+      "difficulty": 3
+    },
+    {
+      "text": "What percentage of water is freshwater?",
+      "options": [
+        "50%",
+        "2.5%",
+        "10%",
+        "25%"
+      ],
+      "correctIndex": 1,
+      "explanation": "Only 2.5% of Earth's water is fresh.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is karst topography?",
+      "options": [
+        "Limestone landscape with caves",
+        "Desert landscape",
+        "Volcanic landscape",
+        "Glacial landscape"
+      ],
+      "correctIndex": 0,
+      "explanation": "Karst forms from dissolved limestone.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is a stalactite?",
+      "options": [
+        "Cave wall",
+        "Rises from cave floor",
+        "Underground river",
+        "Hangs from cave ceiling"
+      ],
+      "correctIndex": 3,
+      "explanation": "Stalactite hangs like icicle.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is a stalagmite?",
+      "options": [
+        "Rises from cave floor",
+        "Hangs from ceiling",
+        "Cave wall",
+        "Underground lake"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stalagmite grows upward.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is erosion?",
+      "options": [
+        "Building up of land",
+        "Volcanic activity",
+        "Earthquake",
+        "Wearing away of land"
+      ],
+      "correctIndex": 3,
+      "explanation": "Erosion is caused by wind, water, ice.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is weathering?",
+      "options": [
+        "Melting of rocks",
+        "Transport of rocks",
+        "Formation of rocks",
+        "Breaking down of rocks"
+      ],
+      "correctIndex": 3,
+      "explanation": "Weathering can be physical or chemical.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is sedimentation?",
+      "options": [
+        "Erosion",
+        "Volcanic eruption",
+        "Weathering",
+        "Deposition of particles"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sedimentation builds up layers.",
+      "difficulty": 3
+    },
+    {
+      "text": "What causes monsoons?",
+      "options": [
+        "Seasonal wind patterns",
+        "Volcanic eruptions",
+        "Earthquakes",
+        "Ocean currents"
+      ],
+      "correctIndex": 0,
+      "explanation": "Monsoons bring seasonal heavy rains.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is the Coriolis effect?",
+      "options": [
+        "Tides",
+        "Ocean currents",
+        "Deflection due to Earth's rotation",
+        "Atmospheric pressure"
+      ],
+      "correctIndex": 2,
+      "explanation": "Coriolis affects wind and ocean patterns.",
+      "difficulty": 3
+    }
+  ]
+}

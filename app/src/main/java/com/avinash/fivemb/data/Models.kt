@@ -19,10 +19,12 @@ data class Question(
     val id: String,
     val text: String,
     val options: List<String>,
-    val correctIndex: Int
+    val correctIndex: Int,
+    val difficulty: Int = 1, // 1=Easy, 2=Medium, 3=Hard
+    val explanation: String? = null
 )
 
 data class GameStats(
     val totalScore: Int = 0,
-    val unlockedLevels: Map<String, Int> = mapOf() // CategoryId -> MaxLevel
+    val unlockedLevels: Map<String, Int> = mapOf()
 )

@@ -1,0 +1,1089 @@
+{
+  "batch_name": "Space, Animals, History, Inventions",
+  "l1": [
+    {
+      "text": "Closest planet to Sun?",
+      "options": [
+        "Mercury",
+        "Mars",
+        "Earth",
+        "Venus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mercury is closest at 57.9 million km.",
+      "difficulty": 1
+    },
+    {
+      "text": "Hottest planet?",
+      "options": [
+        "Jupiter",
+        "Venus",
+        "Mercury",
+        "Mars"
+      ],
+      "correctIndex": 1,
+      "explanation": "Venus is hottest due to greenhouse effect.",
+      "difficulty": 1
+    },
+    {
+      "text": "Red planet?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Venus",
+        "Mars"
+      ],
+      "correctIndex": 3,
+      "explanation": "Mars is red due to iron oxide.",
+      "difficulty": 1
+    },
+    {
+      "text": "Largest planet?",
+      "options": [
+        "Jupiter",
+        "Neptune",
+        "Saturn",
+        "Uranus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jupiter is 11\u00d7 Earth's diameter.",
+      "difficulty": 1
+    },
+    {
+      "text": "Planet with rings?",
+      "options": [
+        "Neptune",
+        "Saturn",
+        "Uranus",
+        "Jupiter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Saturn has prominent ring system.",
+      "difficulty": 1
+    },
+    {
+      "text": "Number of planets?",
+      "options": [
+        "10",
+        "9",
+        "8",
+        "7"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune.",
+      "difficulty": 1
+    },
+    {
+      "text": "First man on moon?",
+      "options": [
+        "Yuri Gagarin",
+        "Buzz Aldrin",
+        "John Glenn",
+        "Neil Armstrong"
+      ],
+      "correctIndex": 3,
+      "explanation": "Armstrong landed July 20, 1969.",
+      "difficulty": 1
+    },
+    {
+      "text": "First human in space?",
+      "options": [
+        "Buzz Aldrin",
+        "Neil Armstrong",
+        "Yuri Gagarin",
+        "Alan Shepard"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gagarin orbited Earth April 12, 1961.",
+      "difficulty": 1
+    },
+    {
+      "text": "Year of first moon landing?",
+      "options": [
+        "1968",
+        "1970",
+        "1969",
+        "1971"
+      ],
+      "correctIndex": 2,
+      "explanation": "Apollo 11 landed July 20, 1969.",
+      "difficulty": 1
+    },
+    {
+      "text": "Earth's only natural satellite?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Moon",
+        "Sun"
+      ],
+      "correctIndex": 2,
+      "explanation": "Moon orbits Earth.",
+      "difficulty": 1
+    },
+    {
+      "text": "Star at center of solar system?",
+      "options": [
+        "Polaris",
+        "Jupiter",
+        "Sun",
+        "Earth"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sun contains 99.86% of system's mass.",
+      "difficulty": 1
+    },
+    {
+      "text": "Galaxy containing Earth?",
+      "options": [
+        "Triangulum",
+        "Andromeda",
+        "Whirlpool",
+        "Milky Way"
+      ],
+      "correctIndex": 3,
+      "explanation": "Milky Way is our home galaxy.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is a comet?",
+      "options": [
+        "Gas planet",
+        "Star",
+        "Rocky asteroid",
+        "Icy body that orbits Sun"
+      ],
+      "correctIndex": 3,
+      "explanation": "Comets develop tails near Sun.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is an asteroid?",
+      "options": [
+        "Gas cloud",
+        "Rocky object orbiting Sun",
+        "Icy comet",
+        "Star"
+      ],
+      "correctIndex": 1,
+      "explanation": "Most asteroids are in belt between Mars and Jupiter.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is a meteor?",
+      "options": [
+        "Space rock entering atmosphere",
+        "Star",
+        "Space rock on ground",
+        "Planet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Meteor is 'shooting star'.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is a meteorite?",
+      "options": [
+        "Star",
+        "Meteor that hits ground",
+        "Planet",
+        "Rock in space"
+      ],
+      "correctIndex": 1,
+      "explanation": "Meteorite survived atmospheric entry.",
+      "difficulty": 1
+    },
+    {
+      "text": "Largest moon of Jupiter?",
+      "options": [
+        "Io",
+        "Callisto",
+        "Ganymede",
+        "Europa"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ganymede is larger than Mercury.",
+      "difficulty": 1
+    },
+    {
+      "text": "Largest moon of Saturn?",
+      "options": [
+        "Enceladus",
+        "Rhea",
+        "Iapetus",
+        "Titan"
+      ],
+      "correctIndex": 3,
+      "explanation": "Titan has thick atmosphere.",
+      "difficulty": 1
+    },
+    {
+      "text": "How long does light from Sun take to reach Earth?",
+      "options": [
+        "1 hour",
+        "1 day",
+        "8 minutes",
+        "1 minute"
+      ],
+      "correctIndex": 2,
+      "explanation": "Light travels 150 million km in ~8 min.",
+      "difficulty": 1
+    },
+    {
+      "text": "What causes solar eclipses?",
+      "options": [
+        "Mars blocks Sun",
+        "Earth blocks Sun",
+        "Venus blocks Sun",
+        "Moon blocks Sun"
+      ],
+      "correctIndex": 3,
+      "explanation": "Moon passes between Earth and Sun.",
+      "difficulty": 1
+    },
+    {
+      "text": "What causes lunar eclipses?",
+      "options": [
+        "Sun blocks Earth",
+        "Moon blocks Sun",
+        "Earth blocks sunlight to Moon",
+        "Mars blocks Sun"
+      ],
+      "correctIndex": 2,
+      "explanation": "Earth's shadow falls on Moon.",
+      "difficulty": 1
+    },
+    {
+      "text": "How many moons does Earth have?",
+      "options": [
+        "0",
+        "3",
+        "2",
+        "1"
+      ],
+      "correctIndex": 3,
+      "explanation": "Moon is Earth's only natural satellite.",
+      "difficulty": 1
+    },
+    {
+      "text": "How many moons does Mars have?",
+      "options": [
+        "0",
+        "2",
+        "3",
+        "1"
+      ],
+      "correctIndex": 1,
+      "explanation": "Phobos and Deimos orbit Mars.",
+      "difficulty": 1
+    },
+    {
+      "text": "What is the ISS?",
+      "options": [
+        "Inter-Solar Ship",
+        "Indian Space Station",
+        "International Space Station",
+        "International Satellite System"
+      ],
+      "correctIndex": 2,
+      "explanation": "ISS orbits Earth at 400 km altitude.",
+      "difficulty": 1
+    },
+    {
+      "text": "Black hole definition?",
+      "options": [
+        "Exploding star",
+        "Empty space",
+        "Dark planet",
+        "Region where gravity is so strong light cannot escape"
+      ],
+      "correctIndex": 3,
+      "explanation": "Formed from collapsed massive stars.",
+      "difficulty": 1
+    },
+    {
+      "text": "Fastest land animal?",
+      "options": [
+        "Lion",
+        "Cheetah",
+        "Tiger",
+        "Leopard"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cheetah runs 110 km/h.",
+      "difficulty": 1
+    },
+    {
+      "text": "Largest animal?",
+      "options": [
+        "Giraffe",
+        "Shark",
+        "Blue Whale",
+        "Elephant"
+      ],
+      "correctIndex": 2,
+      "explanation": "Blue whale weighs 200 tons.",
+      "difficulty": 1
+    },
+    {
+      "text": "Tallest animal?",
+      "options": [
+        "Horse",
+        "Elephant",
+        "Camel",
+        "Giraffe"
+      ],
+      "correctIndex": 3,
+      "explanation": "Giraffe reaches 5.5 meters.",
+      "difficulty": 1
+    },
+    {
+      "text": "Largest land animal?",
+      "options": [
+        "Hippo",
+        "African Elephant",
+        "Giraffe",
+        "Rhino"
+      ],
+      "correctIndex": 1,
+      "explanation": "Elephants weigh 6,000 kg.",
+      "difficulty": 1
+    },
+    {
+      "text": "Largest bird?",
+      "options": [
+        "Condor",
+        "Eagle",
+        "Albatross",
+        "Ostrich"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ostrich is 2.8 meters tall.",
+      "difficulty": 1
+    },
+    {
+      "text": "Smallest bird?",
+      "options": [
+        "Sparrow",
+        "Wren",
+        "Finch",
+        "Bee Hummingbird"
+      ],
+      "correctIndex": 3,
+      "explanation": "Bee hummingbird is 5-6 cm.",
+      "difficulty": 1
+    },
+    {
+      "text": "Flightless bird?",
+      "options": [
+        "Sparrow",
+        "Eagle",
+        "Penguin",
+        "Dove"
+      ],
+      "correctIndex": 2,
+      "explanation": "Penguins cannot fly.",
+      "difficulty": 1
+    },
+    {
+      "text": "Largest cat?",
+      "options": [
+        "Lion",
+        "Jaguar",
+        "Tiger",
+        "Leopard"
+      ],
+      "correctIndex": 2,
+      "explanation": "Siberian tiger weighs 300 kg.",
+      "difficulty": 1
+    },
+    {
+      "text": "King of jungle?",
+      "options": [
+        "Lion",
+        "Leopard",
+        "Tiger",
+        "Cheetah"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lion is apex predator.",
+      "difficulty": 1
+    },
+    {
+      "text": "Longest snake?",
+      "options": [
+        "Cobra",
+        "Rattlesnake",
+        "Viper",
+        "Python"
+      ],
+      "correctIndex": 3,
+      "explanation": "Reticulated python reaches 10 meters.",
+      "difficulty": 1
+    },
+    {
+      "text": "Most venomous snake?",
+      "options": [
+        "Rattlesnake",
+        "Black Mamba",
+        "Inland Taipan",
+        "King Cobra"
+      ],
+      "correctIndex": 2,
+      "explanation": "Inland Taipan has deadliest venom.",
+      "difficulty": 1
+    },
+    {
+      "text": "Largest reptile?",
+      "options": [
+        "Alligator",
+        "Saltwater Crocodile",
+        "Python",
+        "Komodo Dragon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Saltwater croc is 6-7 meters.",
+      "difficulty": 1
+    },
+    {
+      "text": "Smartest animal?",
+      "options": [
+        "Dolphin",
+        "Dog",
+        "Cat",
+        "Elephant"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dolphins are highly intelligent.",
+      "difficulty": 1
+    },
+    {
+      "text": "Animal with longest lifespan?",
+      "options": [
+        "Elephant",
+        "Bowhead Whale",
+        "Tortoise",
+        "Parrot"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bowhead whales live 200+ years.",
+      "difficulty": 1
+    },
+    {
+      "text": "Slowest animal?",
+      "options": [
+        "Snail",
+        "Tortoise",
+        "Koala",
+        "Three-toed Sloth"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sloth moves 0.24 km/h.",
+      "difficulty": 1
+    },
+    {
+      "text": "Loudest animal?",
+      "options": [
+        "Lion",
+        "Blue Whale",
+        "Elephant",
+        "Howler Monkey"
+      ],
+      "correctIndex": 1,
+      "explanation": "Blue whale: 188 decibels.",
+      "difficulty": 1
+    },
+    {
+      "text": "How many hearts does an octopus have?",
+      "options": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Octopus has 3 hearts.",
+      "difficulty": 1
+    },
+    {
+      "text": "How many legs does spider have?",
+      "options": [
+        "6",
+        "12",
+        "8",
+        "10"
+      ],
+      "correctIndex": 2,
+      "explanation": "All spiders have 8 legs.",
+      "difficulty": 1
+    },
+    {
+      "text": "How many legs does insect have?",
+      "options": [
+        "10",
+        "8",
+        "4",
+        "6"
+      ],
+      "correctIndex": 3,
+      "explanation": "All insects have 6 legs.",
+      "difficulty": 1
+    },
+    {
+      "text": "Largest fish?",
+      "options": [
+        "Great White",
+        "Blue Whale",
+        "Whale Shark",
+        "Tuna"
+      ],
+      "correctIndex": 2,
+      "explanation": "Whale shark is 18 meters.",
+      "difficulty": 1
+    },
+    {
+      "text": "Telephone inventor?",
+      "options": [
+        "Alexander Graham Bell",
+        "Franklin",
+        "Tesla",
+        "Edison"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bell invented telephone in 1876.",
+      "difficulty": 1
+    },
+    {
+      "text": "Light bulb inventor?",
+      "options": [
+        "Franklin",
+        "Bell",
+        "Thomas Edison",
+        "Tesla"
+      ],
+      "correctIndex": 2,
+      "explanation": "Edison invented practical bulb in 1879.",
+      "difficulty": 1
+    },
+    {
+      "text": "Airplane inventors?",
+      "options": [
+        "Ford",
+        "Bell",
+        "Edison",
+        "Wright Brothers"
+      ],
+      "correctIndex": 3,
+      "explanation": "Wright Brothers flew in 1903.",
+      "difficulty": 1
+    },
+    {
+      "text": "Computer pioneer?",
+      "options": [
+        "Turing",
+        "Jobs",
+        "Charles Babbage",
+        "Gates"
+      ],
+      "correctIndex": 2,
+      "explanation": "Babbage designed first mechanical computer.",
+      "difficulty": 1
+    },
+    {
+      "text": "World Wide Web creator?",
+      "options": [
+        "Zuckerberg",
+        "Gates",
+        "Jobs",
+        "Tim Berners-Lee"
+      ],
+      "correctIndex": 3,
+      "explanation": "Berners-Lee invented WWW in 1989.",
+      "difficulty": 1
+    },
+    {
+      "text": "Apple co-founder?",
+      "options": [
+        "Musk",
+        "Gates",
+        "Bezos",
+        "Steve Jobs"
+      ],
+      "correctIndex": 3,
+      "explanation": "Jobs co-founded Apple in 1976.",
+      "difficulty": 1
+    },
+    {
+      "text": "Microsoft founder?",
+      "options": [
+        "Bill Gates",
+        "Bezos",
+        "Musk",
+        "Jobs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gates founded Microsoft in 1975.",
+      "difficulty": 1
+    },
+    {
+      "text": "Tesla CEO?",
+      "options": [
+        "Jobs",
+        "Bezos",
+        "Elon Musk",
+        "Gates"
+      ],
+      "correctIndex": 2,
+      "explanation": "Musk is CEO of Tesla/SpaceX.",
+      "difficulty": 1
+    },
+    {
+      "text": "Facebook founder?",
+      "options": [
+        "Gates",
+        "Jobs",
+        "Mark Zuckerberg",
+        "Musk"
+      ],
+      "correctIndex": 2,
+      "explanation": "Zuckerberg founded Facebook in 2004.",
+      "difficulty": 1
+    },
+    {
+      "text": "Amazon founder?",
+      "options": [
+        "Jeff Bezos",
+        "Musk",
+        "Gates",
+        "Jobs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bezos founded Amazon in 1994.",
+      "difficulty": 1
+    },
+    {
+      "text": "WWII ended year?",
+      "options": [
+        "1947",
+        "1944",
+        "1945",
+        "1946"
+      ],
+      "correctIndex": 2,
+      "explanation": "WWII ended in 1945.",
+      "difficulty": 1
+    },
+    {
+      "text": "WWI started year?",
+      "options": [
+        "1912",
+        "1916",
+        "1918",
+        "1914"
+      ],
+      "correctIndex": 3,
+      "explanation": "WWI began in 1914.",
+      "difficulty": 1
+    },
+    {
+      "text": "Berlin Wall fell?",
+      "options": [
+        "1987",
+        "1985",
+        "1989",
+        "1991"
+      ],
+      "correctIndex": 2,
+      "explanation": "Berlin Wall fell in 1989.",
+      "difficulty": 1
+    },
+    {
+      "text": "First US President?",
+      "options": [
+        "Jefferson",
+        "George Washington",
+        "Adams",
+        "Lincoln"
+      ],
+      "correctIndex": 1,
+      "explanation": "Washington was 1st President.",
+      "difficulty": 1
+    },
+    {
+      "text": "French Revolution year?",
+      "options": [
+        "1789",
+        "1804",
+        "1799",
+        "1776"
+      ],
+      "correctIndex": 0,
+      "explanation": "French Revolution began 1789.",
+      "difficulty": 1
+    },
+    {
+      "text": "Columbus discovered America?",
+      "options": [
+        "1485",
+        "1492",
+        "1510",
+        "1500"
+      ],
+      "correctIndex": 1,
+      "explanation": "Columbus reached Americas in 1492.",
+      "difficulty": 1
+    },
+    {
+      "text": "Declaration of Independence?",
+      "options": [
+        "1783",
+        "1776",
+        "1765",
+        "1789"
+      ],
+      "correctIndex": 1,
+      "explanation": "USA independence declared July 4, 1776.",
+      "difficulty": 1
+    },
+    {
+      "text": "Moon landing year?",
+      "options": [
+        "1968",
+        "1969",
+        "1971",
+        "1970"
+      ],
+      "correctIndex": 1,
+      "explanation": "Apollo 11 landed July 20, 1969.",
+      "difficulty": 1
+    },
+    {
+      "text": "Who invented printing press?",
+      "options": [
+        "Galileo",
+        "Leonardo da Vinci",
+        "Martin Luther",
+        "Johannes Gutenberg"
+      ],
+      "correctIndex": 3,
+      "explanation": "Gutenberg invented movable type ~1440.",
+      "difficulty": 1
+    },
+    {
+      "text": "Who painted Mona Lisa?",
+      "options": [
+        "Michelangelo",
+        "Raphael",
+        "Donatello",
+        "Leonardo da Vinci"
+      ],
+      "correctIndex": 3,
+      "explanation": "Da Vinci painted Mona Lisa ~1503.",
+      "difficulty": 1
+    }
+  ],
+  "l2": [
+    {
+      "text": "Jupiter's Great Red Spot is?",
+      "options": [
+        "Mountain",
+        "Crater",
+        "Giant storm",
+        "Ocean"
+      ],
+      "correctIndex": 2,
+      "explanation": "Storm larger than Earth, active 400+ years.",
+      "difficulty": 2
+    },
+    {
+      "text": "Mars' two moons?",
+      "options": [
+        "Titan and Europa",
+        "Luna and Io",
+        "Callisto and Ganymede",
+        "Phobos and Deimos"
+      ],
+      "correctIndex": 3,
+      "explanation": "Named after sons of Ares (Greek war god).",
+      "difficulty": 2
+    },
+    {
+      "text": "Asteroid belt location?",
+      "options": [
+        "Near Venus",
+        "Beyond Neptune",
+        "Between Earth and Mars",
+        "Between Mars and Jupiter"
+      ],
+      "correctIndex": 3,
+      "explanation": "Contains millions of rocky objects.",
+      "difficulty": 2
+    },
+    {
+      "text": "Kuiper Belt location?",
+      "options": [
+        "Between Mars and Jupiter",
+        "Beyond Neptune",
+        "Inside Mercury",
+        "Around Saturn"
+      ],
+      "correctIndex": 1,
+      "explanation": "Contains icy bodies including Pluto.",
+      "difficulty": 2
+    },
+    {
+      "text": "Oort Cloud?",
+      "options": [
+        "Distant spherical cloud of comets",
+        "Ring around Saturn",
+        "Asteroid belt",
+        "Gas cloud near Jupiter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Marks edge of Sun's gravitational influence.",
+      "difficulty": 2
+    },
+    {
+      "text": "Pluto classification?",
+      "options": [
+        "Moon",
+        "Planet",
+        "Asteroid",
+        "Dwarf planet"
+      ],
+      "correctIndex": 3,
+      "explanation": "Reclassified as dwarf planet in 2006.",
+      "difficulty": 2
+    },
+    {
+      "text": "How many dwarf planets?",
+      "options": [
+        "5 officially recognized",
+        "2",
+        "20",
+        "10"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pluto, Eris, Ceres, Makemake, Haumea.",
+      "difficulty": 2
+    },
+    {
+      "text": "Hubble Space Telescope launched?",
+      "options": [
+        "1990",
+        "1980",
+        "2000",
+        "1995"
+      ],
+      "correctIndex": 0,
+      "explanation": "Launched by Space Shuttle Discovery.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is a light-year?",
+      "options": [
+        "Time measurement",
+        "Distance light travels in 1 year",
+        "Energy unit",
+        "Speed of light"
+      ],
+      "correctIndex": 1,
+      "explanation": "~9.46 trillion km.",
+      "difficulty": 2
+    },
+    {
+      "text": "Nearest star to Earth?",
+      "options": [
+        "Alpha Centauri",
+        "Proxima Centauri",
+        "Sirius",
+        "Betelgeuse"
+      ],
+      "correctIndex": 1,
+      "explanation": "4.24 light-years away (excluding Sun).",
+      "difficulty": 2
+    },
+    {
+      "text": "How long for light from nearest star?",
+      "options": [
+        "4.24 years",
+        "10 years",
+        "100 years",
+        "1 year"
+      ],
+      "correctIndex": 0,
+      "explanation": "Proxima Centauri is 4.24 light-years away.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is a supernova?",
+      "options": [
+        "Exploding star",
+        "Forming star",
+        "Black hole",
+        "Planet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Massive star's explosive death.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is a neutron star?",
+      "options": [
+        "Gas giant",
+        "Baby star",
+        "Black hole",
+        "Collapsed core of supernova"
+      ],
+      "correctIndex": 3,
+      "explanation": "Extremely dense stellar remnant.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is a pulsar?",
+      "options": [
+        "Black hole",
+        "Gas cloud",
+        "Exploding star",
+        "Rotating neutron star"
+      ],
+      "correctIndex": 3,
+      "explanation": "Emits regular electromagnetic pulses.",
+      "difficulty": 2
+    },
+    {
+      "text": "What is a quasar?",
+      "options": [
+        "Exploding star",
+        "Asteroid",
+        "Active galactic nucleus",
+        "Planet"
+      ],
+      "correctIndex": 2,
+      "explanation": "Powered by supermassive black hole.",
+      "difficulty": 2
+    }
+  ],
+  "l3": [
+    {
+      "text": "Schwarzschild radius?",
+      "options": [
+        "Speed of light",
+        "Size of star",
+        "Distance to black hole",
+        "Event horizon of black hole"
+      ],
+      "correctIndex": 3,
+      "explanation": "r = 2GM/c\u00b2 defines event horizon.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is gravitational lensing?",
+      "options": [
+        "Light bent by gravity",
+        "Light reflected",
+        "Light absorbed",
+        "Light speed change"
+      ],
+      "correctIndex": 0,
+      "explanation": "Predicted by general relativity.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is cosmic microwave background?",
+      "options": [
+        "Light from stars",
+        "Radio waves from galaxies",
+        "Radiation from Big Bang",
+        "Heat from Sun"
+      ],
+      "correctIndex": 2,
+      "explanation": "Discovered in 1964, confirms Big Bang.",
+      "difficulty": 3
+    },
+    {
+      "text": "Hubble expansion?",
+      "options": [
+        "Universe is expanding",
+        "Universe static",
+        "Universe rotating",
+        "Universe contracting"
+      ],
+      "correctIndex": 0,
+      "explanation": "Discovered by Edwin Hubble.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is dark matter?",
+      "options": [
+        "Dark energy",
+        "Invisible matter detected by gravity",
+        "Black holes",
+        "Antimatter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Makes up ~27% of universe.",
+      "difficulty": 3
+    },
+    {
+      "text": "What is dark energy?",
+      "options": [
+        "Black holes",
+        "Dark matter",
+        "Force causing accelerating expansion",
+        "Gravity"
+      ],
+      "correctIndex": 2,
+      "explanation": "Makes up ~68% of universe.",
+      "difficulty": 3
+    },
+    {
+      "text": "Standard Model includes?",
+      "options": [
+        "Elementary particles and forces (except gravity)",
+        "All forces",
+        "Only gravity",
+        "Only electromagnetic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Describes 3 of 4 fundamental forces.",
+      "difficulty": 3
+    },
+    {
+      "text": "Higgs boson function?",
+      "options": [
+        "Carries electromagnetic force",
+        "Mediates gravity",
+        "Powers stars",
+        "Gives particles mass"
+      ],
+      "correctIndex": 3,
+      "explanation": "Discovered at LHC in 2012.",
+      "difficulty": 3
+    },
+    {
+      "text": "What are quarks?",
+      "options": [
+        "Leptons",
+        "Fundamental particles making protons/neutrons",
+        "Bosons",
+        "Photons"
+      ],
+      "correctIndex": 1,
+      "explanation": "Six types (flavors) exist.",
+      "difficulty": 3
+    },
+    {
+      "text": "What are leptons?",
+      "options": [
+        "Fundamental particles including electrons",
+        "Bosons",
+        "Quarks",
+        "Hadrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electron, muon, tau and neutrinos.",
+      "difficulty": 3
+    }
+  ]
+}

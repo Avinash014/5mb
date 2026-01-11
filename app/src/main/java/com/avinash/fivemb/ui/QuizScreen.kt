@@ -1,10 +1,13 @@
 package com.avinash.fivemb.ui
 
+import androidx.compose.animation.*
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Favorite
+import androidx.compose.material.icons.filled.Info
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -13,10 +16,13 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.window.Dialog
+import com.avinash.fivemb.data.AdConfig
 import com.avinash.fivemb.data.Level
-import com.avinash.fivemb.data.Question
 import com.avinash.fivemb.ui.theme.GreenSuccess
 import com.avinash.fivemb.ui.theme.RedError
+import com.avinash.fivemb.ui.theme.NeonBlue
+import com.avinash.fivemb.ui.theme.NeonPurple
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
@@ -24,140 +30,248 @@ import kotlinx.coroutines.launch
 @Composable
 fun QuizScreen(
     level: Level,
+    timerDuration: Int,
+    isLivesMode: Boolean,
+    onCorrectAnswer: () -> Unit,
+    onWrongAnswer: () -> Unit,
     onQuizFinished: (Int, Int, Long) -> Unit,
     onBack: () -> Unit
 ) {
-    // Game constants
-    val totalTimeSeconds = 60
-    
-    // State
+    val totalTimeSeconds = timerDuration
     var currentQuestionIndex by remember { mutableIntStateOf(0) }
     var selectedOptionIndex by remember { mutableStateOf<Int?>(null) }
     var score by remember { mutableIntStateOf(0) }
-    var timeLeft by remember { mutableLongStateOf(totalTimeSeconds * 1000L) } // Milliseconds
-    var isProcessing by remember { mutableStateOf(false) } // To prevent double clicks and timer during delay
+    var lives by remember { mutableIntStateOf(3) }
+    var timeLeft by remember { mutableLongStateOf(totalTimeSeconds * 1000L) } 
+    var isProcessing by remember { mutableStateOf(false) } 
+    var showExplanation by remember { mutableStateOf(false) }
     
-    val currentQuestion = level.questions.getOrNull(currentQuestionIndex)
+    // Fix: Ensure currentQuestion is stable and only derived from index
+    val currentQuestion = remember(currentQuestionIndex, level) {
+         level.questions.getOrNull(currentQuestionIndex)
+    }
     
-    // Timer
     LaunchedEffect(key1 = "timer") {
-        while (timeLeft > 0 && currentQuestion != null) {
+        // Fix: Use a loop that respects the pause
+        while (timeLeft > 0 && currentQuestion != null && (!isLivesMode || lives > 0)) {
+            val start = System.currentTimeMillis()
             delay(100)
-            if (!isProcessing) {
-                 timeLeft -= 100
+            val end = System.currentTimeMillis()
+            
+            // Only decrement if not showing explanation and not processing answer transition
+            if (!isProcessing && !showExplanation) {
+                 val elapsed = end - start 
+                 // Safeguard against large drifts, but simplistic subtraction is fine here
+                 timeLeft = (timeLeft - elapsed).coerceAtLeast(0)
             }
         }
         if (timeLeft <= 0) {
-            // Time up!
              onQuizFinished(score, level.questions.size, (totalTimeSeconds * 1000L))
         }
     }
     
     val coroutineScope = rememberCoroutineScope()
 
-    Scaffold(
-        topBar = {
-            TopAppBar(
-                title = { Text("Level ${level.id}") },
-                actions = {
-                    Text(
-                        text = "${timeLeft / 1000}s",
-                        style = MaterialTheme.typography.titleMedium,
-                        color = if (timeLeft < 10000) RedError else MaterialTheme.colorScheme.onSurface,
-                        modifier = Modifier.padding(end = 16.dp)
-                    )
-                },
-                navigationIcon = {
-                     IconButton(onClick = onBack) {
-                        Icon(Icons.Default.Close, contentDescription = "Exit")
-                    }
-                }
-            )
-        }
-    ) { paddingValues ->
-        if (currentQuestion != null) {
-            Column(
+    if (showExplanation && currentQuestion?.explanation != null) {
+        Dialog(onDismissRequest = { /* Prevent dismiss */ }) {
+            // Darker background for readability
+            Box(
                 modifier = Modifier
-                    .fillMaxSize()
-                    .padding(paddingValues)
-                    .padding(16.dp),
-                horizontalAlignment = Alignment.CenterHorizontally
+                    .background(Color.Black.copy(alpha = 0.8f), RoundedCornerShape(16.dp))
+                    .padding(1.dp) // Border effect
             ) {
-                // Progress
-                LinearProgressIndicator(
-                    progress = (currentQuestionIndex + 1).toFloat() / level.questions.size,
-                    modifier = Modifier.fillMaxWidth()
-                )
-                
-                Spacer(modifier = Modifier.height(32.dp))
-                
-                // Question
-                Text(
-                    text = currentQuestion.text,
-                    style = MaterialTheme.typography.headlineSmall,
-                    textAlign = TextAlign.Center,
-                    minLines = 3
-                )
-                
-                Spacer(modifier = Modifier.height(32.dp))
-                
-                // Options
-                currentQuestion.options.forEachIndexed { index, text ->
-                    val isSelected = selectedOptionIndex == index
-                    
-                    // Button Colors
-                    // Default: PrimaryContainer
-                    // Selected & Correct: Green
-                    // Selected & Wrong: Red
-                    // Not Selected & isCorrect (Show Answer): Green (after selection)
-                    
-                    val buttonColors = if (selectedOptionIndex != null) {
-                        if (index == currentQuestion.correctIndex) {
-                            ButtonDefaults.buttonColors(containerColor = GreenSuccess)
-                        } else if (isSelected) {
-                            ButtonDefaults.buttonColors(containerColor = RedError)
-                        } else {
-                            ButtonDefaults.filledTonalButtonColors()
-                        }
-                    } else {
-                        ButtonDefaults.filledTonalButtonColors()
-                    }
-                    
-                    Button(
-                        onClick = {
-                            if (selectedOptionIndex == null) {
-                                isProcessing = true
-                                selectedOptionIndex = index
-                                if (index == currentQuestion.correctIndex) score++
-                                
-                                coroutineScope.launch {
-                                    delay(1000)
-                                    // Move next
+                 GlassCard(modifier = Modifier.padding(0.dp)) {
+                    Column(
+                        modifier = Modifier.padding(24.dp),
+                        horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
+                        Icon(Icons.Default.Info, contentDescription = null, tint = NeonPurple, modifier = Modifier.size(48.dp))
+                        Spacer(modifier = Modifier.height(16.dp))
+                        Text("Did You Know?", style = MaterialTheme.typography.headlineSmall, color = Color.White, fontWeight = FontWeight.Bold)
+                        Spacer(modifier = Modifier.height(8.dp))
+                        Text(
+                            text = currentQuestion.explanation,
+                            style = MaterialTheme.typography.bodyLarge,
+                            color = Color.White, // Full opacity
+                            textAlign = TextAlign.Center
+                        )
+                        Spacer(modifier = Modifier.height(24.dp))
+                        BouncyButton(
+                            onClick = {
+                                showExplanation = false
+                                 coroutineScope.launch {
+                                    // Resume Logic
                                     if (currentQuestionIndex < level.questions.size - 1) {
                                         currentQuestionIndex++
                                         selectedOptionIndex = null
                                         isProcessing = false
                                     } else {
-                                        // Finish
                                         val timeTaken = (totalTimeSeconds * 1000L) - timeLeft
                                         onQuizFinished(score, level.questions.size, timeTaken)
                                     }
                                 }
+                            },
+                            containerColor = NeonBlue
+                        ) {
+                            Text("Got it!", color = Color.White)
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    GameBackground {
+        Column(
+            modifier = Modifier.fillMaxSize()
+        ) {
+            // Header
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(16.dp),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                IconButton(onClick = onBack) {
+                    Icon(Icons.Default.Close, contentDescription = "Exit", tint = Color.White)
+                }
+                
+                if (isLivesMode) {
+                    Row {
+                         repeat(3) { index ->
+                             Icon(
+                                 Icons.Default.Favorite, 
+                                 contentDescription = null, 
+                                 tint = if (index < lives) RedError else Color.White.copy(alpha=0.3f),
+                                 modifier = Modifier.size(24.dp)
+                             )
+                         }
+                    }
+                }
+                
+                Text(
+                    text = "${timeLeft / 1000}s",
+                    style = MaterialTheme.typography.titleLarge,
+                    color = if (timeLeft < 10000) RedError else NeonBlue,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+
+            if (currentQuestion != null) {
+                Column(
+                    modifier = Modifier.padding(16.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                     // Ad Placeholder Configurable
+                    if (AdConfig.SHOW_QUIZ_BANNER) {
+                        GlassCard(modifier = Modifier.fillMaxWidth().height(50.dp)) {
+                            Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                                Text("Ad Banner", color = Color.White.copy(alpha=0.5f))
                             }
-                        },
+                        }
+                        Spacer(modifier = Modifier.height(24.dp))
+                    } else {
+                        Spacer(modifier = Modifier.height(74.dp)) // Maintain spacing
+                    }
+
+                    LinearProgressIndicator(
+                        progress = (currentQuestionIndex + 1).toFloat() / level.questions.size,
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(vertical = 8.dp)
-                            .height(56.dp),
-                        colors = buttonColors,
-                        shape = RoundedCornerShape(12.dp)
-                    ) {
+                            .height(8.dp),
+                        color = NeonBlue,
+                        trackColor = Color.White.copy(alpha = 0.2f)
+                    )
+                    
+                    Spacer(modifier = Modifier.height(32.dp))
+                    
+                    AnimatedContent(
+                        targetState = currentQuestion,
+                        transitionSpec = {
+                            fadeIn() + slideInHorizontally { width -> width } togetherWith
+                            fadeOut() + slideOutHorizontally { width -> -width }
+                        }, label = "questionAnim"
+                    ) { question ->
                         Text(
-                            text = text,
-                            style = MaterialTheme.typography.bodyLarge,
-                            fontWeight = FontWeight.SemiBold
+                            text = question.text,
+                            style = MaterialTheme.typography.headlineSmall,
+                            textAlign = TextAlign.Center,
+                            color = Color.White,
+                            fontWeight = FontWeight.Bold,
+                            minLines = 3
                         )
                     }
+
+                    Spacer(modifier = Modifier.weight(1f))
+                    
+                    currentQuestion.options.forEachIndexed { index, text ->
+                        val isSelected = selectedOptionIndex == index
+                        
+                        val containerColor = if (selectedOptionIndex != null) {
+                            if (index == currentQuestion.correctIndex) GreenSuccess
+                            else if (isSelected) RedError
+                            else Color.White.copy(alpha = 0.1f)
+                        } else {
+                            Color.White.copy(alpha = 0.1f)
+                        }
+                        
+                        BouncyButton(
+                            onClick = {
+                                if (selectedOptionIndex == null) {
+                                    isProcessing = true
+                                    selectedOptionIndex = index
+                                    val isCorrect = index == currentQuestion.correctIndex
+                                    
+                                    if (isCorrect) {
+                                        score++
+                                        onCorrectAnswer()
+                                    } else {
+                                        onWrongAnswer()
+                                        if (isLivesMode) {
+                                            lives--
+                                        }
+                                    }
+                                    
+                                    coroutineScope.launch {
+                                        delay(1000)
+                                        // LOGIC UPDATE: Show explanation ONLY on WRONG answer if explanation exists
+                                        val showExplanationDialog = !isCorrect && currentQuestion.explanation != null
+                                        
+                                        if (isLivesMode && lives == 0) {
+                                             val timeTaken = (totalTimeSeconds * 1000L) - timeLeft
+                                             onQuizFinished(score, level.questions.size, timeTaken)
+                                        } else {
+                                            if (showExplanationDialog) {
+                                                showExplanation = true
+                                            } else {
+                                                if (currentQuestionIndex < level.questions.size - 1) {
+                                                    currentQuestionIndex++
+                                                    selectedOptionIndex = null
+                                                    isProcessing = false
+                                                } else {
+                                                    val timeTaken = (totalTimeSeconds * 1000L) - timeLeft
+                                                    onQuizFinished(score, level.questions.size, timeTaken)
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(vertical = 6.dp),
+                            containerColor = containerColor,
+                            contentColor = Color.White
+                        ) {
+                             Text(
+                                text = text,
+                                style = MaterialTheme.typography.bodyLarge,
+                                fontWeight = FontWeight.SemiBold
+                            )
+                        }
+                    }
+                    Spacer(modifier = Modifier.height(32.dp))
                 }
             }
         }

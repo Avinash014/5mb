@@ -1,71 +1,7821 @@
 {
-    "id": "MATH",
-    "name": "Math",
-    "levels": [
+  "id": "MATH",
+  "name": "Math",
+  "levels": [
+    {
+      "id": 1,
+      "questions": [
         {
-            "id": 1,
-            "questions": [
-                {
-                    "id": "m1q1",
-                    "text": "What is 5 + 7?",
-                    "options": [
-                        "10",
-                        "11",
-                        "12",
-                        "13"
-                    ],
-                    "correctIndex": 2
-                },
-                {
-                    "id": "m1q2",
-                    "text": "What is 12 - 4?",
-                    "options": [
-                        "6",
-                        "8",
-                        "9",
-                        "7"
-                    ],
-                    "correctIndex": 1
-                },
-                {
-                    "id": "m1q3",
-                    "text": "20 / 4 = ?",
-                    "options": [
-                        "4",
-                        "5",
-                        "6",
-                        "10"
-                    ],
-                    "correctIndex": 1
-                }
-            ]
+          "id": "m_lvl1_0",
+          "text": "18 * 8 = ?",
+          "options": [
+            "140",
+            "144",
+            "149",
+            "147"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "18 * 8 = 144"
         },
         {
-            "id": 2,
-            "questions": [
-                {
-                    "id": "m2q1",
-                    "text": "Square root of 81?",
-                    "options": [
-                        "7",
-                        "8",
-                        "9",
-                        "10"
-                    ],
-                    "correctIndex": 2
-                },
-                {
-                    "id": "m2q2",
-                    "text": "15 * 3 = ?",
-                    "options": [
-                        "35",
-                        "40",
-                        "45",
-                        "55"
-                    ],
-                    "correctIndex": 2
-                }
-            ]
+          "id": "m_lvl1_1",
+          "text": "15 - 1 = ?",
+          "options": [
+            "10",
+            "15",
+            "14",
+            "13"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "15 - 1 = 14"
+        },
+        {
+          "id": "m_lvl1_2",
+          "text": "35 / 5 = ?",
+          "options": [
+            "7",
+            "12",
+            "6",
+            "11"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "35 / 5 = 7"
+        },
+        {
+          "id": "m_lvl1_3",
+          "text": "13 - 4 = ?",
+          "options": [
+            "8",
+            "13",
+            "14",
+            "9"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "13 - 4 = 9"
+        },
+        {
+          "id": "m_lvl1_4",
+          "text": "39 / 3 = ?",
+          "options": [
+            "16",
+            "13",
+            "15",
+            "14"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "39 / 3 = 13"
+        },
+        {
+          "id": "m_lvl1_5",
+          "text": "18 * 10 = ?",
+          "options": [
+            "177",
+            "185",
+            "180",
+            "179"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "18 * 10 = 180"
+        },
+        {
+          "id": "m_lvl1_6",
+          "text": "1 * 9 = ?",
+          "options": [
+            "10",
+            "8",
+            "9",
+            "7"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "1 * 9 = 9"
+        },
+        {
+          "id": "m_lvl1_7",
+          "text": "8 * 2 = ?",
+          "options": [
+            "17",
+            "19",
+            "16",
+            "12"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "8 * 2 = 16"
+        },
+        {
+          "id": "m_lvl1_8",
+          "text": "16 * 2 = ?",
+          "options": [
+            "32",
+            "34",
+            "30",
+            "37"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "16 * 2 = 32"
+        },
+        {
+          "id": "m_lvl1_9",
+          "text": "12 - 4 = ?",
+          "options": [
+            "10",
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "12 - 4 = 8"
+        },
+        {
+          "id": "m_lvl1_10",
+          "text": "14 - 3 = ?",
+          "options": [
+            "16",
+            "12",
+            "7",
+            "11"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "14 - 3 = 11"
+        },
+        {
+          "id": "m_lvl1_11",
+          "text": "11 + 8 = ?",
+          "options": [
+            "22",
+            "17",
+            "23",
+            "19"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "11 + 8 = 19"
+        },
+        {
+          "id": "m_lvl1_12",
+          "text": "14 + 3 = ?",
+          "options": [
+            "18",
+            "17",
+            "22",
+            "16"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "14 + 3 = 17"
+        },
+        {
+          "id": "m_lvl1_13",
+          "text": "13 + 10 = ?",
+          "options": [
+            "22",
+            "25",
+            "26",
+            "23"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "13 + 10 = 23"
+        },
+        {
+          "id": "m_lvl1_14",
+          "text": "17 - 6 = ?",
+          "options": [
+            "7",
+            "14",
+            "12",
+            "11"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "17 - 6 = 11"
+        },
+        {
+          "id": "m_lvl1_15",
+          "text": "11 * 1 = ?",
+          "options": [
+            "11",
+            "6",
+            "12",
+            "13"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "11 * 1 = 11"
+        },
+        {
+          "id": "m_lvl1_16",
+          "text": "10 * 1 = ?",
+          "options": [
+            "8",
+            "13",
+            "14",
+            "10"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "10 * 1 = 10"
+        },
+        {
+          "id": "m_lvl1_17",
+          "text": "5 * 3 = ?",
+          "options": [
+            "14",
+            "20",
+            "10",
+            "15"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "5 * 3 = 15"
+        },
+        {
+          "id": "m_lvl1_18",
+          "text": "11 + 5 = ?",
+          "options": [
+            "12",
+            "18",
+            "16",
+            "20"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "11 + 5 = 16"
+        },
+        {
+          "id": "m_lvl1_19",
+          "text": "6 * 10 = ?",
+          "options": [
+            "56",
+            "65",
+            "60",
+            "57"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "6 * 10 = 60"
+        },
+        {
+          "id": "m_lvl1_20",
+          "text": "3 + 6 = ?",
+          "options": [
+            "14",
+            "9",
+            "7",
+            "5"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "3 + 6 = 9"
+        },
+        {
+          "id": "m_lvl1_21",
+          "text": "1 - 6 = ?",
+          "options": [
+            "-5",
+            "-6",
+            "-10",
+            "-3"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "1 - 6 = -5"
+        },
+        {
+          "id": "m_lvl1_22",
+          "text": "13 + 5 = ?",
+          "options": [
+            "13",
+            "16",
+            "18",
+            "20"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "13 + 5 = 18"
+        },
+        {
+          "id": "m_lvl1_23",
+          "text": "54 / 3 = ?",
+          "options": [
+            "23",
+            "17",
+            "20",
+            "18"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "54 / 3 = 18"
+        },
+        {
+          "id": "m_lvl1_24",
+          "text": "3 / 3 = ?",
+          "options": [
+            "5",
+            "1",
+            "6",
+            "4"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "3 / 3 = 1"
+        },
+        {
+          "id": "m_lvl1_25",
+          "text": "2 - 8 = ?",
+          "options": [
+            "-11",
+            "-6",
+            "-10",
+            "-5"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "2 - 8 = -6"
+        },
+        {
+          "id": "m_lvl1_26",
+          "text": "15 - 1 = ?",
+          "options": [
+            "19",
+            "15",
+            "14",
+            "16"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "15 - 1 = 14"
+        },
+        {
+          "id": "m_lvl1_27",
+          "text": "20 + 6 = ?",
+          "options": [
+            "31",
+            "28",
+            "26",
+            "24"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "20 + 6 = 26"
+        },
+        {
+          "id": "m_lvl1_28",
+          "text": "8 - 7 = ?",
+          "options": [
+            "5",
+            "4",
+            "1",
+            "-4"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "8 - 7 = 1"
+        },
+        {
+          "id": "m_lvl1_29",
+          "text": "17 - 7 = ?",
+          "options": [
+            "10",
+            "5",
+            "15",
+            "9"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "17 - 7 = 10"
+        },
+        {
+          "id": "m_lvl1_30",
+          "text": "19 - 6 = ?",
+          "options": [
+            "12",
+            "8",
+            "15",
+            "13"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "19 - 6 = 13"
+        },
+        {
+          "id": "m_lvl1_31",
+          "text": "14 + 9 = ?",
+          "options": [
+            "19",
+            "23",
+            "18",
+            "26"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "14 + 9 = 23"
+        },
+        {
+          "id": "m_lvl1_32",
+          "text": "9 + 7 = ?",
+          "options": [
+            "19",
+            "13",
+            "17",
+            "16"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "9 + 7 = 16"
+        },
+        {
+          "id": "m_lvl1_33",
+          "text": "108 / 9 = ?",
+          "options": [
+            "9",
+            "12",
+            "11",
+            "16"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "108 / 9 = 12"
+        },
+        {
+          "id": "m_lvl1_34",
+          "text": "11 - 7 = ?",
+          "options": [
+            "0",
+            "9",
+            "4",
+            "5"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "11 - 7 = 4"
+        },
+        {
+          "id": "m_lvl1_35",
+          "text": "24 / 3 = ?",
+          "options": [
+            "12",
+            "6",
+            "10",
+            "8"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "24 / 3 = 8"
+        },
+        {
+          "id": "m_lvl1_36",
+          "text": "20 / 10 = ?",
+          "options": [
+            "1",
+            "-1",
+            "2",
+            "-2"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "20 / 10 = 2"
+        },
+        {
+          "id": "m_lvl1_37",
+          "text": "200 / 10 = ?",
+          "options": [
+            "21",
+            "20",
+            "24",
+            "18"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "200 / 10 = 20"
+        },
+        {
+          "id": "m_lvl1_38",
+          "text": "12 * 5 = ?",
+          "options": [
+            "65",
+            "57",
+            "62",
+            "60"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "12 * 5 = 60"
+        },
+        {
+          "id": "m_lvl1_39",
+          "text": "4 - 1 = ?",
+          "options": [
+            "6",
+            "3",
+            "1",
+            "5"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "4 - 1 = 3"
+        },
+        {
+          "id": "m_lvl1_40",
+          "text": "3 - 3 = ?",
+          "options": [
+            "1",
+            "3",
+            "-4",
+            "0"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "3 - 3 = 0"
+        },
+        {
+          "id": "m_lvl1_41",
+          "text": "1 * 7 = ?",
+          "options": [
+            "4",
+            "11",
+            "9",
+            "7"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "1 * 7 = 7"
+        },
+        {
+          "id": "m_lvl1_42",
+          "text": "20 + 8 = ?",
+          "options": [
+            "33",
+            "28",
+            "26",
+            "24"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "20 + 8 = 28"
+        },
+        {
+          "id": "m_lvl1_43",
+          "text": "13 * 8 = ?",
+          "options": [
+            "105",
+            "100",
+            "107",
+            "104"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "13 * 8 = 104"
+        },
+        {
+          "id": "m_lvl1_44",
+          "text": "3 - 2 = ?",
+          "options": [
+            "-1",
+            "-2",
+            "1",
+            "-3"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "3 - 2 = 1"
+        },
+        {
+          "id": "m_lvl1_45",
+          "text": "13 * 9 = ?",
+          "options": [
+            "116",
+            "114",
+            "120",
+            "117"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "13 * 9 = 117"
+        },
+        {
+          "id": "m_lvl1_46",
+          "text": "8 + 1 = ?",
+          "options": [
+            "11",
+            "5",
+            "6",
+            "9"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "8 + 1 = 9"
+        },
+        {
+          "id": "m_lvl1_47",
+          "text": "5 * 9 = ?",
+          "options": [
+            "48",
+            "43",
+            "49",
+            "45"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "5 * 9 = 45"
+        },
+        {
+          "id": "m_lvl1_48",
+          "text": "17 - 1 = ?",
+          "options": [
+            "16",
+            "21",
+            "12",
+            "18"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "17 - 1 = 16"
+        },
+        {
+          "id": "m_lvl1_49",
+          "text": "8 / 8 = ?",
+          "options": [
+            "1",
+            "3",
+            "0",
+            "-4"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "8 / 8 = 1"
+        },
+        {
+          "id": "m_lvl1_50",
+          "text": "15 * 8 = ?",
+          "options": [
+            "115",
+            "125",
+            "116",
+            "120"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "15 * 8 = 120"
+        },
+        {
+          "id": "m_lvl1_51",
+          "text": "70 / 5 = ?",
+          "options": [
+            "17",
+            "19",
+            "18",
+            "14"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "70 / 5 = 14"
+        },
+        {
+          "id": "m_lvl1_52",
+          "text": "70 / 10 = ?",
+          "options": [
+            "5",
+            "7",
+            "2",
+            "6"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "70 / 10 = 7"
+        },
+        {
+          "id": "m_lvl1_53",
+          "text": "14 * 10 = ?",
+          "options": [
+            "143",
+            "135",
+            "140",
+            "145"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "14 * 10 = 140"
+        },
+        {
+          "id": "m_lvl1_54",
+          "text": "5 + 1 = ?",
+          "options": [
+            "7",
+            "6",
+            "4",
+            "11"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "5 + 1 = 6"
+        },
+        {
+          "id": "m_lvl1_55",
+          "text": "77 / 7 = ?",
+          "options": [
+            "8",
+            "11",
+            "16",
+            "13"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "77 / 7 = 11"
+        },
+        {
+          "id": "m_lvl1_56",
+          "text": "17 + 8 = ?",
+          "options": [
+            "23",
+            "27",
+            "29",
+            "25"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "17 + 8 = 25"
+        },
+        {
+          "id": "m_lvl1_57",
+          "text": "16 + 4 = ?",
+          "options": [
+            "15",
+            "20",
+            "19",
+            "18"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "16 + 4 = 20"
+        },
+        {
+          "id": "m_lvl1_58",
+          "text": "170 / 10 = ?",
+          "options": [
+            "22",
+            "15",
+            "16",
+            "17"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "170 / 10 = 17"
+        },
+        {
+          "id": "m_lvl1_59",
+          "text": "6 / 6 = ?",
+          "options": [
+            "2",
+            "4",
+            "-1",
+            "1"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "6 / 6 = 1"
+        },
+        {
+          "id": "m_lvl1_60",
+          "text": "10 - 6 = ?",
+          "options": [
+            "8",
+            "4",
+            "5",
+            "9"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "10 - 6 = 4"
+        },
+        {
+          "id": "m_lvl1_61",
+          "text": "15 - 1 = ?",
+          "options": [
+            "17",
+            "15",
+            "14",
+            "12"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "15 - 1 = 14"
+        },
+        {
+          "id": "m_lvl1_62",
+          "text": "17 * 5 = ?",
+          "options": [
+            "89",
+            "86",
+            "85",
+            "87"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "17 * 5 = 85"
+        },
+        {
+          "id": "m_lvl1_63",
+          "text": "13 - 9 = ?",
+          "options": [
+            "3",
+            "1",
+            "8",
+            "4"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "13 - 9 = 4"
+        },
+        {
+          "id": "m_lvl1_64",
+          "text": "16 / 2 = ?",
+          "options": [
+            "11",
+            "7",
+            "9",
+            "8"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "16 / 2 = 8"
+        },
+        {
+          "id": "m_lvl1_65",
+          "text": "4 - 4 = ?",
+          "options": [
+            "-4",
+            "3",
+            "0",
+            "-1"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "4 - 4 = 0"
+        },
+        {
+          "id": "m_lvl1_66",
+          "text": "10 - 3 = ?",
+          "options": [
+            "6",
+            "12",
+            "4",
+            "7"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "10 - 3 = 7"
+        },
+        {
+          "id": "m_lvl1_67",
+          "text": "5 * 9 = ?",
+          "options": [
+            "47",
+            "44",
+            "45",
+            "42"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "5 * 9 = 45"
+        },
+        {
+          "id": "m_lvl1_68",
+          "text": "12 + 2 = ?",
+          "options": [
+            "14",
+            "11",
+            "15",
+            "18"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "12 + 2 = 14"
+        },
+        {
+          "id": "m_lvl1_69",
+          "text": "10 * 1 = ?",
+          "options": [
+            "5",
+            "9",
+            "10",
+            "14"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "10 * 1 = 10"
+        },
+        {
+          "id": "m_lvl1_70",
+          "text": "19 * 7 = ?",
+          "options": [
+            "133",
+            "129",
+            "137",
+            "138"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "19 * 7 = 133"
+        },
+        {
+          "id": "m_lvl1_71",
+          "text": "14 + 6 = ?",
+          "options": [
+            "20",
+            "19",
+            "24",
+            "23"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "14 + 6 = 20"
+        },
+        {
+          "id": "m_lvl1_72",
+          "text": "16 * 10 = ?",
+          "options": [
+            "159",
+            "160",
+            "156",
+            "157"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "16 * 10 = 160"
+        },
+        {
+          "id": "m_lvl1_73",
+          "text": "39 / 3 = ?",
+          "options": [
+            "16",
+            "17",
+            "13",
+            "10"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "39 / 3 = 13"
+        },
+        {
+          "id": "m_lvl1_74",
+          "text": "2 + 7 = ?",
+          "options": [
+            "9",
+            "13",
+            "12",
+            "4"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "2 + 7 = 9"
+        },
+        {
+          "id": "m_lvl1_75",
+          "text": "15 + 7 = ?",
+          "options": [
+            "22",
+            "17",
+            "21",
+            "23"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "15 + 7 = 22"
+        },
+        {
+          "id": "m_lvl1_76",
+          "text": "20 + 7 = ?",
+          "options": [
+            "32",
+            "27",
+            "26",
+            "24"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "20 + 7 = 27"
+        },
+        {
+          "id": "m_lvl1_77",
+          "text": "14 / 1 = ?",
+          "options": [
+            "14",
+            "18",
+            "17",
+            "13"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "14 / 1 = 14"
+        },
+        {
+          "id": "m_lvl1_78",
+          "text": "51 / 3 = ?",
+          "options": [
+            "21",
+            "17",
+            "22",
+            "16"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "51 / 3 = 17"
+        },
+        {
+          "id": "m_lvl1_79",
+          "text": "1 / 1 = ?",
+          "options": [
+            "2",
+            "3",
+            "0",
+            "1"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "1 / 1 = 1"
+        },
+        {
+          "id": "m_lvl1_80",
+          "text": "126 / 7 = ?",
+          "options": [
+            "19",
+            "18",
+            "17",
+            "23"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "126 / 7 = 18"
+        },
+        {
+          "id": "m_lvl1_81",
+          "text": "9 * 9 = ?",
+          "options": [
+            "81",
+            "79",
+            "78",
+            "83"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "9 * 9 = 81"
+        },
+        {
+          "id": "m_lvl1_82",
+          "text": "1 - 3 = ?",
+          "options": [
+            "-5",
+            "-2",
+            "-4",
+            "2"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "1 - 3 = -2"
+        },
+        {
+          "id": "m_lvl1_83",
+          "text": "10 / 2 = ?",
+          "options": [
+            "5",
+            "0",
+            "9",
+            "4"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "10 / 2 = 5"
+        },
+        {
+          "id": "m_lvl1_84",
+          "text": "24 / 8 = ?",
+          "options": [
+            "3",
+            "1",
+            "-2",
+            "5"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "24 / 8 = 3"
+        },
+        {
+          "id": "m_lvl1_85",
+          "text": "18 - 4 = ?",
+          "options": [
+            "17",
+            "14",
+            "12",
+            "13"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "18 - 4 = 14"
+        },
+        {
+          "id": "m_lvl1_86",
+          "text": "3 + 10 = ?",
+          "options": [
+            "15",
+            "13",
+            "9",
+            "11"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "3 + 10 = 13"
+        },
+        {
+          "id": "m_lvl1_87",
+          "text": "16 * 4 = ?",
+          "options": [
+            "64",
+            "62",
+            "69",
+            "63"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "16 * 4 = 64"
+        },
+        {
+          "id": "m_lvl1_88",
+          "text": "1 * 8 = ?",
+          "options": [
+            "8",
+            "4",
+            "6",
+            "7"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "1 * 8 = 8"
+        },
+        {
+          "id": "m_lvl1_89",
+          "text": "8 + 3 = ?",
+          "options": [
+            "13",
+            "15",
+            "8",
+            "11"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "8 + 3 = 11"
+        },
+        {
+          "id": "m_lvl1_90",
+          "text": "60 / 4 = ?",
+          "options": [
+            "16",
+            "14",
+            "15",
+            "11"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "60 / 4 = 15"
+        },
+        {
+          "id": "m_lvl1_91",
+          "text": "13 - 7 = ?",
+          "options": [
+            "3",
+            "1",
+            "6",
+            "5"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "13 - 7 = 6"
+        },
+        {
+          "id": "m_lvl1_92",
+          "text": "18 - 6 = ?",
+          "options": [
+            "14",
+            "17",
+            "13",
+            "12"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "18 - 6 = 12"
+        },
+        {
+          "id": "m_lvl1_93",
+          "text": "14 + 10 = ?",
+          "options": [
+            "21",
+            "27",
+            "19",
+            "24"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "14 + 10 = 24"
+        },
+        {
+          "id": "m_lvl1_94",
+          "text": "1 - 10 = ?",
+          "options": [
+            "-9",
+            "-12",
+            "-13",
+            "-11"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "1 - 10 = -9"
+        },
+        {
+          "id": "m_lvl1_95",
+          "text": "99 / 9 = ?",
+          "options": [
+            "13",
+            "7",
+            "11",
+            "16"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "99 / 9 = 11"
+        },
+        {
+          "id": "m_lvl1_96",
+          "text": "9 * 1 = ?",
+          "options": [
+            "9",
+            "8",
+            "5",
+            "13"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "9 * 1 = 9"
+        },
+        {
+          "id": "m_lvl1_97",
+          "text": "6 * 10 = ?",
+          "options": [
+            "55",
+            "60",
+            "63",
+            "61"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "6 * 10 = 60"
+        },
+        {
+          "id": "m_lvl1_98",
+          "text": "6 * 7 = ?",
+          "options": [
+            "42",
+            "40",
+            "38",
+            "46"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "6 * 7 = 42"
+        },
+        {
+          "id": "m_lvl1_99",
+          "text": "11 * 9 = ?",
+          "options": [
+            "99",
+            "96",
+            "104",
+            "94"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "11 * 9 = 99"
+        },
+        {
+          "id": "m_lvl1_100",
+          "text": "13 - 9 = ?",
+          "options": [
+            "4",
+            "5",
+            "-1",
+            "0"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "13 - 9 = 4"
+        },
+        {
+          "id": "m_lvl1_101",
+          "text": "49 / 7 = ?",
+          "options": [
+            "2",
+            "7",
+            "10",
+            "12"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "49 / 7 = 7"
+        },
+        {
+          "id": "m_lvl1_102",
+          "text": "102 / 6 = ?",
+          "options": [
+            "17",
+            "22",
+            "12",
+            "20"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "102 / 6 = 17"
+        },
+        {
+          "id": "m_lvl1_103",
+          "text": "11 + 1 = ?",
+          "options": [
+            "12",
+            "7",
+            "9",
+            "11"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "11 + 1 = 12"
+        },
+        {
+          "id": "m_lvl1_104",
+          "text": "30 / 2 = ?",
+          "options": [
+            "10",
+            "14",
+            "16",
+            "15"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "30 / 2 = 15"
+        },
+        {
+          "id": "m_lvl1_105",
+          "text": "12 / 6 = ?",
+          "options": [
+            "-2",
+            "2",
+            "5",
+            "0"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "12 / 6 = 2"
+        },
+        {
+          "id": "m_lvl1_106",
+          "text": "6 - 3 = ?",
+          "options": [
+            "-1",
+            "3",
+            "-2",
+            "7"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "6 - 3 = 3"
+        },
+        {
+          "id": "m_lvl1_107",
+          "text": "10 + 7 = ?",
+          "options": [
+            "17",
+            "12",
+            "21",
+            "14"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "10 + 7 = 17"
+        },
+        {
+          "id": "m_lvl1_108",
+          "text": "20 - 6 = ?",
+          "options": [
+            "13",
+            "18",
+            "12",
+            "14"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "20 - 6 = 14"
+        },
+        {
+          "id": "m_lvl1_109",
+          "text": "30 / 3 = ?",
+          "options": [
+            "10",
+            "15",
+            "14",
+            "12"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "30 / 3 = 10"
+        },
+        {
+          "id": "m_lvl1_110",
+          "text": "2 * 2 = ?",
+          "options": [
+            "3",
+            "4",
+            "9",
+            "2"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "2 * 2 = 4"
+        },
+        {
+          "id": "m_lvl1_111",
+          "text": "17 - 5 = ?",
+          "options": [
+            "12",
+            "10",
+            "8",
+            "15"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "17 - 5 = 12"
+        },
+        {
+          "id": "m_lvl1_112",
+          "text": "8 - 5 = ?",
+          "options": [
+            "-2",
+            "4",
+            "2",
+            "3"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "8 - 5 = 3"
+        },
+        {
+          "id": "m_lvl1_113",
+          "text": "14 * 7 = ?",
+          "options": [
+            "98",
+            "95",
+            "102",
+            "100"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "14 * 7 = 98"
+        },
+        {
+          "id": "m_lvl1_114",
+          "text": "14 - 10 = ?",
+          "options": [
+            "5",
+            "3",
+            "0",
+            "4"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "14 - 10 = 4"
+        },
+        {
+          "id": "m_lvl1_115",
+          "text": "5 - 1 = ?",
+          "options": [
+            "4",
+            "0",
+            "6",
+            "-1"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "5 - 1 = 4"
+        },
+        {
+          "id": "m_lvl1_116",
+          "text": "9 + 3 = ?",
+          "options": [
+            "7",
+            "10",
+            "12",
+            "13"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "9 + 3 = 12"
+        },
+        {
+          "id": "m_lvl1_117",
+          "text": "18 / 9 = ?",
+          "options": [
+            "6",
+            "-3",
+            "2",
+            "1"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "18 / 9 = 2"
+        },
+        {
+          "id": "m_lvl1_118",
+          "text": "4 - 1 = ?",
+          "options": [
+            "2",
+            "3",
+            "-2",
+            "7"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "4 - 1 = 3"
+        },
+        {
+          "id": "m_lvl1_119",
+          "text": "17 - 1 = ?",
+          "options": [
+            "11",
+            "15",
+            "16",
+            "17"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "17 - 1 = 16"
+        },
+        {
+          "id": "m_lvl1_120",
+          "text": "21 / 7 = ?",
+          "options": [
+            "0",
+            "-1",
+            "1",
+            "3"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "21 / 7 = 3"
+        },
+        {
+          "id": "m_lvl1_121",
+          "text": "9 + 9 = ?",
+          "options": [
+            "16",
+            "14",
+            "18",
+            "17"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "9 + 9 = 18"
+        },
+        {
+          "id": "m_lvl1_122",
+          "text": "5 / 1 = ?",
+          "options": [
+            "5",
+            "8",
+            "7",
+            "9"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "5 / 1 = 5"
+        },
+        {
+          "id": "m_lvl1_123",
+          "text": "5 + 10 = ?",
+          "options": [
+            "15",
+            "20",
+            "10",
+            "16"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "5 + 10 = 15"
+        },
+        {
+          "id": "m_lvl1_124",
+          "text": "7 - 10 = ?",
+          "options": [
+            "-1",
+            "-6",
+            "-5",
+            "-3"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "7 - 10 = -3"
+        },
+        {
+          "id": "m_lvl1_125",
+          "text": "135 / 9 = ?",
+          "options": [
+            "20",
+            "15",
+            "17",
+            "19"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "135 / 9 = 15"
+        },
+        {
+          "id": "m_lvl1_126",
+          "text": "17 * 6 = ?",
+          "options": [
+            "98",
+            "104",
+            "102",
+            "105"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "17 * 6 = 102"
+        },
+        {
+          "id": "m_lvl1_127",
+          "text": "24 / 3 = ?",
+          "options": [
+            "5",
+            "10",
+            "8",
+            "6"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "24 / 3 = 8"
+        },
+        {
+          "id": "m_lvl1_128",
+          "text": "98 / 7 = ?",
+          "options": [
+            "15",
+            "19",
+            "14",
+            "10"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "98 / 7 = 14"
+        },
+        {
+          "id": "m_lvl1_129",
+          "text": "10 + 8 = ?",
+          "options": [
+            "20",
+            "21",
+            "18",
+            "23"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "10 + 8 = 18"
+        },
+        {
+          "id": "m_lvl1_130",
+          "text": "12 - 7 = ?",
+          "options": [
+            "10",
+            "2",
+            "5",
+            "6"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "12 - 7 = 5"
+        },
+        {
+          "id": "m_lvl1_131",
+          "text": "18 + 1 = ?",
+          "options": [
+            "15",
+            "16",
+            "21",
+            "19"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "18 + 1 = 19"
+        },
+        {
+          "id": "m_lvl1_132",
+          "text": "91 / 7 = ?",
+          "options": [
+            "11",
+            "13",
+            "18",
+            "8"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "91 / 7 = 13"
+        },
+        {
+          "id": "m_lvl1_133",
+          "text": "105 / 7 = ?",
+          "options": [
+            "12",
+            "13",
+            "15",
+            "18"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "105 / 7 = 15"
+        },
+        {
+          "id": "m_lvl1_134",
+          "text": "19 + 3 = ?",
+          "options": [
+            "22",
+            "20",
+            "19",
+            "27"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "19 + 3 = 22"
+        },
+        {
+          "id": "m_lvl1_135",
+          "text": "2 + 1 = ?",
+          "options": [
+            "1",
+            "2",
+            "8",
+            "3"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "2 + 1 = 3"
+        },
+        {
+          "id": "m_lvl1_136",
+          "text": "12 * 4 = ?",
+          "options": [
+            "46",
+            "48",
+            "51",
+            "49"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "12 * 4 = 48"
+        },
+        {
+          "id": "m_lvl1_137",
+          "text": "9 + 1 = ?",
+          "options": [
+            "12",
+            "10",
+            "8",
+            "5"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "9 + 1 = 10"
+        },
+        {
+          "id": "m_lvl1_138",
+          "text": "15 - 3 = ?",
+          "options": [
+            "8",
+            "11",
+            "13",
+            "12"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "15 - 3 = 12"
+        },
+        {
+          "id": "m_lvl1_139",
+          "text": "12 * 8 = ?",
+          "options": [
+            "91",
+            "94",
+            "100",
+            "96"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "12 * 8 = 96"
+        },
+        {
+          "id": "m_lvl1_140",
+          "text": "1 * 6 = ?",
+          "options": [
+            "5",
+            "3",
+            "6",
+            "9"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "1 * 6 = 6"
+        },
+        {
+          "id": "m_lvl1_141",
+          "text": "18 / 9 = ?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "18 / 9 = 2"
+        },
+        {
+          "id": "m_lvl1_142",
+          "text": "4 - 8 = ?",
+          "options": [
+            "-1",
+            "-5",
+            "-3",
+            "-4"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "4 - 8 = -4"
+        },
+        {
+          "id": "m_lvl1_143",
+          "text": "13 + 4 = ?",
+          "options": [
+            "17",
+            "16",
+            "19",
+            "21"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "13 + 4 = 17"
+        },
+        {
+          "id": "m_lvl1_144",
+          "text": "2 * 3 = ?",
+          "options": [
+            "1",
+            "6",
+            "7",
+            "8"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "2 * 3 = 6"
+        },
+        {
+          "id": "m_lvl1_145",
+          "text": "12 / 6 = ?",
+          "options": [
+            "5",
+            "2",
+            "3",
+            "-1"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "12 / 6 = 2"
+        },
+        {
+          "id": "m_lvl1_146",
+          "text": "8 / 2 = ?",
+          "options": [
+            "4",
+            "3",
+            "7",
+            "2"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "8 / 2 = 4"
+        },
+        {
+          "id": "m_lvl1_147",
+          "text": "16 - 2 = ?",
+          "options": [
+            "9",
+            "13",
+            "14",
+            "12"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "16 - 2 = 14"
+        },
+        {
+          "id": "m_lvl1_148",
+          "text": "18 - 1 = ?",
+          "options": [
+            "21",
+            "19",
+            "17",
+            "18"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "18 - 1 = 17"
+        },
+        {
+          "id": "m_lvl1_149",
+          "text": "12 / 2 = ?",
+          "options": [
+            "4",
+            "8",
+            "6",
+            "5"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "12 / 2 = 6"
+        },
+        {
+          "id": "m_lvl1_150",
+          "text": "24 / 3 = ?",
+          "options": [
+            "4",
+            "5",
+            "8",
+            "6"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "24 / 3 = 8"
+        },
+        {
+          "id": "m_lvl1_151",
+          "text": "140 / 10 = ?",
+          "options": [
+            "14",
+            "18",
+            "17",
+            "11"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "140 / 10 = 14"
+        },
+        {
+          "id": "m_lvl1_152",
+          "text": "12 * 2 = ?",
+          "options": [
+            "22",
+            "19",
+            "24",
+            "29"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "12 * 2 = 24"
+        },
+        {
+          "id": "m_lvl1_153",
+          "text": "96 / 8 = ?",
+          "options": [
+            "16",
+            "12",
+            "9",
+            "7"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "96 / 8 = 12"
+        },
+        {
+          "id": "m_lvl1_154",
+          "text": "2 + 7 = ?",
+          "options": [
+            "9",
+            "4",
+            "8",
+            "12"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "2 + 7 = 9"
+        },
+        {
+          "id": "m_lvl1_155",
+          "text": "90 / 6 = ?",
+          "options": [
+            "11",
+            "16",
+            "15",
+            "14"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "90 / 6 = 15"
+        },
+        {
+          "id": "m_lvl1_156",
+          "text": "17 + 10 = ?",
+          "options": [
+            "22",
+            "23",
+            "27",
+            "30"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "17 + 10 = 27"
+        },
+        {
+          "id": "m_lvl1_157",
+          "text": "40 / 5 = ?",
+          "options": [
+            "8",
+            "7",
+            "11",
+            "9"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "40 / 5 = 8"
+        },
+        {
+          "id": "m_lvl1_158",
+          "text": "55 / 5 = ?",
+          "options": [
+            "12",
+            "13",
+            "11",
+            "14"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "55 / 5 = 11"
+        },
+        {
+          "id": "m_lvl1_159",
+          "text": "120 / 8 = ?",
+          "options": [
+            "15",
+            "11",
+            "19",
+            "12"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "120 / 8 = 15"
+        },
+        {
+          "id": "m_lvl1_160",
+          "text": "14 - 3 = ?",
+          "options": [
+            "9",
+            "11",
+            "12",
+            "16"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "14 - 3 = 11"
+        },
+        {
+          "id": "m_lvl1_161",
+          "text": "18 * 8 = ?",
+          "options": [
+            "145",
+            "140",
+            "144",
+            "141"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "18 * 8 = 144"
+        },
+        {
+          "id": "m_lvl1_162",
+          "text": "7 + 10 = ?",
+          "options": [
+            "17",
+            "20",
+            "19",
+            "21"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "7 + 10 = 17"
+        },
+        {
+          "id": "m_lvl1_163",
+          "text": "20 / 2 = ?",
+          "options": [
+            "10",
+            "15",
+            "9",
+            "8"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "20 / 2 = 10"
+        },
+        {
+          "id": "m_lvl1_164",
+          "text": "45 / 3 = ?",
+          "options": [
+            "16",
+            "13",
+            "15",
+            "10"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "45 / 3 = 15"
+        },
+        {
+          "id": "m_lvl1_165",
+          "text": "72 / 6 = ?",
+          "options": [
+            "12",
+            "11",
+            "15",
+            "8"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "72 / 6 = 12"
+        },
+        {
+          "id": "m_lvl1_166",
+          "text": "11 + 9 = ?",
+          "options": [
+            "17",
+            "24",
+            "23",
+            "20"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "11 + 9 = 20"
+        },
+        {
+          "id": "m_lvl1_167",
+          "text": "4 - 5 = ?",
+          "options": [
+            "-1",
+            "-5",
+            "-3",
+            "1"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "4 - 5 = -1"
+        },
+        {
+          "id": "m_lvl1_168",
+          "text": "17 + 1 = ?",
+          "options": [
+            "15",
+            "20",
+            "19",
+            "18"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "17 + 1 = 18"
+        },
+        {
+          "id": "m_lvl1_169",
+          "text": "17 - 4 = ?",
+          "options": [
+            "10",
+            "8",
+            "13",
+            "18"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "17 - 4 = 13"
+        },
+        {
+          "id": "m_lvl1_170",
+          "text": "15 - 3 = ?",
+          "options": [
+            "11",
+            "16",
+            "12",
+            "8"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "15 - 3 = 12"
+        },
+        {
+          "id": "m_lvl1_171",
+          "text": "8 + 2 = ?",
+          "options": [
+            "15",
+            "7",
+            "10",
+            "6"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "8 + 2 = 10"
+        },
+        {
+          "id": "m_lvl1_172",
+          "text": "1 + 1 = ?",
+          "options": [
+            "-3",
+            "7",
+            "-2",
+            "2"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "1 + 1 = 2"
+        },
+        {
+          "id": "m_lvl1_173",
+          "text": "5 - 9 = ?",
+          "options": [
+            "-4",
+            "-6",
+            "-2",
+            "-9"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "5 - 9 = -4"
+        },
+        {
+          "id": "m_lvl1_174",
+          "text": "20 - 7 = ?",
+          "options": [
+            "12",
+            "13",
+            "11",
+            "17"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "20 - 7 = 13"
+        },
+        {
+          "id": "m_lvl1_175",
+          "text": "13 * 4 = ?",
+          "options": [
+            "50",
+            "56",
+            "52",
+            "47"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "13 * 4 = 52"
+        },
+        {
+          "id": "m_lvl1_176",
+          "text": "12 + 5 = ?",
+          "options": [
+            "18",
+            "22",
+            "17",
+            "20"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "12 + 5 = 17"
+        },
+        {
+          "id": "m_lvl1_177",
+          "text": "16 * 3 = ?",
+          "options": [
+            "47",
+            "44",
+            "48",
+            "43"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "16 * 3 = 48"
+        },
+        {
+          "id": "m_lvl1_178",
+          "text": "42 / 6 = ?",
+          "options": [
+            "12",
+            "7",
+            "4",
+            "5"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "42 / 6 = 7"
+        },
+        {
+          "id": "m_lvl1_179",
+          "text": "84 / 7 = ?",
+          "options": [
+            "7",
+            "10",
+            "12",
+            "17"
+          ],
+          "correctIndex": 2,
+          "difficulty": 1,
+          "explanation": "84 / 7 = 12"
+        },
+        {
+          "id": "m_lvl1_180",
+          "text": "6 / 1 = ?",
+          "options": [
+            "3",
+            "1",
+            "10",
+            "6"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "6 / 1 = 6"
+        },
+        {
+          "id": "m_lvl1_181",
+          "text": "3 * 4 = ?",
+          "options": [
+            "10",
+            "12",
+            "14",
+            "16"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "3 * 4 = 12"
+        },
+        {
+          "id": "m_lvl1_182",
+          "text": "5 + 2 = ?",
+          "options": [
+            "4",
+            "7",
+            "8",
+            "9"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "5 + 2 = 7"
+        },
+        {
+          "id": "m_lvl1_183",
+          "text": "17 - 7 = ?",
+          "options": [
+            "15",
+            "10",
+            "6",
+            "14"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "17 - 7 = 10"
+        },
+        {
+          "id": "m_lvl1_184",
+          "text": "15 + 1 = ?",
+          "options": [
+            "16",
+            "20",
+            "14",
+            "18"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "15 + 1 = 16"
+        },
+        {
+          "id": "m_lvl1_185",
+          "text": "3 - 5 = ?",
+          "options": [
+            "-2",
+            "2",
+            "1",
+            "-1"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "3 - 5 = -2"
+        },
+        {
+          "id": "m_lvl1_186",
+          "text": "1 / 1 = ?",
+          "options": [
+            "-2",
+            "1",
+            "-3",
+            "3"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "1 / 1 = 1"
+        },
+        {
+          "id": "m_lvl1_187",
+          "text": "2 * 8 = ?",
+          "options": [
+            "13",
+            "17",
+            "19",
+            "16"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "2 * 8 = 16"
+        },
+        {
+          "id": "m_lvl1_188",
+          "text": "17 + 4 = ?",
+          "options": [
+            "23",
+            "24",
+            "19",
+            "21"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "17 + 4 = 21"
+        },
+        {
+          "id": "m_lvl1_189",
+          "text": "1 - 4 = ?",
+          "options": [
+            "-1",
+            "-3",
+            "1",
+            "0"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "1 - 4 = -3"
+        },
+        {
+          "id": "m_lvl1_190",
+          "text": "12 + 10 = ?",
+          "options": [
+            "23",
+            "24",
+            "25",
+            "22"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "12 + 10 = 22"
+        },
+        {
+          "id": "m_lvl1_191",
+          "text": "12 / 6 = ?",
+          "options": [
+            "0",
+            "1",
+            "3",
+            "2"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "12 / 6 = 2"
+        },
+        {
+          "id": "m_lvl1_192",
+          "text": "1 - 8 = ?",
+          "options": [
+            "-3",
+            "-9",
+            "-10",
+            "-7"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "1 - 8 = -7"
+        },
+        {
+          "id": "m_lvl1_193",
+          "text": "4 + 2 = ?",
+          "options": [
+            "3",
+            "6",
+            "5",
+            "11"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "4 + 2 = 6"
+        },
+        {
+          "id": "m_lvl1_194",
+          "text": "1 - 3 = ?",
+          "options": [
+            "-5",
+            "-2",
+            "1",
+            "-6"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "1 - 3 = -2"
+        },
+        {
+          "id": "m_lvl1_195",
+          "text": "18 - 2 = ?",
+          "options": [
+            "16",
+            "17",
+            "13",
+            "12"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "18 - 2 = 16"
+        },
+        {
+          "id": "m_lvl1_196",
+          "text": "6 + 10 = ?",
+          "options": [
+            "20",
+            "16",
+            "19",
+            "18"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "6 + 10 = 16"
+        },
+        {
+          "id": "m_lvl1_197",
+          "text": "16 / 2 = ?",
+          "options": [
+            "11",
+            "8",
+            "13",
+            "9"
+          ],
+          "correctIndex": 1,
+          "difficulty": 1,
+          "explanation": "16 / 2 = 8"
+        },
+        {
+          "id": "m_lvl1_198",
+          "text": "2 * 7 = ?",
+          "options": [
+            "16",
+            "11",
+            "10",
+            "14"
+          ],
+          "correctIndex": 3,
+          "difficulty": 1,
+          "explanation": "2 * 7 = 14"
+        },
+        {
+          "id": "m_lvl1_199",
+          "text": "20 + 10 = ?",
+          "options": [
+            "30",
+            "27",
+            "32",
+            "29"
+          ],
+          "correctIndex": 0,
+          "difficulty": 1,
+          "explanation": "20 + 10 = 30"
         }
-    ]
+      ]
+    },
+    {
+      "id": 2,
+      "questions": [
+        {
+          "id": "m_lvl2_0",
+          "text": "10 * 6 = ?",
+          "options": [
+            "69",
+            "63",
+            "58",
+            "60"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "10 * 6 = 60"
+        },
+        {
+          "id": "m_lvl2_1",
+          "text": "44 + 30 = ?",
+          "options": [
+            "75",
+            "73",
+            "68",
+            "74"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "44 + 30 = 74"
+        },
+        {
+          "id": "m_lvl2_2",
+          "text": "84 + 49 = ?",
+          "options": [
+            "129",
+            "141",
+            "133",
+            "132"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "84 + 49 = 133"
+        },
+        {
+          "id": "m_lvl2_3",
+          "text": "38 + 17 = ?",
+          "options": [
+            "56",
+            "55",
+            "63",
+            "48"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "38 + 17 = 55"
+        },
+        {
+          "id": "m_lvl2_4",
+          "text": "54 + 13 = ?",
+          "options": [
+            "70",
+            "65",
+            "67",
+            "69"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "54 + 13 = 67"
+        },
+        {
+          "id": "m_lvl2_5",
+          "text": "20 * 10 = ?",
+          "options": [
+            "200",
+            "204",
+            "207",
+            "199"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "20 * 10 = 200"
+        },
+        {
+          "id": "m_lvl2_6",
+          "text": "39 - 24 = ?",
+          "options": [
+            "14",
+            "15",
+            "8",
+            "25"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "39 - 24 = 15"
+        },
+        {
+          "id": "m_lvl2_7",
+          "text": "18 * 5 = ?",
+          "options": [
+            "91",
+            "95",
+            "88",
+            "90"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "18 * 5 = 90"
+        },
+        {
+          "id": "m_lvl2_8",
+          "text": "95 - 20 = ?",
+          "options": [
+            "67",
+            "66",
+            "75",
+            "72"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "95 - 20 = 75"
+        },
+        {
+          "id": "m_lvl2_9",
+          "text": "75 + 43 = ?",
+          "options": [
+            "117",
+            "118",
+            "116",
+            "113"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "75 + 43 = 118"
+        },
+        {
+          "id": "m_lvl2_10",
+          "text": "12 * 6 = ?",
+          "options": [
+            "73",
+            "82",
+            "78",
+            "72"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "12 * 6 = 72"
+        },
+        {
+          "id": "m_lvl2_11",
+          "text": "19 * 10 = ?",
+          "options": [
+            "196",
+            "198",
+            "188",
+            "190"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "19 * 10 = 190"
+        },
+        {
+          "id": "m_lvl2_12",
+          "text": "17 * 12 = ?",
+          "options": [
+            "203",
+            "204",
+            "201",
+            "199"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "17 * 12 = 204"
+        },
+        {
+          "id": "m_lvl2_13",
+          "text": "43 - 42 = ?",
+          "options": [
+            "1",
+            "3",
+            "8",
+            "-2"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "43 - 42 = 1"
+        },
+        {
+          "id": "m_lvl2_14",
+          "text": "84 + 29 = ?",
+          "options": [
+            "107",
+            "114",
+            "113",
+            "117"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "84 + 29 = 113"
+        },
+        {
+          "id": "m_lvl2_15",
+          "text": "12 * 6 = ?",
+          "options": [
+            "62",
+            "66",
+            "72",
+            "82"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "12 * 6 = 72"
+        },
+        {
+          "id": "m_lvl2_16",
+          "text": "13 * 12 = ?",
+          "options": [
+            "156",
+            "149",
+            "150",
+            "163"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "13 * 12 = 156"
+        },
+        {
+          "id": "m_lvl2_17",
+          "text": "12 * 9 = ?",
+          "options": [
+            "110",
+            "108",
+            "104",
+            "106"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "12 * 9 = 108"
+        },
+        {
+          "id": "m_lvl2_18",
+          "text": "87 - 23 = ?",
+          "options": [
+            "64",
+            "74",
+            "71",
+            "72"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "87 - 23 = 64"
+        },
+        {
+          "id": "m_lvl2_19",
+          "text": "12 * 7 = ?",
+          "options": [
+            "84",
+            "79",
+            "77",
+            "76"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "12 * 7 = 84"
+        },
+        {
+          "id": "m_lvl2_20",
+          "text": "62 - 13 = ?",
+          "options": [
+            "52",
+            "59",
+            "49",
+            "56"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "62 - 13 = 49"
+        },
+        {
+          "id": "m_lvl2_21",
+          "text": "61 + 32 = ?",
+          "options": [
+            "99",
+            "93",
+            "97",
+            "103"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "61 + 32 = 93"
+        },
+        {
+          "id": "m_lvl2_22",
+          "text": "87 - 48 = ?",
+          "options": [
+            "39",
+            "30",
+            "41",
+            "42"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "87 - 48 = 39"
+        },
+        {
+          "id": "m_lvl2_23",
+          "text": "74 + 30 = ?",
+          "options": [
+            "98",
+            "94",
+            "104",
+            "114"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "74 + 30 = 104"
+        },
+        {
+          "id": "m_lvl2_24",
+          "text": "28 + 13 = ?",
+          "options": [
+            "32",
+            "41",
+            "39",
+            "38"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "28 + 13 = 41"
+        },
+        {
+          "id": "m_lvl2_25",
+          "text": "26 + 45 = ?",
+          "options": [
+            "68",
+            "66",
+            "61",
+            "71"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "26 + 45 = 71"
+        },
+        {
+          "id": "m_lvl2_26",
+          "text": "38 - 14 = ?",
+          "options": [
+            "27",
+            "32",
+            "33",
+            "24"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "38 - 14 = 24"
+        },
+        {
+          "id": "m_lvl2_27",
+          "text": "61 - 35 = ?",
+          "options": [
+            "21",
+            "26",
+            "19",
+            "25"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "61 - 35 = 26"
+        },
+        {
+          "id": "m_lvl2_28",
+          "text": "16 * 9 = ?",
+          "options": [
+            "147",
+            "149",
+            "144",
+            "134"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "16 * 9 = 144"
+        },
+        {
+          "id": "m_lvl2_29",
+          "text": "17 * 7 = ?",
+          "options": [
+            "119",
+            "118",
+            "110",
+            "112"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "17 * 7 = 119"
+        },
+        {
+          "id": "m_lvl2_30",
+          "text": "32 - 16 = ?",
+          "options": [
+            "19",
+            "16",
+            "9",
+            "18"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "32 - 16 = 16"
+        },
+        {
+          "id": "m_lvl2_31",
+          "text": "59 + 14 = ?",
+          "options": [
+            "74",
+            "73",
+            "76",
+            "64"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "59 + 14 = 73"
+        },
+        {
+          "id": "m_lvl2_32",
+          "text": "90 + 12 = ?",
+          "options": [
+            "104",
+            "95",
+            "102",
+            "96"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "90 + 12 = 102"
+        },
+        {
+          "id": "m_lvl2_33",
+          "text": "11 * 9 = ?",
+          "options": [
+            "99",
+            "106",
+            "102",
+            "101"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "11 * 9 = 99"
+        },
+        {
+          "id": "m_lvl2_34",
+          "text": "11 * 6 = ?",
+          "options": [
+            "58",
+            "68",
+            "66",
+            "59"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "11 * 6 = 66"
+        },
+        {
+          "id": "m_lvl2_35",
+          "text": "20 * 9 = ?",
+          "options": [
+            "180",
+            "170",
+            "179",
+            "171"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "20 * 9 = 180"
+        },
+        {
+          "id": "m_lvl2_36",
+          "text": "11 * 5 = ?",
+          "options": [
+            "55",
+            "45",
+            "57",
+            "51"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "11 * 5 = 55"
+        },
+        {
+          "id": "m_lvl2_37",
+          "text": "66 + 17 = ?",
+          "options": [
+            "81",
+            "76",
+            "92",
+            "83"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "66 + 17 = 83"
+        },
+        {
+          "id": "m_lvl2_38",
+          "text": "16 * 7 = ?",
+          "options": [
+            "108",
+            "107",
+            "112",
+            "105"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "16 * 7 = 112"
+        },
+        {
+          "id": "m_lvl2_39",
+          "text": "20 * 12 = ?",
+          "options": [
+            "241",
+            "245",
+            "234",
+            "240"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "20 * 12 = 240"
+        },
+        {
+          "id": "m_lvl2_40",
+          "text": "61 + 14 = ?",
+          "options": [
+            "75",
+            "82",
+            "79",
+            "69"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "61 + 14 = 75"
+        },
+        {
+          "id": "m_lvl2_41",
+          "text": "28 + 12 = ?",
+          "options": [
+            "40",
+            "43",
+            "39",
+            "35"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "28 + 12 = 40"
+        },
+        {
+          "id": "m_lvl2_42",
+          "text": "19 * 9 = ?",
+          "options": [
+            "171",
+            "176",
+            "162",
+            "169"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "19 * 9 = 171"
+        },
+        {
+          "id": "m_lvl2_43",
+          "text": "19 * 7 = ?",
+          "options": [
+            "140",
+            "126",
+            "133",
+            "131"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "19 * 7 = 133"
+        },
+        {
+          "id": "m_lvl2_44",
+          "text": "90 - 35 = ?",
+          "options": [
+            "55",
+            "50",
+            "61",
+            "46"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "90 - 35 = 55"
+        },
+        {
+          "id": "m_lvl2_45",
+          "text": "93 - 33 = ?",
+          "options": [
+            "60",
+            "68",
+            "61",
+            "70"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "93 - 33 = 60"
+        },
+        {
+          "id": "m_lvl2_46",
+          "text": "57 + 30 = ?",
+          "options": [
+            "90",
+            "95",
+            "87",
+            "91"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "57 + 30 = 87"
+        },
+        {
+          "id": "m_lvl2_47",
+          "text": "11 * 8 = ?",
+          "options": [
+            "90",
+            "97",
+            "88",
+            "98"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "11 * 8 = 88"
+        },
+        {
+          "id": "m_lvl2_48",
+          "text": "68 - 30 = ?",
+          "options": [
+            "29",
+            "40",
+            "45",
+            "38"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "68 - 30 = 38"
+        },
+        {
+          "id": "m_lvl2_49",
+          "text": "59 - 27 = ?",
+          "options": [
+            "33",
+            "22",
+            "32",
+            "38"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "59 - 27 = 32"
+        },
+        {
+          "id": "m_lvl2_50",
+          "text": "52 - 31 = ?",
+          "options": [
+            "20",
+            "29",
+            "21",
+            "27"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "52 - 31 = 21"
+        },
+        {
+          "id": "m_lvl2_51",
+          "text": "35 + 23 = ?",
+          "options": [
+            "64",
+            "52",
+            "48",
+            "58"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "35 + 23 = 58"
+        },
+        {
+          "id": "m_lvl2_52",
+          "text": "24 - 22 = ?",
+          "options": [
+            "3",
+            "2",
+            "8",
+            "5"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "24 - 22 = 2"
+        },
+        {
+          "id": "m_lvl2_53",
+          "text": "17 * 12 = ?",
+          "options": [
+            "197",
+            "208",
+            "201",
+            "204"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "17 * 12 = 204"
+        },
+        {
+          "id": "m_lvl2_54",
+          "text": "90 + 10 = ?",
+          "options": [
+            "109",
+            "100",
+            "107",
+            "102"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "90 + 10 = 100"
+        },
+        {
+          "id": "m_lvl2_55",
+          "text": "50 + 44 = ?",
+          "options": [
+            "103",
+            "94",
+            "96",
+            "99"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "50 + 44 = 94"
+        },
+        {
+          "id": "m_lvl2_56",
+          "text": "48 + 20 = ?",
+          "options": [
+            "76",
+            "63",
+            "69",
+            "68"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "48 + 20 = 68"
+        },
+        {
+          "id": "m_lvl2_57",
+          "text": "89 + 28 = ?",
+          "options": [
+            "123",
+            "125",
+            "113",
+            "117"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "89 + 28 = 117"
+        },
+        {
+          "id": "m_lvl2_58",
+          "text": "28 - 19 = ?",
+          "options": [
+            "9",
+            "16",
+            "15",
+            "8"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "28 - 19 = 9"
+        },
+        {
+          "id": "m_lvl2_59",
+          "text": "48 - 41 = ?",
+          "options": [
+            "13",
+            "17",
+            "1",
+            "7"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "48 - 41 = 7"
+        },
+        {
+          "id": "m_lvl2_60",
+          "text": "91 + 30 = ?",
+          "options": [
+            "121",
+            "130",
+            "131",
+            "117"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "91 + 30 = 121"
+        },
+        {
+          "id": "m_lvl2_61",
+          "text": "13 * 6 = ?",
+          "options": [
+            "86",
+            "78",
+            "70",
+            "69"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "13 * 6 = 78"
+        },
+        {
+          "id": "m_lvl2_62",
+          "text": "50 - 33 = ?",
+          "options": [
+            "21",
+            "26",
+            "17",
+            "10"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "50 - 33 = 17"
+        },
+        {
+          "id": "m_lvl2_63",
+          "text": "42 - 30 = ?",
+          "options": [
+            "12",
+            "13",
+            "21",
+            "4"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "42 - 30 = 12"
+        },
+        {
+          "id": "m_lvl2_64",
+          "text": "17 * 11 = ?",
+          "options": [
+            "193",
+            "191",
+            "187",
+            "190"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "17 * 11 = 187"
+        },
+        {
+          "id": "m_lvl2_65",
+          "text": "61 + 33 = ?",
+          "options": [
+            "84",
+            "94",
+            "99",
+            "96"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "61 + 33 = 94"
+        },
+        {
+          "id": "m_lvl2_66",
+          "text": "94 + 48 = ?",
+          "options": [
+            "142",
+            "151",
+            "144",
+            "138"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "94 + 48 = 142"
+        },
+        {
+          "id": "m_lvl2_67",
+          "text": "13 * 9 = ?",
+          "options": [
+            "114",
+            "117",
+            "113",
+            "115"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "13 * 9 = 117"
+        },
+        {
+          "id": "m_lvl2_68",
+          "text": "17 * 12 = ?",
+          "options": [
+            "204",
+            "205",
+            "198",
+            "210"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "17 * 12 = 204"
+        },
+        {
+          "id": "m_lvl2_69",
+          "text": "54 + 48 = ?",
+          "options": [
+            "111",
+            "106",
+            "94",
+            "102"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "54 + 48 = 102"
+        },
+        {
+          "id": "m_lvl2_70",
+          "text": "85 - 13 = ?",
+          "options": [
+            "78",
+            "72",
+            "70",
+            "65"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "85 - 13 = 72"
+        },
+        {
+          "id": "m_lvl2_71",
+          "text": "17 * 12 = ?",
+          "options": [
+            "196",
+            "204",
+            "203",
+            "197"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "17 * 12 = 204"
+        },
+        {
+          "id": "m_lvl2_72",
+          "text": "10 * 11 = ?",
+          "options": [
+            "117",
+            "111",
+            "116",
+            "110"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "10 * 11 = 110"
+        },
+        {
+          "id": "m_lvl2_73",
+          "text": "19 * 5 = ?",
+          "options": [
+            "95",
+            "101",
+            "102",
+            "87"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "19 * 5 = 95"
+        },
+        {
+          "id": "m_lvl2_74",
+          "text": "92 - 37 = ?",
+          "options": [
+            "50",
+            "65",
+            "55",
+            "45"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "92 - 37 = 55"
+        },
+        {
+          "id": "m_lvl2_75",
+          "text": "94 + 32 = ?",
+          "options": [
+            "126",
+            "133",
+            "117",
+            "118"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "94 + 32 = 126"
+        },
+        {
+          "id": "m_lvl2_76",
+          "text": "34 + 10 = ?",
+          "options": [
+            "38",
+            "36",
+            "44",
+            "50"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "34 + 10 = 44"
+        },
+        {
+          "id": "m_lvl2_77",
+          "text": "53 + 13 = ?",
+          "options": [
+            "66",
+            "64",
+            "56",
+            "74"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "53 + 13 = 66"
+        },
+        {
+          "id": "m_lvl2_78",
+          "text": "72 - 21 = ?",
+          "options": [
+            "46",
+            "57",
+            "49",
+            "51"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "72 - 21 = 51"
+        },
+        {
+          "id": "m_lvl2_79",
+          "text": "17 * 12 = ?",
+          "options": [
+            "202",
+            "213",
+            "203",
+            "204"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "17 * 12 = 204"
+        },
+        {
+          "id": "m_lvl2_80",
+          "text": "77 + 18 = ?",
+          "options": [
+            "85",
+            "95",
+            "102",
+            "86"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "77 + 18 = 95"
+        },
+        {
+          "id": "m_lvl2_81",
+          "text": "55 - 15 = ?",
+          "options": [
+            "43",
+            "38",
+            "36",
+            "40"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "55 - 15 = 40"
+        },
+        {
+          "id": "m_lvl2_82",
+          "text": "11 * 5 = ?",
+          "options": [
+            "54",
+            "60",
+            "59",
+            "55"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "11 * 5 = 55"
+        },
+        {
+          "id": "m_lvl2_83",
+          "text": "58 + 19 = ?",
+          "options": [
+            "75",
+            "67",
+            "80",
+            "77"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "58 + 19 = 77"
+        },
+        {
+          "id": "m_lvl2_84",
+          "text": "62 + 47 = ?",
+          "options": [
+            "109",
+            "101",
+            "110",
+            "113"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "62 + 47 = 109"
+        },
+        {
+          "id": "m_lvl2_85",
+          "text": "20 * 5 = ?",
+          "options": [
+            "102",
+            "100",
+            "99",
+            "104"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "20 * 5 = 100"
+        },
+        {
+          "id": "m_lvl2_86",
+          "text": "95 + 43 = ?",
+          "options": [
+            "134",
+            "132",
+            "137",
+            "138"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "95 + 43 = 138"
+        },
+        {
+          "id": "m_lvl2_87",
+          "text": "10 * 5 = ?",
+          "options": [
+            "50",
+            "54",
+            "59",
+            "56"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "10 * 5 = 50"
+        },
+        {
+          "id": "m_lvl2_88",
+          "text": "33 - 14 = ?",
+          "options": [
+            "29",
+            "11",
+            "19",
+            "22"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "33 - 14 = 19"
+        },
+        {
+          "id": "m_lvl2_89",
+          "text": "28 + 45 = ?",
+          "options": [
+            "71",
+            "83",
+            "74",
+            "73"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "28 + 45 = 73"
+        },
+        {
+          "id": "m_lvl2_90",
+          "text": "11 * 11 = ?",
+          "options": [
+            "120",
+            "128",
+            "112",
+            "121"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "11 * 11 = 121"
+        },
+        {
+          "id": "m_lvl2_91",
+          "text": "47 - 25 = ?",
+          "options": [
+            "16",
+            "15",
+            "30",
+            "22"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "47 - 25 = 22"
+        },
+        {
+          "id": "m_lvl2_92",
+          "text": "31 + 37 = ?",
+          "options": [
+            "72",
+            "68",
+            "67",
+            "61"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "31 + 37 = 68"
+        },
+        {
+          "id": "m_lvl2_93",
+          "text": "10 * 12 = ?",
+          "options": [
+            "112",
+            "117",
+            "119",
+            "120"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "10 * 12 = 120"
+        },
+        {
+          "id": "m_lvl2_94",
+          "text": "72 + 19 = ?",
+          "options": [
+            "89",
+            "84",
+            "82",
+            "91"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "72 + 19 = 91"
+        },
+        {
+          "id": "m_lvl2_95",
+          "text": "32 - 14 = ?",
+          "options": [
+            "21",
+            "23",
+            "18",
+            "19"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "32 - 14 = 18"
+        },
+        {
+          "id": "m_lvl2_96",
+          "text": "90 + 25 = ?",
+          "options": [
+            "123",
+            "115",
+            "107",
+            "121"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "90 + 25 = 115"
+        },
+        {
+          "id": "m_lvl2_97",
+          "text": "10 * 8 = ?",
+          "options": [
+            "80",
+            "79",
+            "85",
+            "89"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "10 * 8 = 80"
+        },
+        {
+          "id": "m_lvl2_98",
+          "text": "76 + 43 = ?",
+          "options": [
+            "122",
+            "126",
+            "119",
+            "118"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "76 + 43 = 119"
+        },
+        {
+          "id": "m_lvl2_99",
+          "text": "65 + 33 = ?",
+          "options": [
+            "90",
+            "98",
+            "88",
+            "95"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "65 + 33 = 98"
+        },
+        {
+          "id": "m_lvl2_100",
+          "text": "74 - 44 = ?",
+          "options": [
+            "30",
+            "37",
+            "25",
+            "33"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "74 - 44 = 30"
+        },
+        {
+          "id": "m_lvl2_101",
+          "text": "40 + 15 = ?",
+          "options": [
+            "49",
+            "48",
+            "59",
+            "55"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "40 + 15 = 55"
+        },
+        {
+          "id": "m_lvl2_102",
+          "text": "37 + 19 = ?",
+          "options": [
+            "52",
+            "66",
+            "47",
+            "56"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "37 + 19 = 56"
+        },
+        {
+          "id": "m_lvl2_103",
+          "text": "47 + 26 = ?",
+          "options": [
+            "63",
+            "73",
+            "64",
+            "83"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "47 + 26 = 73"
+        },
+        {
+          "id": "m_lvl2_104",
+          "text": "18 * 5 = ?",
+          "options": [
+            "84",
+            "90",
+            "91",
+            "80"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "18 * 5 = 90"
+        },
+        {
+          "id": "m_lvl2_105",
+          "text": "29 + 13 = ?",
+          "options": [
+            "49",
+            "42",
+            "46",
+            "36"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "29 + 13 = 42"
+        },
+        {
+          "id": "m_lvl2_106",
+          "text": "85 + 30 = ?",
+          "options": [
+            "105",
+            "109",
+            "125",
+            "115"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "85 + 30 = 115"
+        },
+        {
+          "id": "m_lvl2_107",
+          "text": "39 + 22 = ?",
+          "options": [
+            "64",
+            "61",
+            "52",
+            "63"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "39 + 22 = 61"
+        },
+        {
+          "id": "m_lvl2_108",
+          "text": "78 + 20 = ?",
+          "options": [
+            "98",
+            "103",
+            "102",
+            "100"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "78 + 20 = 98"
+        },
+        {
+          "id": "m_lvl2_109",
+          "text": "68 - 14 = ?",
+          "options": [
+            "63",
+            "54",
+            "47",
+            "59"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "68 - 14 = 54"
+        },
+        {
+          "id": "m_lvl2_110",
+          "text": "94 - 45 = ?",
+          "options": [
+            "48",
+            "49",
+            "45",
+            "59"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "94 - 45 = 49"
+        },
+        {
+          "id": "m_lvl2_111",
+          "text": "15 * 5 = ?",
+          "options": [
+            "65",
+            "85",
+            "75",
+            "81"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "15 * 5 = 75"
+        },
+        {
+          "id": "m_lvl2_112",
+          "text": "57 + 33 = ?",
+          "options": [
+            "81",
+            "80",
+            "90",
+            "97"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "57 + 33 = 90"
+        },
+        {
+          "id": "m_lvl2_113",
+          "text": "10 * 6 = ?",
+          "options": [
+            "60",
+            "57",
+            "69",
+            "66"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "10 * 6 = 60"
+        },
+        {
+          "id": "m_lvl2_114",
+          "text": "12 * 7 = ?",
+          "options": [
+            "87",
+            "75",
+            "93",
+            "84"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "12 * 7 = 84"
+        },
+        {
+          "id": "m_lvl2_115",
+          "text": "17 * 8 = ?",
+          "options": [
+            "126",
+            "130",
+            "133",
+            "136"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "17 * 8 = 136"
+        },
+        {
+          "id": "m_lvl2_116",
+          "text": "70 + 37 = ?",
+          "options": [
+            "114",
+            "107",
+            "108",
+            "101"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "70 + 37 = 107"
+        },
+        {
+          "id": "m_lvl2_117",
+          "text": "70 - 10 = ?",
+          "options": [
+            "60",
+            "62",
+            "63",
+            "70"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "70 - 10 = 60"
+        },
+        {
+          "id": "m_lvl2_118",
+          "text": "20 * 12 = ?",
+          "options": [
+            "249",
+            "241",
+            "236",
+            "240"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "20 * 12 = 240"
+        },
+        {
+          "id": "m_lvl2_119",
+          "text": "72 + 33 = ?",
+          "options": [
+            "108",
+            "114",
+            "111",
+            "105"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "72 + 33 = 105"
+        },
+        {
+          "id": "m_lvl2_120",
+          "text": "45 + 12 = ?",
+          "options": [
+            "51",
+            "57",
+            "64",
+            "58"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "45 + 12 = 57"
+        },
+        {
+          "id": "m_lvl2_121",
+          "text": "62 - 34 = ?",
+          "options": [
+            "29",
+            "33",
+            "31",
+            "28"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "62 - 34 = 28"
+        },
+        {
+          "id": "m_lvl2_122",
+          "text": "61 - 36 = ?",
+          "options": [
+            "25",
+            "34",
+            "31",
+            "33"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "61 - 36 = 25"
+        },
+        {
+          "id": "m_lvl2_123",
+          "text": "44 + 18 = ?",
+          "options": [
+            "72",
+            "67",
+            "58",
+            "62"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "44 + 18 = 62"
+        },
+        {
+          "id": "m_lvl2_124",
+          "text": "78 - 18 = ?",
+          "options": [
+            "56",
+            "60",
+            "57",
+            "58"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "78 - 18 = 60"
+        },
+        {
+          "id": "m_lvl2_125",
+          "text": "19 * 10 = ?",
+          "options": [
+            "186",
+            "196",
+            "190",
+            "187"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "19 * 10 = 190"
+        },
+        {
+          "id": "m_lvl2_126",
+          "text": "76 - 21 = ?",
+          "options": [
+            "63",
+            "57",
+            "55",
+            "46"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "76 - 21 = 55"
+        },
+        {
+          "id": "m_lvl2_127",
+          "text": "87 + 10 = ?",
+          "options": [
+            "97",
+            "89",
+            "95",
+            "104"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "87 + 10 = 97"
+        },
+        {
+          "id": "m_lvl2_128",
+          "text": "82 + 44 = ?",
+          "options": [
+            "122",
+            "135",
+            "126",
+            "133"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "82 + 44 = 126"
+        },
+        {
+          "id": "m_lvl2_129",
+          "text": "55 + 31 = ?",
+          "options": [
+            "85",
+            "84",
+            "93",
+            "86"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "55 + 31 = 86"
+        },
+        {
+          "id": "m_lvl2_130",
+          "text": "52 + 18 = ?",
+          "options": [
+            "77",
+            "66",
+            "70",
+            "72"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "52 + 18 = 70"
+        },
+        {
+          "id": "m_lvl2_131",
+          "text": "65 - 49 = ?",
+          "options": [
+            "13",
+            "6",
+            "16",
+            "26"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "65 - 49 = 16"
+        },
+        {
+          "id": "m_lvl2_132",
+          "text": "37 + 24 = ?",
+          "options": [
+            "51",
+            "63",
+            "58",
+            "61"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "37 + 24 = 61"
+        },
+        {
+          "id": "m_lvl2_133",
+          "text": "17 * 10 = ?",
+          "options": [
+            "176",
+            "174",
+            "170",
+            "162"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "17 * 10 = 170"
+        },
+        {
+          "id": "m_lvl2_134",
+          "text": "40 - 23 = ?",
+          "options": [
+            "17",
+            "20",
+            "7",
+            "19"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "40 - 23 = 17"
+        },
+        {
+          "id": "m_lvl2_135",
+          "text": "26 + 41 = ?",
+          "options": [
+            "65",
+            "67",
+            "70",
+            "60"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "26 + 41 = 67"
+        },
+        {
+          "id": "m_lvl2_136",
+          "text": "16 * 5 = ?",
+          "options": [
+            "75",
+            "88",
+            "80",
+            "71"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "16 * 5 = 80"
+        },
+        {
+          "id": "m_lvl2_137",
+          "text": "17 * 10 = ?",
+          "options": [
+            "178",
+            "172",
+            "170",
+            "174"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "17 * 10 = 170"
+        },
+        {
+          "id": "m_lvl2_138",
+          "text": "41 - 30 = ?",
+          "options": [
+            "2",
+            "21",
+            "20",
+            "11"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "41 - 30 = 11"
+        },
+        {
+          "id": "m_lvl2_139",
+          "text": "67 + 49 = ?",
+          "options": [
+            "120",
+            "125",
+            "116",
+            "122"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "67 + 49 = 116"
+        },
+        {
+          "id": "m_lvl2_140",
+          "text": "80 + 40 = ?",
+          "options": [
+            "111",
+            "122",
+            "120",
+            "119"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "80 + 40 = 120"
+        },
+        {
+          "id": "m_lvl2_141",
+          "text": "35 - 25 = ?",
+          "options": [
+            "16",
+            "4",
+            "10",
+            "15"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "35 - 25 = 10"
+        },
+        {
+          "id": "m_lvl2_142",
+          "text": "42 + 40 = ?",
+          "options": [
+            "84",
+            "78",
+            "89",
+            "82"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "42 + 40 = 82"
+        },
+        {
+          "id": "m_lvl2_143",
+          "text": "16 * 8 = ?",
+          "options": [
+            "135",
+            "118",
+            "132",
+            "128"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "16 * 8 = 128"
+        },
+        {
+          "id": "m_lvl2_144",
+          "text": "17 * 11 = ?",
+          "options": [
+            "183",
+            "187",
+            "188",
+            "191"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "17 * 11 = 187"
+        },
+        {
+          "id": "m_lvl2_145",
+          "text": "65 - 25 = ?",
+          "options": [
+            "38",
+            "37",
+            "49",
+            "40"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "65 - 25 = 40"
+        },
+        {
+          "id": "m_lvl2_146",
+          "text": "13 * 8 = ?",
+          "options": [
+            "97",
+            "114",
+            "104",
+            "100"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "13 * 8 = 104"
+        },
+        {
+          "id": "m_lvl2_147",
+          "text": "12 * 9 = ?",
+          "options": [
+            "112",
+            "115",
+            "103",
+            "108"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "12 * 9 = 108"
+        },
+        {
+          "id": "m_lvl2_148",
+          "text": "22 - 20 = ?",
+          "options": [
+            "2",
+            "-6",
+            "4",
+            "0"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "22 - 20 = 2"
+        },
+        {
+          "id": "m_lvl2_149",
+          "text": "69 - 40 = ?",
+          "options": [
+            "32",
+            "28",
+            "29",
+            "24"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "69 - 40 = 29"
+        },
+        {
+          "id": "m_lvl2_150",
+          "text": "80 - 32 = ?",
+          "options": [
+            "39",
+            "38",
+            "43",
+            "48"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "80 - 32 = 48"
+        },
+        {
+          "id": "m_lvl2_151",
+          "text": "10 * 8 = ?",
+          "options": [
+            "90",
+            "72",
+            "85",
+            "80"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "10 * 8 = 80"
+        },
+        {
+          "id": "m_lvl2_152",
+          "text": "89 + 32 = ?",
+          "options": [
+            "115",
+            "121",
+            "114",
+            "131"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "89 + 32 = 121"
+        },
+        {
+          "id": "m_lvl2_153",
+          "text": "34 - 25 = ?",
+          "options": [
+            "9",
+            "2",
+            "10",
+            "15"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "34 - 25 = 9"
+        },
+        {
+          "id": "m_lvl2_154",
+          "text": "10 * 7 = ?",
+          "options": [
+            "63",
+            "70",
+            "80",
+            "64"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "10 * 7 = 70"
+        },
+        {
+          "id": "m_lvl2_155",
+          "text": "12 * 10 = ?",
+          "options": [
+            "127",
+            "126",
+            "120",
+            "122"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "12 * 10 = 120"
+        },
+        {
+          "id": "m_lvl2_156",
+          "text": "67 - 40 = ?",
+          "options": [
+            "20",
+            "27",
+            "18",
+            "26"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "67 - 40 = 27"
+        },
+        {
+          "id": "m_lvl2_157",
+          "text": "69 + 14 = ?",
+          "options": [
+            "84",
+            "87",
+            "77",
+            "83"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "69 + 14 = 83"
+        },
+        {
+          "id": "m_lvl2_158",
+          "text": "28 + 30 = ?",
+          "options": [
+            "57",
+            "53",
+            "58",
+            "68"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "28 + 30 = 58"
+        },
+        {
+          "id": "m_lvl2_159",
+          "text": "83 + 35 = ?",
+          "options": [
+            "110",
+            "112",
+            "126",
+            "118"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "83 + 35 = 118"
+        },
+        {
+          "id": "m_lvl2_160",
+          "text": "15 * 12 = ?",
+          "options": [
+            "177",
+            "185",
+            "180",
+            "190"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "15 * 12 = 180"
+        },
+        {
+          "id": "m_lvl2_161",
+          "text": "19 * 6 = ?",
+          "options": [
+            "115",
+            "118",
+            "114",
+            "123"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "19 * 6 = 114"
+        },
+        {
+          "id": "m_lvl2_162",
+          "text": "98 + 36 = ?",
+          "options": [
+            "127",
+            "128",
+            "125",
+            "134"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "98 + 36 = 134"
+        },
+        {
+          "id": "m_lvl2_163",
+          "text": "50 - 31 = ?",
+          "options": [
+            "19",
+            "29",
+            "23",
+            "24"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "50 - 31 = 19"
+        },
+        {
+          "id": "m_lvl2_164",
+          "text": "50 - 19 = ?",
+          "options": [
+            "37",
+            "28",
+            "25",
+            "31"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "50 - 19 = 31"
+        },
+        {
+          "id": "m_lvl2_165",
+          "text": "17 * 8 = ?",
+          "options": [
+            "131",
+            "136",
+            "128",
+            "130"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "17 * 8 = 136"
+        },
+        {
+          "id": "m_lvl2_166",
+          "text": "60 - 15 = ?",
+          "options": [
+            "36",
+            "46",
+            "48",
+            "45"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "60 - 15 = 45"
+        },
+        {
+          "id": "m_lvl2_167",
+          "text": "47 + 16 = ?",
+          "options": [
+            "58",
+            "68",
+            "70",
+            "63"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "47 + 16 = 63"
+        },
+        {
+          "id": "m_lvl2_168",
+          "text": "18 * 8 = ?",
+          "options": [
+            "137",
+            "134",
+            "144",
+            "151"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "18 * 8 = 144"
+        },
+        {
+          "id": "m_lvl2_169",
+          "text": "95 - 30 = ?",
+          "options": [
+            "71",
+            "72",
+            "55",
+            "65"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "95 - 30 = 65"
+        },
+        {
+          "id": "m_lvl2_170",
+          "text": "17 * 11 = ?",
+          "options": [
+            "193",
+            "197",
+            "187",
+            "195"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "17 * 11 = 187"
+        },
+        {
+          "id": "m_lvl2_171",
+          "text": "86 - 22 = ?",
+          "options": [
+            "64",
+            "61",
+            "67",
+            "74"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "86 - 22 = 64"
+        },
+        {
+          "id": "m_lvl2_172",
+          "text": "18 * 5 = ?",
+          "options": [
+            "88",
+            "96",
+            "94",
+            "90"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "18 * 5 = 90"
+        },
+        {
+          "id": "m_lvl2_173",
+          "text": "43 + 11 = ?",
+          "options": [
+            "63",
+            "54",
+            "44",
+            "47"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "43 + 11 = 54"
+        },
+        {
+          "id": "m_lvl2_174",
+          "text": "35 - 32 = ?",
+          "options": [
+            "7",
+            "13",
+            "-7",
+            "3"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "35 - 32 = 3"
+        },
+        {
+          "id": "m_lvl2_175",
+          "text": "54 + 13 = ?",
+          "options": [
+            "69",
+            "67",
+            "72",
+            "61"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "54 + 13 = 67"
+        },
+        {
+          "id": "m_lvl2_176",
+          "text": "62 - 39 = ?",
+          "options": [
+            "19",
+            "23",
+            "14",
+            "30"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "62 - 39 = 23"
+        },
+        {
+          "id": "m_lvl2_177",
+          "text": "18 * 5 = ?",
+          "options": [
+            "93",
+            "88",
+            "80",
+            "90"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "18 * 5 = 90"
+        },
+        {
+          "id": "m_lvl2_178",
+          "text": "39 - 25 = ?",
+          "options": [
+            "4",
+            "5",
+            "21",
+            "14"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "39 - 25 = 14"
+        },
+        {
+          "id": "m_lvl2_179",
+          "text": "65 + 35 = ?",
+          "options": [
+            "90",
+            "92",
+            "103",
+            "100"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "65 + 35 = 100"
+        },
+        {
+          "id": "m_lvl2_180",
+          "text": "12 * 10 = ?",
+          "options": [
+            "125",
+            "114",
+            "123",
+            "120"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "12 * 10 = 120"
+        },
+        {
+          "id": "m_lvl2_181",
+          "text": "33 - 14 = ?",
+          "options": [
+            "19",
+            "25",
+            "12",
+            "14"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "33 - 14 = 19"
+        },
+        {
+          "id": "m_lvl2_182",
+          "text": "36 + 45 = ?",
+          "options": [
+            "81",
+            "74",
+            "89",
+            "87"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "36 + 45 = 81"
+        },
+        {
+          "id": "m_lvl2_183",
+          "text": "71 - 22 = ?",
+          "options": [
+            "49",
+            "51",
+            "56",
+            "47"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "71 - 22 = 49"
+        },
+        {
+          "id": "m_lvl2_184",
+          "text": "54 + 40 = ?",
+          "options": [
+            "100",
+            "94",
+            "91",
+            "98"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "54 + 40 = 94"
+        },
+        {
+          "id": "m_lvl2_185",
+          "text": "12 * 7 = ?",
+          "options": [
+            "75",
+            "84",
+            "94",
+            "83"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "12 * 7 = 84"
+        },
+        {
+          "id": "m_lvl2_186",
+          "text": "98 - 34 = ?",
+          "options": [
+            "60",
+            "64",
+            "58",
+            "63"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "98 - 34 = 64"
+        },
+        {
+          "id": "m_lvl2_187",
+          "text": "20 * 9 = ?",
+          "options": [
+            "188",
+            "183",
+            "190",
+            "180"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "20 * 9 = 180"
+        },
+        {
+          "id": "m_lvl2_188",
+          "text": "65 + 34 = ?",
+          "options": [
+            "93",
+            "108",
+            "106",
+            "99"
+          ],
+          "correctIndex": 3,
+          "difficulty": 2,
+          "explanation": "65 + 34 = 99"
+        },
+        {
+          "id": "m_lvl2_189",
+          "text": "30 + 47 = ?",
+          "options": [
+            "76",
+            "82",
+            "77",
+            "74"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "30 + 47 = 77"
+        },
+        {
+          "id": "m_lvl2_190",
+          "text": "58 + 33 = ?",
+          "options": [
+            "83",
+            "97",
+            "91",
+            "84"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "58 + 33 = 91"
+        },
+        {
+          "id": "m_lvl2_191",
+          "text": "11 * 11 = ?",
+          "options": [
+            "121",
+            "112",
+            "119",
+            "122"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "11 * 11 = 121"
+        },
+        {
+          "id": "m_lvl2_192",
+          "text": "28 - 28 = ?",
+          "options": [
+            "2",
+            "0",
+            "-3",
+            "1"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "28 - 28 = 0"
+        },
+        {
+          "id": "m_lvl2_193",
+          "text": "44 - 23 = ?",
+          "options": [
+            "21",
+            "18",
+            "28",
+            "29"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "44 - 23 = 21"
+        },
+        {
+          "id": "m_lvl2_194",
+          "text": "43 - 20 = ?",
+          "options": [
+            "23",
+            "31",
+            "30",
+            "33"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "43 - 20 = 23"
+        },
+        {
+          "id": "m_lvl2_195",
+          "text": "12 * 9 = ?",
+          "options": [
+            "108",
+            "117",
+            "115",
+            "105"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "12 * 9 = 108"
+        },
+        {
+          "id": "m_lvl2_196",
+          "text": "40 - 29 = ?",
+          "options": [
+            "9",
+            "6",
+            "11",
+            "8"
+          ],
+          "correctIndex": 2,
+          "difficulty": 2,
+          "explanation": "40 - 29 = 11"
+        },
+        {
+          "id": "m_lvl2_197",
+          "text": "19 * 11 = ?",
+          "options": [
+            "209",
+            "213",
+            "211",
+            "202"
+          ],
+          "correctIndex": 0,
+          "difficulty": 2,
+          "explanation": "19 * 11 = 209"
+        },
+        {
+          "id": "m_lvl2_198",
+          "text": "15 * 10 = ?",
+          "options": [
+            "151",
+            "150",
+            "140",
+            "156"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "15 * 10 = 150"
+        },
+        {
+          "id": "m_lvl2_199",
+          "text": "19 * 11 = ?",
+          "options": [
+            "201",
+            "209",
+            "206",
+            "200"
+          ],
+          "correctIndex": 1,
+          "difficulty": 2,
+          "explanation": "19 * 11 = 209"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "questions": [
+        {
+          "id": "m_lvl3_0",
+          "text": "3 + 21 / 3 = ?",
+          "options": [
+            "-5",
+            "22",
+            "10",
+            "-10"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "3 + 21 / 3 = 10"
+        },
+        {
+          "id": "m_lvl3_1",
+          "text": "8 * 4 + 6 = ?",
+          "options": [
+            "54",
+            "48",
+            "37",
+            "38"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "8 * 4 + 6 = 38"
+        },
+        {
+          "id": "m_lvl3_2",
+          "text": "7 * 6 + 7 = ?",
+          "options": [
+            "51",
+            "56",
+            "49",
+            "42"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "7 * 6 + 7 = 49"
+        },
+        {
+          "id": "m_lvl3_3",
+          "text": "7 - 45 / 5 = ?",
+          "options": [
+            "14",
+            "-2",
+            "17",
+            "2"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "7 - 45 / 5 = -2"
+        },
+        {
+          "id": "m_lvl3_4",
+          "text": "2 * 2 - 2 = ?",
+          "options": [
+            "2",
+            "21",
+            "-16",
+            "6"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "2 * 2 - 2 = 2"
+        },
+        {
+          "id": "m_lvl3_5",
+          "text": "11 - 5 * 5 = ?",
+          "options": [
+            "1",
+            "-18",
+            "-14",
+            "-15"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "11 - 5 * 5 = -14"
+        },
+        {
+          "id": "m_lvl3_6",
+          "text": "4 * 6 - 6 = ?",
+          "options": [
+            "8",
+            "23",
+            "3",
+            "18"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "4 * 6 - 6 = 18"
+        },
+        {
+          "id": "m_lvl3_7",
+          "text": "11 + 10 * 8 = ?",
+          "options": [
+            "91",
+            "81",
+            "97",
+            "105"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "11 + 10 * 8 = 91"
+        },
+        {
+          "id": "m_lvl3_8",
+          "text": "12 - 3 * 7 = ?",
+          "options": [
+            "-3",
+            "-9",
+            "-27",
+            "8"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "12 - 3 * 7 = -9"
+        },
+        {
+          "id": "m_lvl3_9",
+          "text": "12 * 8 + 4 = ?",
+          "options": [
+            "115",
+            "103",
+            "100",
+            "108"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "12 * 8 + 4 = 100"
+        },
+        {
+          "id": "m_lvl3_10",
+          "text": "2 - 8 * 2 = ?",
+          "options": [
+            "-14",
+            "-19",
+            "-7",
+            "-29"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "2 - 8 * 2 = -14"
+        },
+        {
+          "id": "m_lvl3_11",
+          "text": "11 * 6 - 5 = ?",
+          "options": [
+            "52",
+            "67",
+            "61",
+            "68"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "11 * 6 - 5 = 61"
+        },
+        {
+          "id": "m_lvl3_12",
+          "text": "6 - 35 / 5 = ?",
+          "options": [
+            "2",
+            "-13",
+            "-18",
+            "-1"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "6 - 35 / 5 = -1"
+        },
+        {
+          "id": "m_lvl3_13",
+          "text": "2 + 2 * 3 = ?",
+          "options": [
+            "-9",
+            "-6",
+            "22",
+            "8"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "2 + 2 * 3 = 8"
+        },
+        {
+          "id": "m_lvl3_14",
+          "text": "11 - 90 / 9 = ?",
+          "options": [
+            "18",
+            "-8",
+            "1",
+            "-4"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "11 - 90 / 9 = 1"
+        },
+        {
+          "id": "m_lvl3_15",
+          "text": "8 + 27 / 3 = ?",
+          "options": [
+            "3",
+            "17",
+            "21",
+            "0"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "8 + 27 / 3 = 17"
+        },
+        {
+          "id": "m_lvl3_16",
+          "text": "10 - 16 / 8 = ?",
+          "options": [
+            "3",
+            "8",
+            "17",
+            "18"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "10 - 16 / 8 = 8"
+        },
+        {
+          "id": "m_lvl3_17",
+          "text": "9 + 8 * 5 = ?",
+          "options": [
+            "38",
+            "46",
+            "35",
+            "49"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "9 + 8 * 5 = 49"
+        },
+        {
+          "id": "m_lvl3_18",
+          "text": "8 - 20 / 4 = ?",
+          "options": [
+            "20",
+            "-8",
+            "-7",
+            "3"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "8 - 20 / 4 = 3"
+        },
+        {
+          "id": "m_lvl3_19",
+          "text": "10 + 9 * 9 = ?",
+          "options": [
+            "91",
+            "105",
+            "100",
+            "82"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "10 + 9 * 9 = 91"
+        },
+        {
+          "id": "m_lvl3_20",
+          "text": "12 * 8 + 8 = ?",
+          "options": [
+            "104",
+            "103",
+            "111",
+            "112"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "12 * 8 + 8 = 104"
+        },
+        {
+          "id": "m_lvl3_21",
+          "text": "4 + 9 * 8 = ?",
+          "options": [
+            "76",
+            "59",
+            "60",
+            "78"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "4 + 9 * 8 = 76"
+        },
+        {
+          "id": "m_lvl3_22",
+          "text": "12 + 4 * 8 = ?",
+          "options": [
+            "42",
+            "29",
+            "44",
+            "58"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "12 + 4 * 8 = 44"
+        },
+        {
+          "id": "m_lvl3_23",
+          "text": "5 * 8 - 9 = ?",
+          "options": [
+            "31",
+            "43",
+            "19",
+            "44"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "5 * 8 - 9 = 31"
+        },
+        {
+          "id": "m_lvl3_24",
+          "text": "2 - 6 * 2 = ?",
+          "options": [
+            "-10",
+            "-6",
+            "9",
+            "-5"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "2 - 6 * 2 = -10"
+        },
+        {
+          "id": "m_lvl3_25",
+          "text": "3 * 7 - 3 = ?",
+          "options": [
+            "27",
+            "9",
+            "5",
+            "18"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "3 * 7 - 3 = 18"
+        },
+        {
+          "id": "m_lvl3_26",
+          "text": "10 * 7 - 8 = ?",
+          "options": [
+            "59",
+            "62",
+            "42",
+            "78"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "10 * 7 - 8 = 62"
+        },
+        {
+          "id": "m_lvl3_27",
+          "text": "5 - 2 * 4 = ?",
+          "options": [
+            "-3",
+            "-16",
+            "3",
+            "12"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "5 - 2 * 4 = -3"
+        },
+        {
+          "id": "m_lvl3_28",
+          "text": "10 - 9 * 8 = ?",
+          "options": [
+            "-61",
+            "-62",
+            "-71",
+            "-55"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "10 - 9 * 8 = -62"
+        },
+        {
+          "id": "m_lvl3_29",
+          "text": "9 + 60 / 6 = ?",
+          "options": [
+            "21",
+            "36",
+            "19",
+            "6"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "9 + 60 / 6 = 19"
+        },
+        {
+          "id": "m_lvl3_30",
+          "text": "10 + 9 * 7 = ?",
+          "options": [
+            "79",
+            "53",
+            "73",
+            "68"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "10 + 9 * 7 = 73"
+        },
+        {
+          "id": "m_lvl3_31",
+          "text": "6 * 9 + 4 = ?",
+          "options": [
+            "77",
+            "58",
+            "41",
+            "53"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "6 * 9 + 4 = 58"
+        },
+        {
+          "id": "m_lvl3_32",
+          "text": "12 + 54 / 6 = ?",
+          "options": [
+            "19",
+            "17",
+            "1",
+            "21"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "12 + 54 / 6 = 21"
+        },
+        {
+          "id": "m_lvl3_33",
+          "text": "7 + 25 / 5 = ?",
+          "options": [
+            "-1",
+            "16",
+            "-3",
+            "12"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "7 + 25 / 5 = 12"
+        },
+        {
+          "id": "m_lvl3_34",
+          "text": "8 + 12 / 6 = ?",
+          "options": [
+            "-2",
+            "4",
+            "10",
+            "-1"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "8 + 12 / 6 = 10"
+        },
+        {
+          "id": "m_lvl3_35",
+          "text": "2 + 9 * 5 = ?",
+          "options": [
+            "47",
+            "37",
+            "46",
+            "54"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "2 + 9 * 5 = 47"
+        },
+        {
+          "id": "m_lvl3_36",
+          "text": "9 - 56 / 7 = ?",
+          "options": [
+            "11",
+            "-19",
+            "16",
+            "1"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "9 - 56 / 7 = 1"
+        },
+        {
+          "id": "m_lvl3_37",
+          "text": "7 + 7 * 7 = ?",
+          "options": [
+            "68",
+            "65",
+            "56",
+            "70"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "7 + 7 * 7 = 56"
+        },
+        {
+          "id": "m_lvl3_38",
+          "text": "7 * 7 - 4 = ?",
+          "options": [
+            "31",
+            "45",
+            "50",
+            "29"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "7 * 7 - 4 = 45"
+        },
+        {
+          "id": "m_lvl3_39",
+          "text": "5 * 7 - 2 = ?",
+          "options": [
+            "35",
+            "36",
+            "33",
+            "23"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "5 * 7 - 2 = 33"
+        },
+        {
+          "id": "m_lvl3_40",
+          "text": "12 + 16 / 8 = ?",
+          "options": [
+            "13",
+            "24",
+            "18",
+            "14"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "12 + 16 / 8 = 14"
+        },
+        {
+          "id": "m_lvl3_41",
+          "text": "5 - 4 * 6 = ?",
+          "options": [
+            "-13",
+            "-19",
+            "1",
+            "-6"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "5 - 4 * 6 = -19"
+        },
+        {
+          "id": "m_lvl3_42",
+          "text": "3 - 2 * 2 = ?",
+          "options": [
+            "-9",
+            "9",
+            "-1",
+            "6"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "3 - 2 * 2 = -1"
+        },
+        {
+          "id": "m_lvl3_43",
+          "text": "11 - 2 * 8 = ?",
+          "options": [
+            "-5",
+            "3",
+            "-11",
+            "-25"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "11 - 2 * 8 = -5"
+        },
+        {
+          "id": "m_lvl3_44",
+          "text": "6 - 64 / 8 = ?",
+          "options": [
+            "-8",
+            "-2",
+            "15",
+            "-10"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "6 - 64 / 8 = -2"
+        },
+        {
+          "id": "m_lvl3_45",
+          "text": "5 * 3 - 10 = ?",
+          "options": [
+            "5",
+            "-14",
+            "-1",
+            "23"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "5 * 3 - 10 = 5"
+        },
+        {
+          "id": "m_lvl3_46",
+          "text": "3 + 72 / 9 = ?",
+          "options": [
+            "3",
+            "-3",
+            "11",
+            "15"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "3 + 72 / 9 = 11"
+        },
+        {
+          "id": "m_lvl3_47",
+          "text": "4 + 18 / 6 = ?",
+          "options": [
+            "-9",
+            "12",
+            "7",
+            "24"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "4 + 18 / 6 = 7"
+        },
+        {
+          "id": "m_lvl3_48",
+          "text": "11 * 9 - 10 = ?",
+          "options": [
+            "105",
+            "101",
+            "89",
+            "106"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "11 * 9 - 10 = 89"
+        },
+        {
+          "id": "m_lvl3_49",
+          "text": "7 + 28 / 7 = ?",
+          "options": [
+            "3",
+            "-3",
+            "11",
+            "19"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "7 + 28 / 7 = 11"
+        },
+        {
+          "id": "m_lvl3_50",
+          "text": "11 - 5 * 3 = ?",
+          "options": [
+            "-4",
+            "-2",
+            "9",
+            "-6"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "11 - 5 * 3 = -4"
+        },
+        {
+          "id": "m_lvl3_51",
+          "text": "12 + 16 / 2 = ?",
+          "options": [
+            "17",
+            "21",
+            "28",
+            "20"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "12 + 16 / 2 = 20"
+        },
+        {
+          "id": "m_lvl3_52",
+          "text": "2 - 8 * 4 = ?",
+          "options": [
+            "-18",
+            "-30",
+            "-37",
+            "-47"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "2 - 8 * 4 = -30"
+        },
+        {
+          "id": "m_lvl3_53",
+          "text": "7 + 36 / 4 = ?",
+          "options": [
+            "35",
+            "34",
+            "16",
+            "25"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "7 + 36 / 4 = 16"
+        },
+        {
+          "id": "m_lvl3_54",
+          "text": "10 + 5 * 9 = ?",
+          "options": [
+            "55",
+            "51",
+            "70",
+            "43"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "10 + 5 * 9 = 55"
+        },
+        {
+          "id": "m_lvl3_55",
+          "text": "11 - 40 / 10 = ?",
+          "options": [
+            "2",
+            "-1",
+            "-2",
+            "7"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "11 - 40 / 10 = 7"
+        },
+        {
+          "id": "m_lvl3_56",
+          "text": "11 - 10 / 2 = ?",
+          "options": [
+            "-9",
+            "9",
+            "6",
+            "19"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "11 - 10 / 2 = 6"
+        },
+        {
+          "id": "m_lvl3_57",
+          "text": "6 * 10 - 4 = ?",
+          "options": [
+            "56",
+            "57",
+            "62",
+            "65"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "6 * 10 - 4 = 56"
+        },
+        {
+          "id": "m_lvl3_58",
+          "text": "4 + 60 / 6 = ?",
+          "options": [
+            "7",
+            "18",
+            "14",
+            "24"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "4 + 60 / 6 = 14"
+        },
+        {
+          "id": "m_lvl3_59",
+          "text": "10 - 6 * 7 = ?",
+          "options": [
+            "-44",
+            "-21",
+            "-32",
+            "-34"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "10 - 6 * 7 = -32"
+        },
+        {
+          "id": "m_lvl3_60",
+          "text": "10 + 10 * 7 = ?",
+          "options": [
+            "86",
+            "89",
+            "92",
+            "80"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "10 + 10 * 7 = 80"
+        },
+        {
+          "id": "m_lvl3_61",
+          "text": "10 + 64 / 8 = ?",
+          "options": [
+            "32",
+            "38",
+            "18",
+            "19"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "10 + 64 / 8 = 18"
+        },
+        {
+          "id": "m_lvl3_62",
+          "text": "2 * 2 - 8 = ?",
+          "options": [
+            "-11",
+            "-4",
+            "2",
+            "0"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "2 * 2 - 8 = -4"
+        },
+        {
+          "id": "m_lvl3_63",
+          "text": "8 + 10 * 6 = ?",
+          "options": [
+            "64",
+            "50",
+            "53",
+            "68"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "8 + 10 * 6 = 68"
+        },
+        {
+          "id": "m_lvl3_64",
+          "text": "9 + 4 * 2 = ?",
+          "options": [
+            "10",
+            "17",
+            "30",
+            "20"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "9 + 4 * 2 = 17"
+        },
+        {
+          "id": "m_lvl3_65",
+          "text": "5 * 7 + 3 = ?",
+          "options": [
+            "26",
+            "20",
+            "38",
+            "34"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "5 * 7 + 3 = 38"
+        },
+        {
+          "id": "m_lvl3_66",
+          "text": "12 - 27 / 9 = ?",
+          "options": [
+            "9",
+            "26",
+            "-10",
+            "21"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "12 - 27 / 9 = 9"
+        },
+        {
+          "id": "m_lvl3_67",
+          "text": "8 * 7 - 2 = ?",
+          "options": [
+            "64",
+            "54",
+            "72",
+            "62"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "8 * 7 - 2 = 54"
+        },
+        {
+          "id": "m_lvl3_68",
+          "text": "6 + 9 * 10 = ?",
+          "options": [
+            "98",
+            "112",
+            "104",
+            "96"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "6 + 9 * 10 = 96"
+        },
+        {
+          "id": "m_lvl3_69",
+          "text": "8 - 6 / 3 = ?",
+          "options": [
+            "6",
+            "23",
+            "3",
+            "-13"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "8 - 6 / 3 = 6"
+        },
+        {
+          "id": "m_lvl3_70",
+          "text": "10 - 8 * 8 = ?",
+          "options": [
+            "-63",
+            "-46",
+            "-54",
+            "-47"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "10 - 8 * 8 = -54"
+        },
+        {
+          "id": "m_lvl3_71",
+          "text": "10 + 4 * 4 = ?",
+          "options": [
+            "20",
+            "36",
+            "26",
+            "45"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "10 + 4 * 4 = 26"
+        },
+        {
+          "id": "m_lvl3_72",
+          "text": "3 - 24 / 3 = ?",
+          "options": [
+            "9",
+            "-9",
+            "0",
+            "-5"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "3 - 24 / 3 = -5"
+        },
+        {
+          "id": "m_lvl3_73",
+          "text": "7 - 63 / 9 = ?",
+          "options": [
+            "0",
+            "7",
+            "-15",
+            "-17"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "7 - 63 / 9 = 0"
+        },
+        {
+          "id": "m_lvl3_74",
+          "text": "10 * 6 + 3 = ?",
+          "options": [
+            "73",
+            "63",
+            "65",
+            "75"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "10 * 6 + 3 = 63"
+        },
+        {
+          "id": "m_lvl3_75",
+          "text": "12 - 21 / 3 = ?",
+          "options": [
+            "5",
+            "14",
+            "-13",
+            "15"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "12 - 21 / 3 = 5"
+        },
+        {
+          "id": "m_lvl3_76",
+          "text": "2 * 6 - 6 = ?",
+          "options": [
+            "10",
+            "4",
+            "-14",
+            "6"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "2 * 6 - 6 = 6"
+        },
+        {
+          "id": "m_lvl3_77",
+          "text": "7 * 2 - 3 = ?",
+          "options": [
+            "22",
+            "21",
+            "11",
+            "8"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "7 * 2 - 3 = 11"
+        },
+        {
+          "id": "m_lvl3_78",
+          "text": "8 + 3 * 6 = ?",
+          "options": [
+            "8",
+            "12",
+            "34",
+            "26"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "8 + 3 * 6 = 26"
+        },
+        {
+          "id": "m_lvl3_79",
+          "text": "7 * 2 + 10 = ?",
+          "options": [
+            "24",
+            "12",
+            "22",
+            "15"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "7 * 2 + 10 = 24"
+        },
+        {
+          "id": "m_lvl3_80",
+          "text": "2 + 10 * 5 = ?",
+          "options": [
+            "52",
+            "53",
+            "55",
+            "42"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "2 + 10 * 5 = 52"
+        },
+        {
+          "id": "m_lvl3_81",
+          "text": "4 - 16 / 8 = ?",
+          "options": [
+            "-4",
+            "-14",
+            "2",
+            "-3"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "4 - 16 / 8 = 2"
+        },
+        {
+          "id": "m_lvl3_82",
+          "text": "6 * 3 + 9 = ?",
+          "options": [
+            "35",
+            "27",
+            "25",
+            "46"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "6 * 3 + 9 = 27"
+        },
+        {
+          "id": "m_lvl3_83",
+          "text": "5 * 8 - 8 = ?",
+          "options": [
+            "32",
+            "24",
+            "42",
+            "40"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "5 * 8 - 8 = 32"
+        },
+        {
+          "id": "m_lvl3_84",
+          "text": "12 - 2 * 5 = ?",
+          "options": [
+            "3",
+            "7",
+            "19",
+            "2"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "12 - 2 * 5 = 2"
+        },
+        {
+          "id": "m_lvl3_85",
+          "text": "10 * 2 + 6 = ?",
+          "options": [
+            "41",
+            "26",
+            "17",
+            "36"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "10 * 2 + 6 = 26"
+        },
+        {
+          "id": "m_lvl3_86",
+          "text": "9 * 10 - 5 = ?",
+          "options": [
+            "71",
+            "85",
+            "103",
+            "79"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "9 * 10 - 5 = 85"
+        },
+        {
+          "id": "m_lvl3_87",
+          "text": "9 + 6 * 10 = ?",
+          "options": [
+            "86",
+            "69",
+            "63",
+            "88"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "9 + 6 * 10 = 69"
+        },
+        {
+          "id": "m_lvl3_88",
+          "text": "4 * 9 - 10 = ?",
+          "options": [
+            "7",
+            "26",
+            "11",
+            "29"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "4 * 9 - 10 = 26"
+        },
+        {
+          "id": "m_lvl3_89",
+          "text": "9 + 32 / 4 = ?",
+          "options": [
+            "12",
+            "17",
+            "19",
+            "33"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "9 + 32 / 4 = 17"
+        },
+        {
+          "id": "m_lvl3_90",
+          "text": "4 + 9 * 3 = ?",
+          "options": [
+            "43",
+            "31",
+            "17",
+            "38"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "4 + 9 * 3 = 31"
+        },
+        {
+          "id": "m_lvl3_91",
+          "text": "11 * 7 - 9 = ?",
+          "options": [
+            "53",
+            "68",
+            "83",
+            "51"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "11 * 7 - 9 = 68"
+        },
+        {
+          "id": "m_lvl3_92",
+          "text": "11 * 7 - 4 = ?",
+          "options": [
+            "73",
+            "70",
+            "69",
+            "59"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "11 * 7 - 4 = 73"
+        },
+        {
+          "id": "m_lvl3_93",
+          "text": "3 * 7 - 9 = ?",
+          "options": [
+            "21",
+            "12",
+            "8",
+            "0"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "3 * 7 - 9 = 12"
+        },
+        {
+          "id": "m_lvl3_94",
+          "text": "6 + 3 * 7 = ?",
+          "options": [
+            "27",
+            "19",
+            "46",
+            "29"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "6 + 3 * 7 = 27"
+        },
+        {
+          "id": "m_lvl3_95",
+          "text": "8 + 18 / 9 = ?",
+          "options": [
+            "-2",
+            "10",
+            "12",
+            "1"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "8 + 18 / 9 = 10"
+        },
+        {
+          "id": "m_lvl3_96",
+          "text": "10 - 10 * 3 = ?",
+          "options": [
+            "-20",
+            "-31",
+            "-17",
+            "-35"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "10 - 10 * 3 = -20"
+        },
+        {
+          "id": "m_lvl3_97",
+          "text": "7 - 35 / 5 = ?",
+          "options": [
+            "-5",
+            "0",
+            "-13",
+            "-15"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "7 - 35 / 5 = 0"
+        },
+        {
+          "id": "m_lvl3_98",
+          "text": "11 - 9 * 4 = ?",
+          "options": [
+            "-33",
+            "-24",
+            "-45",
+            "-25"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "11 - 9 * 4 = -25"
+        },
+        {
+          "id": "m_lvl3_99",
+          "text": "4 + 9 * 10 = ?",
+          "options": [
+            "94",
+            "98",
+            "78",
+            "103"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "4 + 9 * 10 = 94"
+        },
+        {
+          "id": "m_lvl3_100",
+          "text": "9 * 4 - 5 = ?",
+          "options": [
+            "41",
+            "31",
+            "18",
+            "46"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "9 * 4 - 5 = 31"
+        },
+        {
+          "id": "m_lvl3_101",
+          "text": "10 * 5 + 3 = ?",
+          "options": [
+            "53",
+            "41",
+            "73",
+            "49"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "10 * 5 + 3 = 53"
+        },
+        {
+          "id": "m_lvl3_102",
+          "text": "10 + 9 * 5 = ?",
+          "options": [
+            "38",
+            "55",
+            "59",
+            "57"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "10 + 9 * 5 = 55"
+        },
+        {
+          "id": "m_lvl3_103",
+          "text": "11 - 20 / 5 = ?",
+          "options": [
+            "26",
+            "12",
+            "0",
+            "7"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "11 - 20 / 5 = 7"
+        },
+        {
+          "id": "m_lvl3_104",
+          "text": "4 - 12 / 4 = ?",
+          "options": [
+            "1",
+            "-7",
+            "16",
+            "7"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "4 - 12 / 4 = 1"
+        },
+        {
+          "id": "m_lvl3_105",
+          "text": "6 - 2 * 2 = ?",
+          "options": [
+            "6",
+            "-11",
+            "-18",
+            "2"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "6 - 2 * 2 = 2"
+        },
+        {
+          "id": "m_lvl3_106",
+          "text": "12 * 4 - 5 = ?",
+          "options": [
+            "42",
+            "41",
+            "43",
+            "36"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "12 * 4 - 5 = 43"
+        },
+        {
+          "id": "m_lvl3_107",
+          "text": "8 - 8 * 2 = ?",
+          "options": [
+            "-5",
+            "0",
+            "-8",
+            "1"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "8 - 8 * 2 = -8"
+        },
+        {
+          "id": "m_lvl3_108",
+          "text": "11 + 36 / 9 = ?",
+          "options": [
+            "1",
+            "15",
+            "-4",
+            "24"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "11 + 36 / 9 = 15"
+        },
+        {
+          "id": "m_lvl3_109",
+          "text": "10 - 10 * 5 = ?",
+          "options": [
+            "-58",
+            "-40",
+            "-54",
+            "-26"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "10 - 10 * 5 = -40"
+        },
+        {
+          "id": "m_lvl3_110",
+          "text": "3 - 8 * 5 = ?",
+          "options": [
+            "-49",
+            "-52",
+            "-37",
+            "-29"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "3 - 8 * 5 = -37"
+        },
+        {
+          "id": "m_lvl3_111",
+          "text": "5 * 2 - 5 = ?",
+          "options": [
+            "16",
+            "-1",
+            "5",
+            "12"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "5 * 2 - 5 = 5"
+        },
+        {
+          "id": "m_lvl3_112",
+          "text": "4 - 5 * 3 = ?",
+          "options": [
+            "-28",
+            "-11",
+            "-15",
+            "5"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "4 - 5 * 3 = -11"
+        },
+        {
+          "id": "m_lvl3_113",
+          "text": "9 - 3 * 6 = ?",
+          "options": [
+            "-26",
+            "-10",
+            "-9",
+            "-20"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "9 - 3 * 6 = -9"
+        },
+        {
+          "id": "m_lvl3_114",
+          "text": "7 - 24 / 6 = ?",
+          "options": [
+            "3",
+            "-16",
+            "-1",
+            "9"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "7 - 24 / 6 = 3"
+        },
+        {
+          "id": "m_lvl3_115",
+          "text": "8 - 9 * 2 = ?",
+          "options": [
+            "-14",
+            "5",
+            "-13",
+            "-10"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "8 - 9 * 2 = -10"
+        },
+        {
+          "id": "m_lvl3_116",
+          "text": "11 + 7 * 9 = ?",
+          "options": [
+            "82",
+            "61",
+            "54",
+            "74"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "11 + 7 * 9 = 74"
+        },
+        {
+          "id": "m_lvl3_117",
+          "text": "6 + 24 / 8 = ?",
+          "options": [
+            "21",
+            "26",
+            "-5",
+            "9"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "6 + 24 / 8 = 9"
+        },
+        {
+          "id": "m_lvl3_118",
+          "text": "9 + 18 / 2 = ?",
+          "options": [
+            "-2",
+            "30",
+            "32",
+            "18"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "9 + 18 / 2 = 18"
+        },
+        {
+          "id": "m_lvl3_119",
+          "text": "2 - 3 * 10 = ?",
+          "options": [
+            "-28",
+            "-40",
+            "-19",
+            "-48"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "2 - 3 * 10 = -28"
+        },
+        {
+          "id": "m_lvl3_120",
+          "text": "3 - 32 / 4 = ?",
+          "options": [
+            "-9",
+            "15",
+            "-5",
+            "-1"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "3 - 32 / 4 = -5"
+        },
+        {
+          "id": "m_lvl3_121",
+          "text": "10 * 10 - 3 = ?",
+          "options": [
+            "85",
+            "110",
+            "97",
+            "104"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "10 * 10 - 3 = 97"
+        },
+        {
+          "id": "m_lvl3_122",
+          "text": "8 + 12 / 3 = ?",
+          "options": [
+            "12",
+            "25",
+            "18",
+            "28"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "8 + 12 / 3 = 12"
+        },
+        {
+          "id": "m_lvl3_123",
+          "text": "12 - 10 / 2 = ?",
+          "options": [
+            "7",
+            "27",
+            "9",
+            "-12"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "12 - 10 / 2 = 7"
+        },
+        {
+          "id": "m_lvl3_124",
+          "text": "6 * 9 + 5 = ?",
+          "options": [
+            "73",
+            "52",
+            "45",
+            "59"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "6 * 9 + 5 = 59"
+        },
+        {
+          "id": "m_lvl3_125",
+          "text": "10 * 9 + 10 = ?",
+          "options": [
+            "100",
+            "98",
+            "82",
+            "95"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "10 * 9 + 10 = 100"
+        },
+        {
+          "id": "m_lvl3_126",
+          "text": "8 * 2 - 6 = ?",
+          "options": [
+            "19",
+            "-9",
+            "10",
+            "27"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "8 * 2 - 6 = 10"
+        },
+        {
+          "id": "m_lvl3_127",
+          "text": "2 + 10 * 9 = ?",
+          "options": [
+            "93",
+            "107",
+            "102",
+            "92"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "2 + 10 * 9 = 92"
+        },
+        {
+          "id": "m_lvl3_128",
+          "text": "6 * 2 - 7 = ?",
+          "options": [
+            "5",
+            "25",
+            "-11",
+            "15"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "6 * 2 - 7 = 5"
+        },
+        {
+          "id": "m_lvl3_129",
+          "text": "5 - 18 / 3 = ?",
+          "options": [
+            "-1",
+            "16",
+            "11",
+            "-17"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "5 - 18 / 3 = -1"
+        },
+        {
+          "id": "m_lvl3_130",
+          "text": "6 - 18 / 9 = ?",
+          "options": [
+            "22",
+            "-6",
+            "-2",
+            "4"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "6 - 18 / 9 = 4"
+        },
+        {
+          "id": "m_lvl3_131",
+          "text": "7 + 24 / 8 = ?",
+          "options": [
+            "11",
+            "10",
+            "17",
+            "20"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "7 + 24 / 8 = 10"
+        },
+        {
+          "id": "m_lvl3_132",
+          "text": "3 + 4 * 7 = ?",
+          "options": [
+            "35",
+            "34",
+            "30",
+            "31"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "3 + 4 * 7 = 31"
+        },
+        {
+          "id": "m_lvl3_133",
+          "text": "2 + 7 * 6 = ?",
+          "options": [
+            "53",
+            "52",
+            "44",
+            "57"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "2 + 7 * 6 = 44"
+        },
+        {
+          "id": "m_lvl3_134",
+          "text": "11 * 4 - 4 = ?",
+          "options": [
+            "26",
+            "60",
+            "40",
+            "32"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "11 * 4 - 4 = 40"
+        },
+        {
+          "id": "m_lvl3_135",
+          "text": "3 * 3 + 8 = ?",
+          "options": [
+            "7",
+            "10",
+            "17",
+            "15"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "3 * 3 + 8 = 17"
+        },
+        {
+          "id": "m_lvl3_136",
+          "text": "4 + 9 * 2 = ?",
+          "options": [
+            "10",
+            "20",
+            "22",
+            "34"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "4 + 9 * 2 = 22"
+        },
+        {
+          "id": "m_lvl3_137",
+          "text": "10 + 10 * 9 = ?",
+          "options": [
+            "107",
+            "100",
+            "82",
+            "95"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "10 + 10 * 9 = 100"
+        },
+        {
+          "id": "m_lvl3_138",
+          "text": "9 - 70 / 10 = ?",
+          "options": [
+            "15",
+            "-2",
+            "2",
+            "-1"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "9 - 70 / 10 = 2"
+        },
+        {
+          "id": "m_lvl3_139",
+          "text": "7 * 2 - 7 = ?",
+          "options": [
+            "-12",
+            "7",
+            "4",
+            "-7"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "7 * 2 - 7 = 7"
+        },
+        {
+          "id": "m_lvl3_140",
+          "text": "4 + 45 / 9 = ?",
+          "options": [
+            "1",
+            "-7",
+            "9",
+            "21"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "4 + 45 / 9 = 9"
+        },
+        {
+          "id": "m_lvl3_141",
+          "text": "3 + 56 / 7 = ?",
+          "options": [
+            "11",
+            "13",
+            "31",
+            "17"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "3 + 56 / 7 = 11"
+        },
+        {
+          "id": "m_lvl3_142",
+          "text": "11 - 6 * 10 = ?",
+          "options": [
+            "-37",
+            "-40",
+            "-49",
+            "-36"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "11 - 6 * 10 = -49"
+        },
+        {
+          "id": "m_lvl3_143",
+          "text": "7 + 9 * 4 = ?",
+          "options": [
+            "62",
+            "24",
+            "39",
+            "43"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "7 + 9 * 4 = 43"
+        },
+        {
+          "id": "m_lvl3_144",
+          "text": "12 * 10 + 10 = ?",
+          "options": [
+            "126",
+            "117",
+            "125",
+            "130"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "12 * 10 + 10 = 130"
+        },
+        {
+          "id": "m_lvl3_145",
+          "text": "2 + 27 / 3 = ?",
+          "options": [
+            "0",
+            "16",
+            "9",
+            "11"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "2 + 27 / 3 = 11"
+        },
+        {
+          "id": "m_lvl3_146",
+          "text": "7 - 9 * 8 = ?",
+          "options": [
+            "-65",
+            "-57",
+            "-46",
+            "-50"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "7 - 9 * 8 = -65"
+        },
+        {
+          "id": "m_lvl3_147",
+          "text": "2 - 9 * 2 = ?",
+          "options": [
+            "-16",
+            "-23",
+            "-9",
+            "-26"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "2 - 9 * 2 = -16"
+        },
+        {
+          "id": "m_lvl3_148",
+          "text": "4 - 6 * 2 = ?",
+          "options": [
+            "-13",
+            "-8",
+            "-5",
+            "-9"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "4 - 6 * 2 = -8"
+        },
+        {
+          "id": "m_lvl3_149",
+          "text": "11 + 6 / 2 = ?",
+          "options": [
+            "26",
+            "14",
+            "28",
+            "31"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "11 + 6 / 2 = 14"
+        },
+        {
+          "id": "m_lvl3_150",
+          "text": "7 + 10 * 6 = ?",
+          "options": [
+            "53",
+            "67",
+            "86",
+            "60"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "7 + 10 * 6 = 67"
+        },
+        {
+          "id": "m_lvl3_151",
+          "text": "4 * 5 - 2 = ?",
+          "options": [
+            "29",
+            "18",
+            "0",
+            "15"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "4 * 5 - 2 = 18"
+        },
+        {
+          "id": "m_lvl3_152",
+          "text": "6 * 4 + 4 = ?",
+          "options": [
+            "24",
+            "48",
+            "28",
+            "31"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "6 * 4 + 4 = 28"
+        },
+        {
+          "id": "m_lvl3_153",
+          "text": "11 + 25 / 5 = ?",
+          "options": [
+            "16",
+            "24",
+            "32",
+            "23"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "11 + 25 / 5 = 16"
+        },
+        {
+          "id": "m_lvl3_154",
+          "text": "11 * 8 - 3 = ?",
+          "options": [
+            "100",
+            "86",
+            "85",
+            "80"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "11 * 8 - 3 = 85"
+        },
+        {
+          "id": "m_lvl3_155",
+          "text": "7 - 9 * 8 = ?",
+          "options": [
+            "-78",
+            "-84",
+            "-67",
+            "-65"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "7 - 9 * 8 = -65"
+        },
+        {
+          "id": "m_lvl3_156",
+          "text": "5 + 2 * 4 = ?",
+          "options": [
+            "8",
+            "13",
+            "14",
+            "-1"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "5 + 2 * 4 = 13"
+        },
+        {
+          "id": "m_lvl3_157",
+          "text": "10 + 6 * 2 = ?",
+          "options": [
+            "29",
+            "22",
+            "28",
+            "38"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "10 + 6 * 2 = 22"
+        },
+        {
+          "id": "m_lvl3_158",
+          "text": "7 - 56 / 7 = ?",
+          "options": [
+            "-2",
+            "15",
+            "13",
+            "-1"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "7 - 56 / 7 = -1"
+        },
+        {
+          "id": "m_lvl3_159",
+          "text": "10 - 5 * 7 = ?",
+          "options": [
+            "-35",
+            "-34",
+            "-18",
+            "-25"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "10 - 5 * 7 = -25"
+        },
+        {
+          "id": "m_lvl3_160",
+          "text": "11 * 9 + 2 = ?",
+          "options": [
+            "101",
+            "115",
+            "84",
+            "117"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "11 * 9 + 2 = 101"
+        },
+        {
+          "id": "m_lvl3_161",
+          "text": "3 - 81 / 9 = ?",
+          "options": [
+            "11",
+            "-6",
+            "-11",
+            "-12"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "3 - 81 / 9 = -6"
+        },
+        {
+          "id": "m_lvl3_162",
+          "text": "10 + 12 / 2 = ?",
+          "options": [
+            "18",
+            "16",
+            "35",
+            "0"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "10 + 12 / 2 = 16"
+        },
+        {
+          "id": "m_lvl3_163",
+          "text": "10 - 8 * 4 = ?",
+          "options": [
+            "-3",
+            "-39",
+            "-12",
+            "-22"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "10 - 8 * 4 = -22"
+        },
+        {
+          "id": "m_lvl3_164",
+          "text": "11 * 5 + 3 = ?",
+          "options": [
+            "54",
+            "50",
+            "42",
+            "58"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "11 * 5 + 3 = 58"
+        },
+        {
+          "id": "m_lvl3_165",
+          "text": "10 - 10 * 2 = ?",
+          "options": [
+            "-1",
+            "-10",
+            "-19",
+            "-17"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "10 - 10 * 2 = -10"
+        },
+        {
+          "id": "m_lvl3_166",
+          "text": "9 * 6 - 8 = ?",
+          "options": [
+            "60",
+            "65",
+            "41",
+            "46"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "9 * 6 - 8 = 46"
+        },
+        {
+          "id": "m_lvl3_167",
+          "text": "7 + 6 / 3 = ?",
+          "options": [
+            "9",
+            "24",
+            "12",
+            "0"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "7 + 6 / 3 = 9"
+        },
+        {
+          "id": "m_lvl3_168",
+          "text": "4 - 4 * 4 = ?",
+          "options": [
+            "-6",
+            "-12",
+            "1",
+            "-14"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "4 - 4 * 4 = -12"
+        },
+        {
+          "id": "m_lvl3_169",
+          "text": "3 + 56 / 8 = ?",
+          "options": [
+            "28",
+            "6",
+            "14",
+            "10"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "3 + 56 / 8 = 10"
+        },
+        {
+          "id": "m_lvl3_170",
+          "text": "8 + 10 * 5 = ?",
+          "options": [
+            "58",
+            "70",
+            "43",
+            "75"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "8 + 10 * 5 = 58"
+        },
+        {
+          "id": "m_lvl3_171",
+          "text": "10 + 5 * 6 = ?",
+          "options": [
+            "54",
+            "40",
+            "48",
+            "45"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "10 + 5 * 6 = 40"
+        },
+        {
+          "id": "m_lvl3_172",
+          "text": "8 - 10 * 9 = ?",
+          "options": [
+            "-75",
+            "-85",
+            "-82",
+            "-65"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "8 - 10 * 9 = -82"
+        },
+        {
+          "id": "m_lvl3_173",
+          "text": "4 - 28 / 4 = ?",
+          "options": [
+            "-5",
+            "-3",
+            "13",
+            "-11"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "4 - 28 / 4 = -3"
+        },
+        {
+          "id": "m_lvl3_174",
+          "text": "9 - 14 / 2 = ?",
+          "options": [
+            "22",
+            "17",
+            "2",
+            "13"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "9 - 14 / 2 = 2"
+        },
+        {
+          "id": "m_lvl3_175",
+          "text": "11 - 9 * 2 = ?",
+          "options": [
+            "-7",
+            "-14",
+            "-18",
+            "4"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "11 - 9 * 2 = -7"
+        },
+        {
+          "id": "m_lvl3_176",
+          "text": "8 + 8 * 8 = ?",
+          "options": [
+            "86",
+            "72",
+            "81",
+            "59"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "8 + 8 * 8 = 72"
+        },
+        {
+          "id": "m_lvl3_177",
+          "text": "2 - 45 / 5 = ?",
+          "options": [
+            "-20",
+            "-2",
+            "-7",
+            "-18"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "2 - 45 / 5 = -7"
+        },
+        {
+          "id": "m_lvl3_178",
+          "text": "7 + 8 * 6 = ?",
+          "options": [
+            "42",
+            "36",
+            "55",
+            "37"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "7 + 8 * 6 = 55"
+        },
+        {
+          "id": "m_lvl3_179",
+          "text": "2 + 4 / 2 = ?",
+          "options": [
+            "10",
+            "4",
+            "-16",
+            "0"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "2 + 4 / 2 = 4"
+        },
+        {
+          "id": "m_lvl3_180",
+          "text": "6 + 35 / 5 = ?",
+          "options": [
+            "26",
+            "25",
+            "13",
+            "23"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "6 + 35 / 5 = 13"
+        },
+        {
+          "id": "m_lvl3_181",
+          "text": "5 + 3 * 9 = ?",
+          "options": [
+            "23",
+            "32",
+            "51",
+            "26"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "5 + 3 * 9 = 32"
+        },
+        {
+          "id": "m_lvl3_182",
+          "text": "10 * 3 - 5 = ?",
+          "options": [
+            "24",
+            "33",
+            "16",
+            "25"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "10 * 3 - 5 = 25"
+        },
+        {
+          "id": "m_lvl3_183",
+          "text": "12 * 6 - 10 = ?",
+          "options": [
+            "62",
+            "46",
+            "75",
+            "51"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "12 * 6 - 10 = 62"
+        },
+        {
+          "id": "m_lvl3_184",
+          "text": "10 - 18 / 2 = ?",
+          "options": [
+            "12",
+            "-6",
+            "1",
+            "-5"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "10 - 18 / 2 = 1"
+        },
+        {
+          "id": "m_lvl3_185",
+          "text": "6 * 3 - 9 = ?",
+          "options": [
+            "29",
+            "9",
+            "12",
+            "10"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "6 * 3 - 9 = 9"
+        },
+        {
+          "id": "m_lvl3_186",
+          "text": "5 - 6 * 5 = ?",
+          "options": [
+            "-41",
+            "-25",
+            "-33",
+            "-39"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "5 - 6 * 5 = -25"
+        },
+        {
+          "id": "m_lvl3_187",
+          "text": "4 * 3 - 6 = ?",
+          "options": [
+            "-6",
+            "-10",
+            "6",
+            "0"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "4 * 3 - 6 = 6"
+        },
+        {
+          "id": "m_lvl3_188",
+          "text": "12 * 2 + 5 = ?",
+          "options": [
+            "29",
+            "24",
+            "20",
+            "40"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "12 * 2 + 5 = 29"
+        },
+        {
+          "id": "m_lvl3_189",
+          "text": "10 * 8 + 10 = ?",
+          "options": [
+            "87",
+            "110",
+            "90",
+            "93"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "10 * 8 + 10 = 90"
+        },
+        {
+          "id": "m_lvl3_190",
+          "text": "7 * 10 - 9 = ?",
+          "options": [
+            "61",
+            "48",
+            "76",
+            "64"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "7 * 10 - 9 = 61"
+        },
+        {
+          "id": "m_lvl3_191",
+          "text": "2 + 6 * 3 = ?",
+          "options": [
+            "4",
+            "1",
+            "30",
+            "20"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "2 + 6 * 3 = 20"
+        },
+        {
+          "id": "m_lvl3_192",
+          "text": "7 - 24 / 6 = ?",
+          "options": [
+            "13",
+            "-16",
+            "3",
+            "21"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "7 - 24 / 6 = 3"
+        },
+        {
+          "id": "m_lvl3_193",
+          "text": "5 + 21 / 3 = ?",
+          "options": [
+            "21",
+            "12",
+            "3",
+            "13"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "5 + 21 / 3 = 12"
+        },
+        {
+          "id": "m_lvl3_194",
+          "text": "12 + 6 * 10 = ?",
+          "options": [
+            "75",
+            "72",
+            "57",
+            "91"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "12 + 6 * 10 = 72"
+        },
+        {
+          "id": "m_lvl3_195",
+          "text": "11 - 4 / 2 = ?",
+          "options": [
+            "-5",
+            "15",
+            "13",
+            "9"
+          ],
+          "correctIndex": 3,
+          "difficulty": 3,
+          "explanation": "11 - 4 / 2 = 9"
+        },
+        {
+          "id": "m_lvl3_196",
+          "text": "8 + 24 / 6 = ?",
+          "options": [
+            "12",
+            "14",
+            "1",
+            "6"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "8 + 24 / 6 = 12"
+        },
+        {
+          "id": "m_lvl3_197",
+          "text": "7 - 90 / 10 = ?",
+          "options": [
+            "17",
+            "-15",
+            "-2",
+            "-17"
+          ],
+          "correctIndex": 2,
+          "difficulty": 3,
+          "explanation": "7 - 90 / 10 = -2"
+        },
+        {
+          "id": "m_lvl3_198",
+          "text": "10 * 7 - 2 = ?",
+          "options": [
+            "56",
+            "68",
+            "84",
+            "71"
+          ],
+          "correctIndex": 1,
+          "difficulty": 3,
+          "explanation": "10 * 7 - 2 = 68"
+        },
+        {
+          "id": "m_lvl3_199",
+          "text": "11 * 3 + 7 = ?",
+          "options": [
+            "40",
+            "26",
+            "28",
+            "37"
+          ],
+          "correctIndex": 0,
+          "difficulty": 3,
+          "explanation": "11 * 3 + 7 = 40"
+        }
+      ]
+    }
+  ]
 }

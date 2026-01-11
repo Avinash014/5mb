@@ -1,0 +1,32 @@
+# Built-in Git Ignore Template for Android
+
+# Gradle
+.gradle/
+build/
+
+# IDE
+.idea/
+*.iml
+
+# Local configuration
+local.properties
+
+# Log files
+*.log
+
+# Android Studio / IntelliJ
+*.iws
+*.ipr
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# OS specific
+.DS_Store
+Thumbs.db

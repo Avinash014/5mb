@@ -12,13 +12,37 @@ import androidx.navigation.navArgument
 fun QuizNavigation(viewModel: QuizViewModel) {
     val navController = rememberNavController()
 
-    NavHost(navController = navController, startDestination = "menu") {
+    NavHost(navController = navController, startDestination = "splash") {
+        composable("splash") {
+            SplashScreen(onSplashFinished = {
+                navController.navigate("menu") {
+                    popUpTo("splash") { inclusive = true }
+                }
+            })
+        }
+    
         composable("menu") {
             MainMenuScreen(
                 categories = viewModel.categories.collectAsState().value,
                 onCategorySelected = { categoryId ->
                     navController.navigate("levels/$categoryId")
+                },
+                onSettingsClick = {
+                    navController.navigate("settings")
                 }
+            )
+        }
+        
+        composable("settings") {
+            val settings = viewModel.settings.collectAsState().value
+            SettingsScreen(
+                settings = settings,
+                onTimerChange = viewModel::updateTimer,
+                onSoundToggle = viewModel::toggleSound,
+                onVibrationToggle = viewModel::toggleVibration,
+                onLivesToggle = viewModel::toggleLives,
+                onDarkModeToggle = viewModel::toggleDarkMode,
+                onBack = { navController.popBackStack() }
             )
         }
         
@@ -33,6 +57,7 @@ fun QuizNavigation(viewModel: QuizViewModel) {
                 LevelSelectionScreen(
                     category = category,
                     isLevelUnlocked = { levelId -> viewModel.isLevelUnlocked(categoryId, levelId) },
+                    getHighScore = { levelId -> viewModel.getHighScore(categoryId, levelId) },
                     onLevelSelected = { levelId ->
                         navController.navigate("quiz/$categoryId/$levelId")
                     },
@@ -50,11 +75,20 @@ fun QuizNavigation(viewModel: QuizViewModel) {
         ) { backStackEntry ->
             val categoryId = backStackEntry.arguments?.getString("categoryId") ?: ""
             val levelId = backStackEntry.arguments?.getInt("levelId") ?: 1
-            val level = viewModel.getLevel(categoryId, levelId)
+            val level = androidx.compose.runtime.remember(categoryId, levelId) {
+                viewModel.getLevel(categoryId, levelId)
+            }
+            
+            // Get current settings for quiz
+            val settings = viewModel.settings.collectAsState().value
 
             if (level != null) {
                 QuizScreen(
                     level = level,
+                    timerDuration = settings.timerDurationSeconds,
+                    isLivesMode = settings.isLivesMode,
+                    onCorrectAnswer = { viewModel.playCorrectEffect() },
+                    onWrongAnswer = { viewModel.playWrongEffect() },
                     onQuizFinished = { score, total, time ->
                          viewModel.completeLevel(categoryId, levelId, score)
                          navController.navigate("stats/$categoryId/$levelId/$score/$total/$time") {
