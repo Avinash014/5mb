@@ -17,9 +17,12 @@ import com.avinash.fivemb.ui.QuizViewModel
 import com.avinash.fivemb.ui.QuizViewModelFactory
 import com.avinash.fivemb.ui.theme.FiveMBTheme
 
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+
 class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        installSplashScreen()
         super.onCreate(savedInstanceState)
         
         val repository = QuizRepository(applicationContext)

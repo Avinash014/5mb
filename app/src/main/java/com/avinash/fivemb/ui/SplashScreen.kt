@@ -31,43 +31,45 @@ import kotlinx.coroutines.delay
 
 @Composable
 fun SplashScreen(onSplashFinished: () -> Unit) {
-    var startAnimation by remember { mutableStateOf(false) }
-    val alphaAnim = animateFloatAsState(
-        targetValue = if (startAnimation) 1f else 0f,
-        animationSpec = tween(durationMillis = 1000),
-        label = "alpha"
+    var showTagline by remember { mutableStateOf(false) }
+    val taglineAlpha by animateFloatAsState(
+        targetValue = if (showTagline) 1f else 0f,
+        animationSpec = tween(durationMillis = 800),
+        label = "tagline_alpha"
     )
 
     LaunchedEffect(key1 = true) {
-        startAnimation = true
-        delay(2000)
+        showTagline = true
+        delay(1500) // Shorter delay for a professional feel
         onSplashFinished()
     }
 
-    GameBackground {
-        Box(
-            modifier = Modifier.fillMaxSize(),
-            contentAlignment = Alignment.Center
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(androidx.compose.ui.graphics.Color(0xFF121212)),
+        contentAlignment = Alignment.Center
+    ) {
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Column(
-                horizontalAlignment = Alignment.CenterHorizontally,
-                modifier = Modifier.alpha(alphaAnim.value)
-            ) {
-                Image(
-                    painter = painterResource(id = R.drawable.logo_512),
-                    contentDescription = "App Logo",
-                    modifier = Modifier.size(180.dp)
-                )
+            // Use the same inset drawable and size (192dp) as the system splash
+            Image(
+                painter = painterResource(id = R.drawable.logo_512_transparent),
+                contentDescription = "App Logo",
+                modifier = Modifier.size(192.dp)
+            )
+            
+            Spacer(modifier = Modifier.height(24.dp))
                 
-                Spacer(modifier = Modifier.height(24.dp))
-                
+                // Only the tagline animates in
                 Text(
                     text = stringResource(id = R.string.app_tagline),
                     color = com.avinash.fivemb.ui.theme.NeonBlue,
                     fontSize = 22.sp,
-                    fontWeight = FontWeight.Bold
+                    fontWeight = FontWeight.Bold,
+                    modifier = Modifier.alpha(taglineAlpha)
                 )
-            }
         }
     }
 }
