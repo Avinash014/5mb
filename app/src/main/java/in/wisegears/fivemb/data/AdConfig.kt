@@ -1,7 +1,7 @@
 package `in`.wisegears.fivemb.data
 
 object AdConfig {
-    const val SHOW_QUIZ_BANNER = true // Enabled for AdMob integration
+    const val SHOW_QUIZ_BANNER = false // Disabled for Now
     const val SHOW_STATS_BANNER = true
     
     // Test App ID: ca-app-pub-3940256099942544~3347511713 (Used in Manifest)
