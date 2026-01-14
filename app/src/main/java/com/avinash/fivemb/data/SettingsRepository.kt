@@ -17,7 +17,8 @@ class SettingsRepository(context: Context) {
             isSoundEnabled = prefs.getBoolean("sound_enabled", true),
             isVibrationEnabled = prefs.getBoolean("vibration_enabled", true),
             isDarkMode = prefs.getBoolean("dark_mode", false),
-            isLivesMode = true // Always enabled per user request
+            isLivesMode = true, // Always enabled per user request
+            isShowExplanation = prefs.getBoolean("show_explanation", true)
         )
     }
 
@@ -46,6 +47,11 @@ class SettingsRepository(context: Context) {
         refresh()
     }
 
+    fun toggleShowExplanation(enabled: Boolean) {
+        prefs.edit().putBoolean("show_explanation", enabled).apply()
+        refresh()
+    }
+
     private fun refresh() {
         _settings.value = loadSettings()
     }
@@ -56,5 +62,6 @@ data class AppSettings(
     val isSoundEnabled: Boolean,
     val isVibrationEnabled: Boolean,
     val isDarkMode: Boolean,
-    val isLivesMode: Boolean
+    val isLivesMode: Boolean,
+    val isShowExplanation: Boolean
 )

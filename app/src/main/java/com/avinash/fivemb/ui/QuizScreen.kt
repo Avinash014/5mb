@@ -21,8 +21,6 @@ import com.avinash.fivemb.data.AdConfig
 import com.avinash.fivemb.data.Level
 import com.avinash.fivemb.ui.theme.GreenSuccess
 import com.avinash.fivemb.ui.theme.RedError
-import com.avinash.fivemb.ui.theme.NeonBlue
-import com.avinash.fivemb.ui.theme.NeonPurple
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
@@ -32,6 +30,7 @@ fun QuizScreen(
     level: Level,
     timerDuration: Int,
     isLivesMode: Boolean,
+    isShowExplanation: Boolean,
     onCorrectAnswer: () -> Unit,
     onWrongAnswer: () -> Unit,
     onQuizFinished: (Int, Int, Long) -> Unit,
@@ -230,8 +229,8 @@ fun QuizScreen(
                                     
                                     coroutineScope.launch {
                                         delay(1000)
-                                        // LOGIC UPDATE: Show explanation ONLY on WRONG answer if explanation exists
-                                        val showExplanationDialog = !isCorrect && currentQuestion.explanation != null
+                                        // LOGIC UPDATE: Show explanation ONLY on WRONG answer if explanation exists AND setting is ON
+                                        val showExplanationDialog = !isCorrect && isShowExplanation && currentQuestion.explanation != null
                                         
                                         if (isLivesMode && lives == 0) {
                                              val timeTaken = (totalTimeSeconds * 1000L) - timeLeft

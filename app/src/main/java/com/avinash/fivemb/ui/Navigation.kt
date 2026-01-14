@@ -41,6 +41,7 @@ fun QuizNavigation(viewModel: QuizViewModel) {
                 onSoundToggle = viewModel::toggleSound,
                 onVibrationToggle = viewModel::toggleVibration,
                 onLivesToggle = viewModel::toggleLives,
+                onShowExplanationToggle = viewModel::toggleShowExplanation,
                 onDarkModeToggle = viewModel::toggleDarkMode,
                 onBack = { navController.popBackStack() }
             )
@@ -87,6 +88,7 @@ fun QuizNavigation(viewModel: QuizViewModel) {
                     level = level,
                     timerDuration = settings.timerDurationSeconds,
                     isLivesMode = settings.isLivesMode,
+                    isShowExplanation = settings.isShowExplanation,
                     onCorrectAnswer = { viewModel.playCorrectEffect() },
                     onWrongAnswer = { viewModel.playWrongEffect() },
                     onQuizFinished = { score, total, time ->
@@ -113,7 +115,6 @@ fun QuizNavigation(viewModel: QuizViewModel) {
             )
         ) { backStackEntry ->
              val score = backStackEntry.arguments?.getInt("score") ?: 0
-             val total = backStackEntry.arguments?.getInt("total") ?: 0
              val time = backStackEntry.arguments?.getLong("time") ?: 0L
              
              StatsScreen(

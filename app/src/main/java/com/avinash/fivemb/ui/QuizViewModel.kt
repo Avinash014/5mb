@@ -75,6 +75,7 @@ class QuizViewModel(
     fun toggleVibration(enabled: Boolean) = settingsRepository.toggleVibration(enabled)
     fun toggleLives(enabled: Boolean) = settingsRepository.toggleLivesMode(enabled)
     fun toggleDarkMode(enabled: Boolean) = settingsRepository.toggleDarkMode(enabled)
+    fun toggleShowExplanation(enabled: Boolean) = settingsRepository.toggleShowExplanation(enabled)
 }
 
 class QuizViewModelFactory(

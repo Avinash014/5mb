@@ -20,6 +20,7 @@ fun SettingsScreen(
     onSoundToggle: (Boolean) -> Unit,
     onVibrationToggle: (Boolean) -> Unit,
     onLivesToggle: (Boolean) -> Unit,
+    onShowExplanationToggle: (Boolean) -> Unit,
     onDarkModeToggle: (Boolean) -> Unit,
     onBack: () -> Unit
 ) {
@@ -57,6 +58,7 @@ fun SettingsScreen(
             }
 
             // Toggles
+            SwitchSetting("Show Explanations", settings.isShowExplanation, onShowExplanationToggle)
             SwitchSetting("Sound Effects", settings.isSoundEnabled, onSoundToggle)
             SwitchSetting("Vibration", settings.isVibrationEnabled, onVibrationToggle)
             SwitchSetting("Dark Mode", settings.isDarkMode, onDarkModeToggle)
