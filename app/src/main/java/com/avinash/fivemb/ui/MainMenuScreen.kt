@@ -11,7 +11,6 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -19,9 +18,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.avinash.fivemb.R
 import com.avinash.fivemb.data.Category
-import com.avinash.fivemb.ui.theme.NeonBlue
-import com.avinash.fivemb.ui.theme.NeonCyan
-import com.avinash.fivemb.ui.theme.NeonPurple
+
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -50,31 +47,31 @@ fun MainMenuScreen(
                 }
             }
             
-            Spacer(modifier = Modifier.height(32.dp))
+            Spacer(modifier = Modifier.height(8.dp))
             
             Image(
                 painter = painterResource(id = R.drawable.logo_512),
                 contentDescription = null,
-                modifier = Modifier.size(100.dp)
+                modifier = Modifier.size(64.dp)
             )
             
-            Spacer(modifier = Modifier.height(16.dp))
+            Spacer(modifier = Modifier.height(8.dp))
             
             Text(
                 text = stringResource(id = R.string.app_name) + " QUIZ",
-                style = MaterialTheme.typography.displayMedium,
+                style = MaterialTheme.typography.headlineLarge, // Reduced from displayMedium
                 fontWeight = FontWeight.ExtraBold,
                 color = MaterialTheme.colorScheme.primary,
-                letterSpacing = 4.sp
+                letterSpacing = 2.sp // Reduced letter spacing
             )
             
             Text(
                 text = stringResource(id = R.string.app_tagline),
-                style = MaterialTheme.typography.bodyLarge,
+                style = MaterialTheme.typography.bodyMedium, // Same or slightly smaller
                 color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f)
             )
             
-            Spacer(modifier = Modifier.height(48.dp))
+            Spacer(modifier = Modifier.height(24.dp))
             
             if (categories.isEmpty()) {
                 CircularProgressIndicator(color = MaterialTheme.colorScheme.primary)
@@ -111,8 +108,8 @@ fun MainMenuScreen(
                                     )
                                 }
                                 Icon(
-                                    Icons.Default.Star, 
-                                    contentDescription = null, 
+                                    Icons.Default.Star,
+                                    contentDescription = null,
                                     tint = MaterialTheme.colorScheme.secondary,
                                     modifier = Modifier.size(32.dp)
                                 )
