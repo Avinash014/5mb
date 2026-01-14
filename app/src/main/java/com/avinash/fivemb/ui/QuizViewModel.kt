@@ -22,6 +22,9 @@ class QuizViewModel(
     val categories: StateFlow<List<Category>> = _categories.asStateFlow()
     
     val settings = settingsRepository.settings
+    
+    private val _lastWrongAnswers = MutableStateFlow<List<com.avinash.fivemb.data.Question>>(emptyList())
+    val lastWrongAnswers: StateFlow<List<com.avinash.fivemb.data.Question>> = _lastWrongAnswers.asStateFlow()
 
     init {
         loadData()
@@ -56,6 +59,10 @@ class QuizViewModel(
     fun completeLevel(categoryId: String, levelId: Int, score: Int) {
         repository.saveHighScore(categoryId, levelId, score)
         repository.unlockNextLevel(categoryId, levelId)
+    }
+
+    fun setLastQuizResults(wrongAnswers: List<com.avinash.fivemb.data.Question>) {
+        _lastWrongAnswers.value = wrongAnswers
     }
     
     // Feedback

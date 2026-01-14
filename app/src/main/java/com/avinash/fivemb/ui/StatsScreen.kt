@@ -1,6 +1,8 @@
 package com.avinash.fivemb.ui
 
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -18,6 +20,7 @@ import com.avinash.fivemb.ui.theme.NeonPurple
 fun StatsScreen(
     score: Int,
     timeTakenMillis: Long,
+    wrongQuestions: List<com.avinash.fivemb.data.Question>,
     onHome: () -> Unit,
     onReplay: () -> Unit
 ) {
@@ -25,10 +28,13 @@ fun StatsScreen(
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(16.dp),
+                .padding(16.dp)
+                .verticalScroll(androidx.compose.foundation.rememberScrollState()),
             horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center
+            verticalArrangement = Arrangement.Top // Changed from Center to accommodate scroll
         ) {
+            Spacer(modifier = Modifier.height(32.dp)) // Top padding
+
             // Ad Banner
             if (AdConfig.SHOW_STATS_BANNER) {
                 GlassCard(modifier = Modifier.fillMaxWidth().height(50.dp)) {
@@ -84,7 +90,7 @@ fun StatsScreen(
                 }
             }
             
-            Spacer(modifier = Modifier.height(48.dp))
+            Spacer(modifier = Modifier.height(32.dp))
             
             BouncyButton(
                 onClick = onReplay,
@@ -102,6 +108,61 @@ fun StatsScreen(
                 containerColor = MaterialTheme.colorScheme.surfaceVariant
             ) {
                 Text("Back to Menu", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
+
+            // Review Mistakes Section
+            if (wrongQuestions.isNotEmpty()) {
+                Spacer(modifier = Modifier.height(48.dp))
+                
+                Text(
+                    text = "Review Mistakes",
+                    style = MaterialTheme.typography.titleLarge,
+                    color = MaterialTheme.colorScheme.error,
+                    fontWeight = FontWeight.Bold
+                )
+                
+                Spacer(modifier = Modifier.height(16.dp))
+                
+                wrongQuestions.forEach { question ->
+                    GlassCard(modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp)) {
+                         Column(modifier = Modifier.padding(16.dp)) {
+                             Text(
+                                 text = question.text,
+                                 style = MaterialTheme.typography.titleMedium,
+                                 color = MaterialTheme.colorScheme.onSurface,
+                                 fontWeight = FontWeight.SemiBold
+                             )
+                             Spacer(modifier = Modifier.height(8.dp))
+                             
+                             Text(
+                                 text = "Correct Answer:",
+                                 style = MaterialTheme.typography.labelMedium,
+                                 color = MaterialTheme.colorScheme.onSurface.copy(alpha=0.6f)
+                             )
+                             Text(
+                                 text = question.options[question.correctIndex],
+                                 style = MaterialTheme.typography.bodyLarge,
+                                 color = com.avinash.fivemb.ui.theme.GreenSuccess,
+                                 fontWeight = FontWeight.Bold
+                             )
+                             
+                             if (question.explanation != null) {
+                                 Spacer(modifier = Modifier.height(8.dp))
+                                 Text(
+                                     text = "Explanation:",
+                                     style = MaterialTheme.typography.labelMedium,
+                                     color = MaterialTheme.colorScheme.onSurface.copy(alpha=0.6f)
+                                 )
+                                 Text(
+                                     text = question.explanation,
+                                     style = MaterialTheme.typography.bodyMedium,
+                                     color = MaterialTheme.colorScheme.onSurface.copy(alpha=0.8f)
+                                 )
+                             }
+                         }
+                    }
+                }
+                Spacer(modifier = Modifier.height(32.dp))
             }
         }
     }

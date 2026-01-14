@@ -33,7 +33,7 @@ fun QuizScreen(
     isShowExplanation: Boolean,
     onCorrectAnswer: () -> Unit,
     onWrongAnswer: () -> Unit,
-    onQuizFinished: (Int, Int, Long) -> Unit,
+    onQuizFinished: (Int, Int, Long, List<com.avinash.fivemb.data.Question>) -> Unit,
     onBack: () -> Unit
 ) {
     val totalTimeSeconds = timerDuration
@@ -44,6 +44,7 @@ fun QuizScreen(
     var timeLeft by remember { mutableLongStateOf(totalTimeSeconds * 1000L) } 
     var isProcessing by remember { mutableStateOf(false) } 
     var showExplanation by remember { mutableStateOf(false) }
+    val wrongAnswers = remember { mutableListOf<com.avinash.fivemb.data.Question>() }
     
     // Fix: Ensure currentQuestion is stable and only derived from index
     val currentQuestion = remember(currentQuestionIndex, level) {
@@ -65,7 +66,7 @@ fun QuizScreen(
             }
         }
         if (timeLeft <= 0) {
-             onQuizFinished(score, level.questions.size, (totalTimeSeconds * 1000L))
+             onQuizFinished(score, level.questions.size, (totalTimeSeconds * 1000L), wrongAnswers)
         }
     }
     
@@ -107,7 +108,7 @@ fun QuizScreen(
                                         isProcessing = false
                                     } else {
                                         val timeTaken = (totalTimeSeconds * 1000L) - timeLeft
-                                        onQuizFinished(score, level.questions.size, timeTaken)
+                                        onQuizFinished(score, level.questions.size, timeTaken, wrongAnswers)
                                     }
                                 }
                             },
@@ -222,6 +223,7 @@ fun QuizScreen(
                                         onCorrectAnswer()
                                     } else {
                                         onWrongAnswer()
+                                        if (currentQuestion != null) wrongAnswers.add(currentQuestion)
                                         if (isLivesMode) {
                                             lives--
                                         }
@@ -234,7 +236,7 @@ fun QuizScreen(
                                         
                                         if (isLivesMode && lives == 0) {
                                              val timeTaken = (totalTimeSeconds * 1000L) - timeLeft
-                                             onQuizFinished(score, level.questions.size, timeTaken)
+                                             onQuizFinished(score, level.questions.size, timeTaken, wrongAnswers)
                                         } else {
                                             if (showExplanationDialog) {
                                                 showExplanation = true
@@ -245,7 +247,7 @@ fun QuizScreen(
                                                     isProcessing = false
                                                 } else {
                                                     val timeTaken = (totalTimeSeconds * 1000L) - timeLeft
-                                                    onQuizFinished(score, level.questions.size, timeTaken)
+                                                    onQuizFinished(score, level.questions.size, timeTaken, wrongAnswers)
                                                 }
                                             }
                                         }

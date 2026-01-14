@@ -91,7 +91,8 @@ fun QuizNavigation(viewModel: QuizViewModel) {
                     isShowExplanation = settings.isShowExplanation,
                     onCorrectAnswer = { viewModel.playCorrectEffect() },
                     onWrongAnswer = { viewModel.playWrongEffect() },
-                    onQuizFinished = { score, total, time ->
+                    onQuizFinished = { score, total, time, wrongAnswers ->
+                         viewModel.setLastQuizResults(wrongAnswers)
                          viewModel.completeLevel(categoryId, levelId, score)
                          navController.navigate("stats/$categoryId/$levelId/$score/$total/$time") {
                              popUpTo("levels/$categoryId") {
@@ -120,6 +121,7 @@ fun QuizNavigation(viewModel: QuizViewModel) {
              StatsScreen(
                  score = score,
                  timeTakenMillis = time,
+                 wrongQuestions = viewModel.lastWrongAnswers.collectAsState().value,
                  onHome = {
                      navController.popBackStack("menu", inclusive = false)
                  },
