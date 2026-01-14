@@ -176,14 +176,6 @@ fun QuizScreen(
                         Spacer(modifier = Modifier.height(74.dp)) // Maintain spacing
                     }
 
-                    LinearProgressIndicator(
-                        progress = (currentQuestionIndex + 1).toFloat() / level.questions.size,
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .height(8.dp),
-                        color = MaterialTheme.colorScheme.primary,
-                        trackColor = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f)
-                    )
                     
                     Spacer(modifier = Modifier.height(32.dp))
                     

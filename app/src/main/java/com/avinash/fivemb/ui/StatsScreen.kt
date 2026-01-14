@@ -17,7 +17,6 @@ import com.avinash.fivemb.ui.theme.NeonPurple
 @Composable
 fun StatsScreen(
     score: Int,
-    totalQuestions: Int,
     timeTakenMillis: Long,
     onHome: () -> Unit,
     onReplay: () -> Unit
@@ -61,7 +60,7 @@ fun StatsScreen(
                         letterSpacing = 2.sp
                     )
                     Text(
-                        text = "$score / $totalQuestions",
+                        text = "$score",
                         style = MaterialTheme.typography.displayMedium,
                         fontWeight = FontWeight.Black,
                         color = MaterialTheme.colorScheme.onSurface

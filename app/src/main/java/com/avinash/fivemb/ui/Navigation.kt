@@ -118,7 +118,6 @@ fun QuizNavigation(viewModel: QuizViewModel) {
              
              StatsScreen(
                  score = score,
-                 totalQuestions = total,
                  timeTakenMillis = time,
                  onHome = {
                      navController.popBackStack("menu", inclusive = false)
