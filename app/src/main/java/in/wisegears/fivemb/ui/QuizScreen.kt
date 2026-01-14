@@ -166,11 +166,7 @@ fun QuizScreen(
                 ) {
                      // Ad Placeholder Configurable
                     if (AdConfig.SHOW_QUIZ_BANNER) {
-                        GlassCard(modifier = Modifier.fillMaxWidth().height(50.dp)) {
-                            Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                                Text("Ad Banner", color = MaterialTheme.colorScheme.onSurface.copy(alpha=0.5f))
-                            }
-                        }
+                        AdMobBanner()
                         Spacer(modifier = Modifier.height(24.dp))
                     } else {
                         Spacer(modifier = Modifier.height(74.dp)) // Maintain spacing

@@ -37,11 +37,7 @@ fun StatsScreen(
 
             // Ad Banner
             if (AdConfig.SHOW_STATS_BANNER) {
-                GlassCard(modifier = Modifier.fillMaxWidth().height(50.dp)) {
-                    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                         Text("Ad Banner", color = MaterialTheme.colorScheme.onSurface.copy(alpha=0.5f))
-                    }
-                }
+                AdMobBanner()
                 Spacer(modifier = Modifier.height(32.dp))
             }
         

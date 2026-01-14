@@ -19,11 +19,14 @@ import `in`.wisegears.fivemb.ui.theme.FiveMBTheme
 
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 
+import com.google.android.gms.ads.MobileAds
+
 class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         installSplashScreen()
         super.onCreate(savedInstanceState)
+        MobileAds.initialize(this)
         
         val repository = QuizRepository(applicationContext)
         val settingsRepository = SettingsRepository(applicationContext)
