@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.avinash.fivemb"
+    namespace = "in.wisegears.fivemb"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.avinash.fivemb"
+        applicationId = "in.wisegears.fivemb"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

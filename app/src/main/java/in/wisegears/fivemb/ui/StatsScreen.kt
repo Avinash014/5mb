@@ -1,4 +1,4 @@
-package com.avinash.fivemb.ui
+package `in`.wisegears.fivemb.ui
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -12,15 +12,15 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.avinash.fivemb.data.AdConfig
-import com.avinash.fivemb.ui.theme.NeonCyan
-import com.avinash.fivemb.ui.theme.NeonPurple
+import `in`.wisegears.fivemb.data.AdConfig
+import `in`.wisegears.fivemb.ui.theme.NeonCyan
+import `in`.wisegears.fivemb.ui.theme.NeonPurple
 
 @Composable
 fun StatsScreen(
     score: Int,
     timeTakenMillis: Long,
-    wrongQuestions: List<com.avinash.fivemb.data.Question>,
+    wrongQuestions: List<`in`.wisegears.fivemb.data.Question>,
     onHome: () -> Unit,
     onReplay: () -> Unit
 ) {
@@ -142,7 +142,7 @@ fun StatsScreen(
                              Text(
                                  text = question.options[question.correctIndex],
                                  style = MaterialTheme.typography.bodyLarge,
-                                 color = com.avinash.fivemb.ui.theme.GreenSuccess,
+                                 color = `in`.wisegears.fivemb.ui.theme.GreenSuccess,
                                  fontWeight = FontWeight.Bold
                              )
                              

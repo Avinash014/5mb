@@ -1,4 +1,4 @@
-package com.avinash.fivemb.ui
+package `in`.wisegears.fivemb.ui
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -10,7 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.avinash.fivemb.data.AppSettings
+import `in`.wisegears.fivemb.data.AppSettings
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

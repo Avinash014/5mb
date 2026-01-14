@@ -1,4 +1,4 @@
-package com.avinash.fivemb.ui
+package `in`.wisegears.fivemb.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -16,8 +16,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.avinash.fivemb.R
-import com.avinash.fivemb.data.Category
+import `in`.wisegears.fivemb.R
+import `in`.wisegears.fivemb.data.Category
 
 
 @OptIn(ExperimentalMaterial3Api::class)

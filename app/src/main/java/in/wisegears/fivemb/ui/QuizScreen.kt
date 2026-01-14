@@ -1,4 +1,4 @@
-package com.avinash.fivemb.ui
+package `in`.wisegears.fivemb.ui
 
 import androidx.compose.animation.*
 import androidx.compose.foundation.background
@@ -17,10 +17,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
-import com.avinash.fivemb.data.AdConfig
-import com.avinash.fivemb.data.Level
-import com.avinash.fivemb.ui.theme.GreenSuccess
-import com.avinash.fivemb.ui.theme.RedError
+import `in`.wisegears.fivemb.data.AdConfig
+import `in`.wisegears.fivemb.data.Level
+import `in`.wisegears.fivemb.ui.theme.GreenSuccess
+import `in`.wisegears.fivemb.ui.theme.RedError
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
@@ -33,7 +33,7 @@ fun QuizScreen(
     isShowExplanation: Boolean,
     onCorrectAnswer: () -> Unit,
     onWrongAnswer: () -> Unit,
-    onQuizFinished: (Int, Int, Long, List<com.avinash.fivemb.data.Question>) -> Unit,
+    onQuizFinished: (Int, Int, Long, List<`in`.wisegears.fivemb.data.Question>) -> Unit,
     onBack: () -> Unit
 ) {
     val totalTimeSeconds = timerDuration
@@ -44,7 +44,7 @@ fun QuizScreen(
     var timeLeft by remember { mutableLongStateOf(totalTimeSeconds * 1000L) } 
     var isProcessing by remember { mutableStateOf(false) } 
     var showExplanation by remember { mutableStateOf(false) }
-    val wrongAnswers = remember { mutableListOf<com.avinash.fivemb.data.Question>() }
+    val wrongAnswers = remember { mutableListOf<`in`.wisegears.fivemb.data.Question>() }
     
     // Fix: Ensure currentQuestion is stable and only derived from index
     val currentQuestion = remember(currentQuestionIndex, level) {

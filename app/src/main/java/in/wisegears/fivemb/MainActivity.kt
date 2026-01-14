@@ -1,4 +1,4 @@
-package com.avinash.fivemb
+package `in`.wisegears.fivemb
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,12 +10,12 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
-import com.avinash.fivemb.data.QuizRepository
-import com.avinash.fivemb.data.SettingsRepository
-import com.avinash.fivemb.ui.QuizNavigation
-import com.avinash.fivemb.ui.QuizViewModel
-import com.avinash.fivemb.ui.QuizViewModelFactory
-import com.avinash.fivemb.ui.theme.FiveMBTheme
+import `in`.wisegears.fivemb.data.QuizRepository
+import `in`.wisegears.fivemb.data.SettingsRepository
+import `in`.wisegears.fivemb.ui.QuizNavigation
+import `in`.wisegears.fivemb.ui.QuizViewModel
+import `in`.wisegears.fivemb.ui.QuizViewModelFactory
+import `in`.wisegears.fivemb.ui.theme.FiveMBTheme
 
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 
@@ -27,7 +27,7 @@ class MainActivity : ComponentActivity() {
         
         val repository = QuizRepository(applicationContext)
         val settingsRepository = SettingsRepository(applicationContext)
-        val soundManager = com.avinash.fivemb.utils.SoundManager(applicationContext)
+        val soundManager = `in`.wisegears.fivemb.utils.SoundManager(applicationContext)
         val factory = QuizViewModelFactory(repository, settingsRepository, soundManager)
         val viewModel = androidx.lifecycle.ViewModelProvider(this, factory)[QuizViewModel::class.java]
 

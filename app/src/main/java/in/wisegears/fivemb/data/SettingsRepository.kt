@@ -1,4 +1,4 @@
-package com.avinash.fivemb.data
+package `in`.wisegears.fivemb.data
 
 import android.content.Context
 import kotlinx.coroutines.flow.MutableStateFlow

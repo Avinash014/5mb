@@ -1,4 +1,4 @@
-package com.avinash.fivemb.ui.theme
+package `in`.wisegears.fivemb.ui.theme
 
 import android.app.Activity
 import android.os.Build

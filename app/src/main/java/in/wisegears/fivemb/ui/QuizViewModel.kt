@@ -1,12 +1,12 @@
-package com.avinash.fivemb.ui
+package `in`.wisegears.fivemb.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.avinash.fivemb.data.Category
-import com.avinash.fivemb.data.Level
-import com.avinash.fivemb.data.QuizRepository
-import com.avinash.fivemb.data.SettingsRepository
+import `in`.wisegears.fivemb.data.Category
+import `in`.wisegears.fivemb.data.Level
+import `in`.wisegears.fivemb.data.QuizRepository
+import `in`.wisegears.fivemb.data.SettingsRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -15,7 +15,7 @@ import kotlinx.coroutines.launch
 class QuizViewModel(
     private val repository: QuizRepository,
     val settingsRepository: SettingsRepository,
-    private val soundManager: com.avinash.fivemb.utils.SoundManager
+    private val soundManager: `in`.wisegears.fivemb.utils.SoundManager
 ) : ViewModel() {
 
     private val _categories = MutableStateFlow<List<Category>>(emptyList())
@@ -23,8 +23,8 @@ class QuizViewModel(
     
     val settings = settingsRepository.settings
     
-    private val _lastWrongAnswers = MutableStateFlow<List<com.avinash.fivemb.data.Question>>(emptyList())
-    val lastWrongAnswers: StateFlow<List<com.avinash.fivemb.data.Question>> = _lastWrongAnswers.asStateFlow()
+    private val _lastWrongAnswers = MutableStateFlow<List<`in`.wisegears.fivemb.data.Question>>(emptyList())
+    val lastWrongAnswers: StateFlow<List<`in`.wisegears.fivemb.data.Question>> = _lastWrongAnswers.asStateFlow()
 
     init {
         loadData()
@@ -61,7 +61,7 @@ class QuizViewModel(
         repository.unlockNextLevel(categoryId, levelId)
     }
 
-    fun setLastQuizResults(wrongAnswers: List<com.avinash.fivemb.data.Question>) {
+    fun setLastQuizResults(wrongAnswers: List<`in`.wisegears.fivemb.data.Question>) {
         _lastWrongAnswers.value = wrongAnswers
     }
     
@@ -88,7 +88,7 @@ class QuizViewModel(
 class QuizViewModelFactory(
     private val repository: QuizRepository,
     private val settingsRepository: SettingsRepository,
-    private val soundManager: com.avinash.fivemb.utils.SoundManager
+    private val soundManager: `in`.wisegears.fivemb.utils.SoundManager
 ) : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(QuizViewModel::class.java)) {

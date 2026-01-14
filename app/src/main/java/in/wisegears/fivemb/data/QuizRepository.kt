@@ -1,4 +1,4 @@
-package com.avinash.fivemb.data
+package `in`.wisegears.fivemb.data
 
 import android.content.Context
 import com.google.gson.Gson
@@ -13,20 +13,20 @@ class QuizRepository(private val context: Context) {
 
     suspend fun loadQuizData(): QuizData? = withContext(Dispatchers.IO) {
         try {
-            val categories = mutableListOf<com.avinash.fivemb.data.Category>()
+            val categories = mutableListOf<`in`.wisegears.fivemb.data.Category>()
             val files = listOf("math.json", "puzzle.json", "gk_lite.json", "reasoning.json", "word_power.json")
             
             for (file in files) {
                 try {
                     val inputStream = context.assets.open(file)
                     val reader = InputStreamReader(inputStream)
-                    val category = gson.fromJson(reader, com.avinash.fivemb.data.Category::class.java)
+                    val category = gson.fromJson(reader, `in`.wisegears.fivemb.data.Category::class.java)
                     categories.add(category)
                 } catch (e: Exception) {
                      e.printStackTrace()
                 }
             }
-            if (categories.isEmpty()) null else com.avinash.fivemb.data.QuizData(categories)
+            if (categories.isEmpty()) null else `in`.wisegears.fivemb.data.QuizData(categories)
         } catch (e: Exception) {
             e.printStackTrace()
             null

@@ -1,4 +1,4 @@
-package com.avinash.fivemb.ui.theme
+package `in`.wisegears.fivemb.ui.theme
 
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color

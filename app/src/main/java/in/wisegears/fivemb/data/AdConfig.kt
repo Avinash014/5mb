@@ -1,4 +1,4 @@
-package com.avinash.fivemb.data
+package `in`.wisegears.fivemb.data
 
 object AdConfig {
     const val SHOW_QUIZ_BANNER = false // currently making it false for enhance UI

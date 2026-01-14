@@ -1,4 +1,4 @@
-package com.avinash.fivemb.utils
+package `in`.wisegears.fivemb.utils
 
 import android.content.Context
 import android.media.AudioAttributes
@@ -26,8 +26,8 @@ class SoundManager(private val context: Context) {
             .build()
             
         // Load sounds from Resources
-        correctSoundId = soundPool.load(context, com.avinash.fivemb.R.raw.correct, 1)
-        wrongSoundId = soundPool.load(context, com.avinash.fivemb.R.raw.wrong, 1)
+        correctSoundId = soundPool.load(context, `in`.wisegears.fivemb.R.raw.correct, 1)
+        wrongSoundId = soundPool.load(context, `in`.wisegears.fivemb.R.raw.wrong, 1)
     }
 
     fun playCorrectSound() {

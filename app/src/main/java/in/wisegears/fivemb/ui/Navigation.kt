@@ -1,4 +1,4 @@
-package com.avinash.fivemb.ui
+package `in`.wisegears.fivemb.ui
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState

@@ -1,4 +1,4 @@
-package com.avinash.fivemb.ui
+package `in`.wisegears.fivemb.ui
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.background
@@ -24,10 +24,10 @@ import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.graphics.luminance
-import com.avinash.fivemb.ui.theme.MainBackgroundBrushDark
-import com.avinash.fivemb.ui.theme.MainBackgroundBrushLight
-import com.avinash.fivemb.ui.theme.CardGradientDark
-import com.avinash.fivemb.ui.theme.CardGradientLight
+import `in`.wisegears.fivemb.ui.theme.MainBackgroundBrushDark
+import `in`.wisegears.fivemb.ui.theme.MainBackgroundBrushLight
+import `in`.wisegears.fivemb.ui.theme.CardGradientDark
+import `in`.wisegears.fivemb.ui.theme.CardGradientLight
 
 @Composable
 fun GameBackground(

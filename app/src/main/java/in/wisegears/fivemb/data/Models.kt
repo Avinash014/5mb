@@ -1,4 +1,4 @@
-package com.avinash.fivemb.data
+package `in`.wisegears.fivemb.data
 
 data class QuizData(
     val categories: List<Category>

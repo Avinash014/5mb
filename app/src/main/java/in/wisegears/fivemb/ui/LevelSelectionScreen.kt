@@ -1,4 +1,4 @@
-package com.avinash.fivemb.ui
+package `in`.wisegears.fivemb.ui
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -15,10 +15,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.avinash.fivemb.data.Category
-import com.avinash.fivemb.data.Level
-import com.avinash.fivemb.ui.theme.NeonBlue
-import com.avinash.fivemb.ui.theme.AlertYellow
+import `in`.wisegears.fivemb.data.Category
+import `in`.wisegears.fivemb.data.Level
+import `in`.wisegears.fivemb.ui.theme.NeonBlue
+import `in`.wisegears.fivemb.ui.theme.AlertYellow
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
