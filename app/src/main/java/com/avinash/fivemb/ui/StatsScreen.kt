@@ -34,7 +34,7 @@ fun StatsScreen(
             if (AdConfig.SHOW_STATS_BANNER) {
                 GlassCard(modifier = Modifier.fillMaxWidth().height(50.dp)) {
                     Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                         Text("Ad Banner", color = Color.White.copy(alpha=0.5f))
+                         Text("Ad Banner", color = MaterialTheme.colorScheme.onSurface.copy(alpha=0.5f))
                     }
                 }
                 Spacer(modifier = Modifier.height(32.dp))
@@ -44,7 +44,7 @@ fun StatsScreen(
                 text = "Level Complete!",
                 style = MaterialTheme.typography.displaySmall,
                 fontWeight = FontWeight.Bold,
-                color = NeonCyan
+                color = MaterialTheme.colorScheme.primary
             )
             
             Spacer(modifier = Modifier.height(48.dp))
@@ -57,14 +57,14 @@ fun StatsScreen(
                     Text(
                         text = "SCORE",
                         style = MaterialTheme.typography.labelMedium,
-                        color = Color.White.copy(alpha=0.7f),
+                        color = MaterialTheme.colorScheme.onSurface.copy(alpha=0.7f),
                         letterSpacing = 2.sp
                     )
                     Text(
                         text = "$score / $totalQuestions",
                         style = MaterialTheme.typography.displayMedium,
                         fontWeight = FontWeight.Black,
-                        color = Color.White
+                        color = MaterialTheme.colorScheme.onSurface
                     )
                     
                     Spacer(modifier = Modifier.height(24.dp))
@@ -72,14 +72,14 @@ fun StatsScreen(
                     Text(
                         text = "TIME TAKEN",
                         style = MaterialTheme.typography.labelMedium,
-                        color = Color.White.copy(alpha=0.7f),
+                        color = MaterialTheme.colorScheme.onSurface.copy(alpha=0.7f),
                         letterSpacing = 2.sp
                     )
                     val seconds = timeTakenMillis / 1000
                     Text(
                         text = "${seconds}s",
                         style = MaterialTheme.typography.headlineMedium,
-                        color = NeonPurple,
+                        color = MaterialTheme.colorScheme.secondary,
                         fontWeight = FontWeight.Bold
                     )
                 }
@@ -90,9 +90,9 @@ fun StatsScreen(
             BouncyButton(
                 onClick = onReplay,
                 modifier = Modifier.fillMaxWidth(0.8f),
-                containerColor = NeonPurple
+                containerColor = MaterialTheme.colorScheme.primary
             ) {
-                Text("Replay Level", style = MaterialTheme.typography.titleMedium)
+                Text("Replay Level", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onPrimary)
             }
             
             Spacer(modifier = Modifier.height(16.dp))
@@ -100,9 +100,9 @@ fun StatsScreen(
             BouncyButton(
                 onClick = onHome,
                 modifier = Modifier.fillMaxWidth(0.8f),
-                containerColor = Color.White.copy(alpha=0.2f)
+                containerColor = MaterialTheme.colorScheme.surfaceVariant
             ) {
-                Text("Back to Menu", style = MaterialTheme.typography.titleMedium)
+                Text("Back to Menu", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }
     }

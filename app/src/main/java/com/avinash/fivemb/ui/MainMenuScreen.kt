@@ -42,7 +42,11 @@ fun MainMenuScreen(
                 horizontalArrangement = Arrangement.End
             ) {
                 IconButton(onClick = onSettingsClick) {
-                    Icon(Icons.Default.Settings, contentDescription = "Settings", tint = Color.White)
+                    Icon(
+                        Icons.Default.Settings, 
+                        contentDescription = "Settings", 
+                        tint = MaterialTheme.colorScheme.onSurface
+                    )
                 }
             }
             
@@ -60,20 +64,20 @@ fun MainMenuScreen(
                 text = stringResource(id = R.string.app_name) + " QUIZ",
                 style = MaterialTheme.typography.displayMedium,
                 fontWeight = FontWeight.ExtraBold,
-                color = NeonCyan,
+                color = MaterialTheme.colorScheme.primary,
                 letterSpacing = 4.sp
             )
             
             Text(
                 text = stringResource(id = R.string.app_tagline),
                 style = MaterialTheme.typography.bodyLarge,
-                color = Color.White.copy(alpha = 0.7f)
+                color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f)
             )
             
             Spacer(modifier = Modifier.height(48.dp))
             
             if (categories.isEmpty()) {
-                CircularProgressIndicator(color = NeonBlue)
+                CircularProgressIndicator(color = MaterialTheme.colorScheme.primary)
             } else {
                 LazyColumn(
                     verticalArrangement = Arrangement.spacedBy(16.dp),
@@ -98,18 +102,18 @@ fun MainMenuScreen(
                                         text = category.name,
                                         style = MaterialTheme.typography.headlineSmall,
                                         fontWeight = FontWeight.Bold,
-                                        color = Color.White
+                                        color = MaterialTheme.colorScheme.onSurface
                                     )
                                     Text(
                                         text = "${category.levels.size} Levels",
                                         style = MaterialTheme.typography.bodyMedium,
-                                        color = Color.White.copy(alpha = 0.6f)
+                                        color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
                                     )
                                 }
                                 Icon(
                                     Icons.Default.Star, 
                                     contentDescription = null, 
-                                    tint = NeonPurple,
+                                    tint = MaterialTheme.colorScheme.secondary,
                                     modifier = Modifier.size(32.dp)
                                 )
                             }

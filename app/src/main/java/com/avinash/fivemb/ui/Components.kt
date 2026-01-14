@@ -23,17 +23,23 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.unit.dp
-import com.avinash.fivemb.ui.theme.MainBackgroundBrush
-import com.avinash.fivemb.ui.theme.CardGradient
+import androidx.compose.ui.graphics.luminance
+import com.avinash.fivemb.ui.theme.MainBackgroundBrushDark
+import com.avinash.fivemb.ui.theme.MainBackgroundBrushLight
+import com.avinash.fivemb.ui.theme.CardGradientDark
+import com.avinash.fivemb.ui.theme.CardGradientLight
 
 @Composable
 fun GameBackground(
     content: @Composable BoxScope.() -> Unit
 ) {
+    val isDark = MaterialTheme.colorScheme.background.luminance() < 0.5f
+    val brush = if (isDark) MainBackgroundBrushDark else MainBackgroundBrushLight
+    
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(MainBackgroundBrush),
+            .background(brush),
         content = content
     )
 }
@@ -78,10 +84,14 @@ fun GlassCard(
     onClick: (() -> Unit)? = null,
     content: @Composable BoxScope.() -> Unit
 ) {
+    val isDark = MaterialTheme.colorScheme.background.luminance() < 0.5f
+    val brush = if (isDark) CardGradientDark else CardGradientLight
+    val borderColor = if (isDark) Color.White.copy(alpha = 0.05f) else Color.Black.copy(alpha = 0.05f)
+
     val shape = RoundedCornerShape(16.dp)
     Box(
         modifier = modifier
-            .background(CardGradient, shape)
+            .background(brush, shape)
             .then(
                 if (onClick != null) Modifier.clickable(onClick = onClick) else Modifier
             )
@@ -91,7 +101,7 @@ fun GlassCard(
                 this.shape = shape
             }
             // Add a subtle border
-            .background(Color.White.copy(alpha = 0.05f), shape),
+            .background(borderColor, shape),
         content = content
     )
 }

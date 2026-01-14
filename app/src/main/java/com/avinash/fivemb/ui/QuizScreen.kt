@@ -72,12 +72,13 @@ fun QuizScreen(
     
     val coroutineScope = rememberCoroutineScope()
 
+
     if (showExplanation && currentQuestion?.explanation != null) {
         Dialog(onDismissRequest = { /* Prevent dismiss */ }) {
             // Darker background for readability
             Box(
                 modifier = Modifier
-                    .background(Color.Black.copy(alpha = 0.8f), RoundedCornerShape(16.dp))
+                    .background(MaterialTheme.colorScheme.surfaceVariant, RoundedCornerShape(16.dp))
                     .padding(1.dp) // Border effect
             ) {
                  GlassCard(modifier = Modifier.padding(0.dp)) {
@@ -85,14 +86,14 @@ fun QuizScreen(
                         modifier = Modifier.padding(24.dp),
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
-                        Icon(Icons.Default.Info, contentDescription = null, tint = NeonPurple, modifier = Modifier.size(48.dp))
+                        Icon(Icons.Default.Info, contentDescription = null, tint = MaterialTheme.colorScheme.secondary, modifier = Modifier.size(48.dp))
                         Spacer(modifier = Modifier.height(16.dp))
-                        Text("Did You Know?", style = MaterialTheme.typography.headlineSmall, color = Color.White, fontWeight = FontWeight.Bold)
+                        Text("Did You Know?", style = MaterialTheme.typography.headlineSmall, color = MaterialTheme.colorScheme.onSurface, fontWeight = FontWeight.Bold)
                         Spacer(modifier = Modifier.height(8.dp))
                         Text(
                             text = currentQuestion.explanation,
                             style = MaterialTheme.typography.bodyLarge,
-                            color = Color.White, // Full opacity
+                            color = MaterialTheme.colorScheme.onSurface, 
                             textAlign = TextAlign.Center
                         )
                         Spacer(modifier = Modifier.height(24.dp))
@@ -111,9 +112,9 @@ fun QuizScreen(
                                     }
                                 }
                             },
-                            containerColor = NeonBlue
+                            containerColor = MaterialTheme.colorScheme.primary
                         ) {
-                            Text("Got it!", color = Color.White)
+                            Text("Got it!", color = MaterialTheme.colorScheme.onPrimary)
                         }
                     }
                 }
@@ -134,7 +135,7 @@ fun QuizScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 IconButton(onClick = onBack) {
-                    Icon(Icons.Default.Close, contentDescription = "Exit", tint = Color.White)
+                    Icon(Icons.Default.Close, contentDescription = "Exit", tint = MaterialTheme.colorScheme.onSurface)
                 }
                 
                 if (isLivesMode) {
@@ -143,7 +144,7 @@ fun QuizScreen(
                              Icon(
                                  Icons.Default.Favorite, 
                                  contentDescription = null, 
-                                 tint = if (index < lives) RedError else Color.White.copy(alpha=0.3f),
+                                 tint = if (index < lives) RedError else MaterialTheme.colorScheme.onSurface.copy(alpha=0.3f),
                                  modifier = Modifier.size(24.dp)
                              )
                          }
@@ -153,7 +154,7 @@ fun QuizScreen(
                 Text(
                     text = "${timeLeft / 1000}s",
                     style = MaterialTheme.typography.titleLarge,
-                    color = if (timeLeft < 10000) RedError else NeonBlue,
+                    color = if (timeLeft < 10000) RedError else MaterialTheme.colorScheme.primary,
                     fontWeight = FontWeight.Bold
                 )
             }
@@ -167,7 +168,7 @@ fun QuizScreen(
                     if (AdConfig.SHOW_QUIZ_BANNER) {
                         GlassCard(modifier = Modifier.fillMaxWidth().height(50.dp)) {
                             Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                                Text("Ad Banner", color = Color.White.copy(alpha=0.5f))
+                                Text("Ad Banner", color = MaterialTheme.colorScheme.onSurface.copy(alpha=0.5f))
                             }
                         }
                         Spacer(modifier = Modifier.height(24.dp))
@@ -180,8 +181,8 @@ fun QuizScreen(
                         modifier = Modifier
                             .fillMaxWidth()
                             .height(8.dp),
-                        color = NeonBlue,
-                        trackColor = Color.White.copy(alpha = 0.2f)
+                        color = MaterialTheme.colorScheme.primary,
+                        trackColor = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f)
                     )
                     
                     Spacer(modifier = Modifier.height(32.dp))
@@ -197,7 +198,7 @@ fun QuizScreen(
                             text = question.text,
                             style = MaterialTheme.typography.headlineSmall,
                             textAlign = TextAlign.Center,
-                            color = Color.White,
+                            color = MaterialTheme.colorScheme.onSurface,
                             fontWeight = FontWeight.Bold,
                             minLines = 3
                         )
@@ -211,11 +212,13 @@ fun QuizScreen(
                         val containerColor = if (selectedOptionIndex != null) {
                             if (index == currentQuestion.correctIndex) GreenSuccess
                             else if (isSelected) RedError
-                            else Color.White.copy(alpha = 0.1f)
+                            else MaterialTheme.colorScheme.surfaceVariant
                         } else {
-                            Color.White.copy(alpha = 0.1f)
+                            MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
                         }
                         
+                        val contentColor = if (selectedOptionIndex != null && (index == currentQuestion.correctIndex || isSelected)) Color.White else MaterialTheme.colorScheme.onSurface
+
                         BouncyButton(
                             onClick = {
                                 if (selectedOptionIndex == null) {
@@ -262,7 +265,7 @@ fun QuizScreen(
                                 .fillMaxWidth()
                                 .padding(vertical = 6.dp),
                             containerColor = containerColor,
-                            contentColor = Color.White
+                            contentColor = contentColor
                         ) {
                              Text(
                                 text = text,

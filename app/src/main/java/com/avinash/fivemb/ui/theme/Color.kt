@@ -27,13 +27,36 @@ val NeonCyan = Color(0xFF00E5FF)
 val DeepBgStart = Color(0xFF121212)
 val DeepBgEnd = Color(0xFF240046) // Deep Indigo
 
-val MainBackgroundBrush = Brush.verticalGradient(
+// Premium Light Palette
+val LightBgStart = Color(0xFFF5F7FA)
+val LightBgEnd = Color(0xFFC3CFE2) // Misty Blue
+val LightSurface = Color(0xFFFFFFFF)
+val LightPrimary = Color(0xFF2979FF) 
+val LightOnPrimary = Color.White
+
+// Premium Dark Palette
+val DarkSurface = Color(0xFF1E1E1E)
+val DarkPrimary = NeonBlue
+val DarkOnPrimary = Color.White
+
+val MainBackgroundBrushDark = Brush.verticalGradient(
     colors = listOf(DeepBgStart, DeepBgEnd)
 )
 
-val CardGradient = Brush.linearGradient(
+val MainBackgroundBrushLight = Brush.verticalGradient(
+    colors = listOf(LightBgStart, LightBgEnd)
+)
+
+val CardGradientDark = Brush.linearGradient(
     colors = listOf(
         Color.White.copy(alpha = 0.1f),
         Color.White.copy(alpha = 0.05f)
+    )
+)
+
+val CardGradientLight = Brush.linearGradient(
+    colors = listOf(
+        Color.White.copy(alpha = 0.9f),
+        Color.White.copy(alpha = 0.7f)
     )
 )

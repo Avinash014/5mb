@@ -32,10 +32,10 @@ fun LevelSelectionScreen(
     GameBackground {
         Column(modifier = Modifier.fillMaxSize()) {
             TopAppBar(
-                title = { Text(category.name, color = Color.White) },
+                title = { Text(category.name, color = MaterialTheme.colorScheme.onSurface) },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
-                        Icon(Icons.Default.ArrowBack, contentDescription = "Back", tint = Color.White)
+                        Icon(Icons.Default.ArrowBack, contentDescription = "Back", tint = MaterialTheme.colorScheme.onSurface)
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.Transparent)
@@ -63,8 +63,7 @@ fun LevelSelectionScreen(
 
 @Composable
 fun LevelListItem(level: Level, isUnlocked: Boolean, highScore: Int, onClick: () -> Unit) {
-    val containerColor = if (isUnlocked) Color.White.copy(alpha = 0.1f) else Color.White.copy(alpha = 0.05f)
-    val contentColor = if (isUnlocked) Color.White else Color.White.copy(alpha = 0.3f)
+    val contentColor = if (isUnlocked) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.onSurface.copy(alpha = 0.3f)
 
     GlassCard(
         modifier = Modifier.fillMaxWidth().height(80.dp),
@@ -80,7 +79,7 @@ fun LevelListItem(level: Level, isUnlocked: Boolean, highScore: Int, onClick: ()
                      Text(
                         text = "Level ${level.id}", 
                         style = MaterialTheme.typography.titleLarge,
-                        color = NeonBlue,
+                        color = MaterialTheme.colorScheme.primary,
                         fontWeight = FontWeight.Bold
                      )
                  } else {
@@ -96,7 +95,7 @@ fun LevelListItem(level: Level, isUnlocked: Boolean, highScore: Int, onClick: ()
             
             if (isUnlocked && highScore > 0) {
                 Column(horizontalAlignment = Alignment.End) {
-                    Text("Best", style = MaterialTheme.typography.labelSmall, color = Color.White.copy(alpha=0.6f))
+                    Text("Best", style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurface.copy(alpha=0.6f))
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Text("$highScore", style = MaterialTheme.typography.titleMedium, color = AlertYellow)
                         Spacer(modifier = Modifier.width(4.dp))

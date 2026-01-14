@@ -44,32 +44,32 @@ fun SplashScreen(onSplashFinished: () -> Unit) {
         onSplashFinished()
     }
 
-    Box(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(androidx.compose.ui.graphics.Color(0xFF121212)),
-        contentAlignment = Alignment.Center
-    ) {
-        Column(
-            horizontalAlignment = Alignment.CenterHorizontally
+    GameBackground {
+        Box(
+            modifier = Modifier.fillMaxSize(),
+            contentAlignment = Alignment.Center
         ) {
-            // Use the same inset drawable and size (192dp) as the system splash
-            Image(
-                painter = painterResource(id = R.drawable.logo_512_transparent),
-                contentDescription = "App Logo",
-                modifier = Modifier.size(192.dp)
-            )
-            
-            Spacer(modifier = Modifier.height(24.dp))
-                
-                // Only the tagline animates in
-                Text(
-                    text = stringResource(id = R.string.app_tagline),
-                    color = com.avinash.fivemb.ui.theme.NeonBlue,
-                    fontSize = 22.sp,
-                    fontWeight = FontWeight.Bold,
-                    modifier = Modifier.alpha(taglineAlpha)
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                // Use the same inset drawable and size (192dp) as the system splash
+                Image(
+                    painter = painterResource(id = R.drawable.logo_512_transparent),
+                    contentDescription = "App Logo",
+                    modifier = Modifier.size(192.dp)
                 )
+                
+                Spacer(modifier = Modifier.height(24.dp))
+                    
+                    // Only the tagline animates in
+                    Text(
+                        text = stringResource(id = R.string.app_tagline),
+                        color = MaterialTheme.colorScheme.primary,
+                        fontSize = 22.sp,
+                        fontWeight = FontWeight.Bold,
+                        modifier = Modifier.alpha(taglineAlpha)
+                    )
+            }
         }
     }
 }
